@@ -1,0 +1,950 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.14.1+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: TCARFG1Z013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           645,636,360 sequences; 252,764,064,435 total letters
+Query= 
+Length=106
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011145331.1 phage holin family protein [Photorhabdus]           213     2e-69  100%        
+WP_214088556.1 phage holin family protein [Photorhabdus noenie...  212     6e-69  99%         
+WP_113026216.1 phage holin family protein [Photorhabdus laumon...  211     1e-68  99%         
+WP_202926072.1 phage holin family protein [Photorhabdus]           211     2e-68  99%         
+WP_225815932.1 phage holin family protein [Photorhabdus antuma...  209     6e-68  97%         
+WP_244868794.1 phage holin family protein [Photorhabdus noenie...  209     6e-68  98%         
+WP_112895498.1 phage holin family protein [Photorhabdus bodei]     206     9e-67  96%         
+WP_112876805.1 phage holin family protein [Photorhabdus]           206     1e-66  95%         
+WP_118985518.1 phage holin family protein [Photorhabdus sp. CR...  206     1e-66  96%         
+WP_036780739.1 phage holin family protein [Photorhabdus aegyptia]  206     2e-66  97%         
+TNH43347.1 holin [Photorhabdus luminescens subsp. sonorensis]      206     2e-66  96%         
+MBS9425214.1 holin [Photorhabdus caribbeanensis]                   204     5e-66  96%         
+WP_202924632.1 phage holin family protein [Photorhabdus bodei]     204     9e-66  95%         
+WP_105396218.1 phage holin family protein [Photorhabdus]           204     9e-66  96%         
+PQQ42039.1 holin [Photorhabdus luminescens]                        204     1e-65  96%         
+PQQ33228.1 holin [Photorhabdus luminescens]                        203     2e-65  96%         
+WP_246545254.1 phage holin family protein [Photorhabdus]           203     2e-65  96%         
+WP_246550855.1 phage holin family protein [Photorhabdus caribb...  202     6e-65  95%         
+WP_065391232.1 phage holin family protein [Photorhabdus namnao...  201     8e-65  95%         
+OWO79824.1 holin [Photorhabdus luminescens]                        201     1e-64  95%         
+WP_176692867.1 phage holin family protein [Photorhabdus]           199     7e-64  96%         
+WP_176414730.1 phage holin family protein [Photorhabdus lumine...  194     6e-62  95%         
+WP_054477716.1 phage holin family protein [Photorhabdus hetero...  183     1e-57  91%         
+WP_065821646.1 phage holin family protein [Photorhabdus austra...  181     7e-57  92%         
+WP_012777084.1 phage holin family protein [Photorhabdus asymbi...  181     1e-56  91%         
+WP_036770901.1 phage holin family protein [Photorhabdus austra...  179     3e-56  91%         
+WP_031280474.1 phage holin family protein [Photorhabdus]           179     7e-56  89%         
+WP_132355019.1 phage holin family protein [Photorhabdus khanii]    178     2e-55  88%         
+WP_046975202.1 phage holin family protein [Photorhabdus thrace...  177     2e-55  86%         
+WP_023043406.1 phage holin family protein [Photorhabdus]           177     3e-55  91%         
+NHB86251.1 holin [Photorhabdus tasmaniensis]                       177     4e-55  88%         
+WP_039878631.1 phage holin family protein [Photorhabdus temper...  177     4e-55  88%         
+NHB95858.1 holin [Photorhabdus stackebrandtii]                     176     7e-55  85%         
+KMW73441.1 holin [Photorhabdus luminescens subsp. luminescens]     176     1e-54  81%         
+EQB99843.1 hypothetical protein B738_14889 [Photorhabdus tempe...  175     2e-54  89%         
+WP_166295525.1 phage holin family protein [Photorhabdus tasman...  175     2e-54  89%         
+WP_166286518.1 phage holin family protein [Photorhabdus stacke...  174     7e-54  86%         
+WP_074525063.1 phage holin family protein [Photorhabdus lumine...  173     1e-53  82%         
+AAO17203.1 TchA [Photorhabdus luminescens]                         171     1e-52  76%         
+WP_240042832.1 phage holin family protein [Photorhabdus lumine...  160     2e-48  84%         
+WP_207628642.1 phage holin family protein [Photorhabdus]           160     2e-48  91%         
+WP_135315070.1 phage holin family protein [Serratia proteamacu...  128     7e-36  62%         
+WP_261092390.1 phage holin family protein [Serratia]               128     1e-35  67%         
+WP_212584173.1 phage holin family protein [Yersinia sp. Marsei...  127     3e-35  59%         
+WP_145931779.1 phage holin family protein [Yersinia bercovieri]    124     3e-34  54%         
+WP_032679435.1 phage holin family protein [Enterobacter]           124     4e-34  63%         
+WP_047345313.1 phage holin family protein [Enterobacter genomo...  124     4e-34  63%         
+PNM24582.1 holin [Yersinia enterocolitica]                         123     8e-34  59%         
+WP_042546197.1 phage holin family protein [Yersinia aldovae]       122     2e-33  58%         
+WP_032905698.1 phage holin family protein [Yersinia]               122     2e-33  58%         
+
+ALIGNMENTS
+>WP_011145331.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+ MCC8382957.1 phage holin family protein [Photorhabdus laumondii]
+ NHB61495.1 holin [Photorhabdus sp. RW14-46]
+ PQQ37032.1 holin [Photorhabdus luminescens]
+ AWK40890.1 holin [Photorhabdus laumondii subsp. laumondii]
+ AXG41697.1 holin [Photorhabdus laumondii subsp. laumondii]
+Length=106
+
+ Score = 213 bits (543),  Expect = 2e-69, Method: Compositional matrix adjust.
+ Identities = 106/106 (100%), Positives = 106/106 (100%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+
+
+>WP_214088556.1 phage holin family protein [Photorhabdus noenieputensis]
+ MBS9437741.1 holin [Photorhabdus noenieputensis]
+ MCK3667893.1 phage holin family protein [Photorhabdus noenieputensis]
+Length=106
+
+ Score = 212 bits (540),  Expect = 6e-69, Method: Compositional matrix adjust.
+ Identities = 105/106 (99%), Positives = 105/106 (99%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRR ITYHHDHGRKQ
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRFITYHHDHGRKQ  106
+
+
+>WP_113026216.1 phage holin family protein [Photorhabdus laumondii]
+ RAW89281.1 holin [Photorhabdus laumondii subsp. clarkei]
+Length=106
+
+ Score = 211 bits (537),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 105/106 (99%), Positives = 105/106 (99%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRK 
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKP  106
+
+
+>WP_202926072.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+Length=105
+
+ Score = 211 bits (536),  Expect = 2e-68, Method: Compositional matrix adjust.
+ Identities = 104/105 (99%), Positives = 105/105 (100%), Gaps = 0/105 (0%)
+
+Query  2    LLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  61
+            +LIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL
+Sbjct  1    MLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  60
+
+Query  62   LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ
+Sbjct  61   LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  105
+
+
+>WP_225815932.1 phage holin family protein [Photorhabdus antumapuensis]
+ MCA6221646.1 phage holin family protein [Photorhabdus antumapuensis]
+Length=106
+
+ Score = 209 bits (533),  Expect = 6e-68, Method: Compositional matrix adjust.
+ Identities = 103/106 (97%), Positives = 105/106 (99%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL+ +HHDHGRKQ
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLVMHHHDHGRKQ  106
+
+
+>WP_244868794.1 phage holin family protein [Photorhabdus noenieputensis]
+Length=105
+
+ Score = 209 bits (532),  Expect = 6e-68, Method: Compositional matrix adjust.
+ Identities = 103/105 (98%), Positives = 104/105 (99%), Gaps = 0/105 (0%)
+
+Query  2    LLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  61
+            +LIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL
+Sbjct  1    MLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  60
+
+Query  62   LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRR ITYHHDHGRKQ
+Sbjct  61   LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRFITYHHDHGRKQ  105
+
+
+>WP_112895498.1 phage holin family protein [Photorhabdus bodei]
+ NDK99954.1 holin [Photorhabdus bodei]
+ NDL04148.1 holin [Photorhabdus bodei]
+ NDL08198.1 holin [Photorhabdus bodei]
+ RAX12183.1 holin [Photorhabdus bodei]
+Length=106
+
+ Score = 206 bits (525),  Expect = 9e-67, Method: Compositional matrix adjust.
+ Identities = 102/106 (96%), Positives = 104/106 (98%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            ML IIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQ+KQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLFIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQHKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESG SIYMTFAIAGLFGTTGSTGLNWLWRRLIT+HHDHGRKQ
+Sbjct  61   LLSFESGSSIYMTFAIAGLFGTTGSTGLNWLWRRLITHHHDHGRKQ  106
+
+
+>WP_112876805.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+ MCT8342101.1 phage holin family protein [Photorhabdus kleinii]
+ RAX01107.1 holin [Photorhabdus sp. S9-53]
+ RAX01604.1 holin [Photorhabdus sp. S10-54]
+ RAX05019.1 holin [Photorhabdus sp. S8-52]
+Length=106
+
+ Score = 206 bits (525),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 101/106 (95%), Positives = 103/106 (97%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            ML IIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLFIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESG SIYMTFAIAGLFGTTGSTGLNWLWRRL+ +HHDHGRKQ
+Sbjct  61   LLSFESGSSIYMTFAIAGLFGTTGSTGLNWLWRRLVMHHHDHGRKQ  106
+
+
+>WP_118985518.1 phage holin family protein [Photorhabdus sp. CRCIA-P01]
+Length=106
+
+ Score = 206 bits (524),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 102/106 (96%), Positives = 104/106 (98%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL+ +HHDHG KQ
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLVMHHHDHGGKQ  106
+
+
+>WP_036780739.1 phage holin family protein [Photorhabdus aegyptia]
+ KGM28695.1 holin [Photorhabdus luminescens]
+ MBS9428681.1 holin [Photorhabdus akhurstii]
+ MBS9434142.1 holin [Photorhabdus hainanensis]
+ EYU14344.1 hypothetical protein BA1DRAFT_03141 [Photorhabdus aegyptia]
+ MCC8458169.1 phage holin family protein [Photorhabdus aegyptia]
+Length=106
+
+ Score = 206 bits (523),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 103/106 (97%), Positives = 104/106 (98%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLIT+H DHG KQ
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITHHQDHGGKQ  106
+
+
+>TNH43347.1 holin [Photorhabdus luminescens subsp. sonorensis]
+Length=106
+
+ Score = 206 bits (523),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 102/106 (96%), Positives = 104/106 (98%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLI+PSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIMPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGG IYMTFAIAGLFGTTGSTGLNWLWRRLIT+HHDHG KQ
+Sbjct  61   LLSFESGGGIYMTFAIAGLFGTTGSTGLNWLWRRLITHHHDHGGKQ  106
+
+
+>MBS9425214.1 holin [Photorhabdus caribbeanensis]
+Length=106
+
+ Score = 204 bits (520),  Expect = 5e-66, Method: Compositional matrix adjust.
+ Identities = 102/106 (96%), Positives = 104/106 (98%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGSIYMTFAIAGLFGTTGS+GLNWLWRRLIT+HHDH  KQ
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSSGLNWLWRRLITHHHDHRGKQ  106
+
+
+>WP_202924632.1 phage holin family protein [Photorhabdus bodei]
+Length=105
+
+ Score = 204 bits (518),  Expect = 9e-66, Method: Compositional matrix adjust.
+ Identities = 100/105 (95%), Positives = 103/105 (98%), Gaps = 0/105 (0%)
+
+Query  2    LLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  61
+            + IIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQ+KQYKWSWINVFCQLIISCFTGVLGGL
+Sbjct  1    MFIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQHKQYKWSWINVFCQLIISCFTGVLGGL  60
+
+Query  62   LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LSFESG SIYMTFAIAGLFGTTGSTGLNWLWRRLIT+HHDHGRKQ
+Sbjct  61   LSFESGSSIYMTFAIAGLFGTTGSTGLNWLWRRLITHHHDHGRKQ  105
+
+
+>WP_105396218.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+ PQQ24035.1 holin [Photorhabdus hindustanensis]
+ QXF32628.1 holin [Photorhabdus akhurstii]
+ UJD74424.1 holin [Photorhabdus luminescens]
+Length=106
+
+ Score = 204 bits (518),  Expect = 9e-66, Method: Compositional matrix adjust.
+ Identities = 102/106 (96%), Positives = 103/106 (97%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGG IYMTFAIAGLFGTTGSTGLNWLWRRLIT+H DHG KQ
+Sbjct  61   LLSFESGGGIYMTFAIAGLFGTTGSTGLNWLWRRLITHHQDHGGKQ  106
+
+
+>PQQ42039.1 holin [Photorhabdus luminescens]
+Length=106
+
+ Score = 204 bits (518),  Expect = 1e-65, Method: Compositional matrix adjust.
+ Identities = 102/106 (96%), Positives = 103/106 (97%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLI +H DHG KQ
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLIMHHQDHGGKQ  106
+
+
+>PQQ33228.1 holin [Photorhabdus luminescens]
+Length=106
+
+ Score = 203 bits (517),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 102/106 (96%), Positives = 103/106 (97%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLIT+H D G KQ
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITHHQDQGGKQ  106
+
+
+>WP_246545254.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+Length=105
+
+ Score = 203 bits (516),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 101/105 (96%), Positives = 103/105 (98%), Gaps = 0/105 (0%)
+
+Query  2    LLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  61
+            +LIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL
+Sbjct  1    MLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  60
+
+Query  62   LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLIT+H DHG KQ
+Sbjct  61   LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITHHQDHGGKQ  105
+
+
+>WP_246550855.1 phage holin family protein [Photorhabdus caribbeanensis]
+Length=105
+
+ Score = 202 bits (513),  Expect = 6e-65, Method: Compositional matrix adjust.
+ Identities = 100/105 (95%), Positives = 103/105 (98%), Gaps = 0/105 (0%)
+
+Query  2    LLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  61
+            +LIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL
+Sbjct  1    MLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  60
+
+Query  62   LSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LSFESGGSIYMTFAIAGLFGTTGS+GLNWLWRRLIT+HHDH  KQ
+Sbjct  61   LSFESGGSIYMTFAIAGLFGTTGSSGLNWLWRRLITHHHDHRGKQ  105
+
+
+>WP_065391232.1 phage holin family protein [Photorhabdus namnaonensis]
+ OCA53690.1 hypothetical protein Phpb_03242 [Photorhabdus namnaonensis]
+Length=106
+
+ Score = 201 bits (512),  Expect = 8e-65, Method: Compositional matrix adjust.
+ Identities = 101/106 (95%), Positives = 102/106 (96%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGG IYMTFAIAGLFGTTGSTGLNWLWRRLIT+H D G KQ
+Sbjct  61   LLSFESGGGIYMTFAIAGLFGTTGSTGLNWLWRRLITHHQDQGGKQ  106
+
+
+>OWO79824.1 holin [Photorhabdus luminescens]
+Length=107
+
+ Score = 201 bits (511),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 102/107 (95%), Positives = 104/107 (97%), Gaps = 1/107 (1%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            MLLI+PSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MLLIMPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLIT-YHHDHGRKQ  106
+            LLSFESGG IYMTFAIAGLFGTTGSTGLNWLWRRLIT +HHDHG KQ
+Sbjct  61   LLSFESGGGIYMTFAIAGLFGTTGSTGLNWLWRRLITHHHHDHGGKQ  107
+
+
+>WP_176692867.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+ MCW7550305.1 phage holin family protein [Photorhabdus aballayi]
+Length=102
+
+ Score = 199 bits (506),  Expect = 7e-64, Method: Compositional matrix adjust.
+ Identities = 98/102 (96%), Positives = 100/102 (98%), Gaps = 0/102 (0%)
+
+Query  5    IPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF  64
+            +PSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF
+Sbjct  1    MPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF  60
+
+Query  65   ESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            ESGG IYMTFAIAGLFGTTGSTGLNWLWRRLIT+HHDHG KQ
+Sbjct  61   ESGGGIYMTFAIAGLFGTTGSTGLNWLWRRLITHHHDHGGKQ  102
+
+
+>WP_176414730.1 phage holin family protein [Photorhabdus luminescens]
+Length=103
+
+ Score = 194 bits (493),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 98/103 (95%), Positives = 100/103 (97%), Gaps = 1/103 (1%)
+
+Query  5    IPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF  64
+            +PSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF
+Sbjct  1    MPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF  60
+
+Query  65   ESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLIT-YHHDHGRKQ  106
+            ESGG IYMTFAIAGLFGTTGSTGLNWLWRRLIT +HHDHG KQ
+Sbjct  61   ESGGGIYMTFAIAGLFGTTGSTGLNWLWRRLITHHHHDHGGKQ  103
+
+
+>WP_054477716.1 phage holin family protein [Photorhabdus heterorhabditis]
+ NHB90659.1 holin [Photorhabdus cinerea]
+ NRN29324.1 holin [Photorhabdus heterorhabditis subsp. aluminescens]
+ KAA1187625.1 holin [Photorhabdus heterorhabditis]
+ KOY62557.1 holin [Photorhabdus heterorhabditis]
+ MBS9442689.1 holin [Photorhabdus heterorhabditis]
+Length=102
+
+ Score = 183 bits (465),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 90/99 (91%), Positives = 94/99 (95%), Gaps = 0/99 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           M  IIPSDTQLIIWLI+GF+AAWGGLVRYLIDMQNKQYKWSWINV CQLIISCFTGVLGG
+Sbjct  1   MSFIIPSDTQLIIWLIVGFVAAWGGLVRYLIDMQNKQYKWSWINVLCQLIISCFTGVLGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           L+SFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL  +H
+Sbjct  61  LMSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLSIHH  99
+
+
+>WP_065821646.1 phage holin family protein [Photorhabdus australis]
+ OCQ54706.1 hypothetical protein Ppb6_00070 [Photorhabdus australis subsp. 
+thailandensis]
+Length=102
+
+ Score = 181 bits (460),  Expect = 7e-57, Method: Compositional matrix adjust.
+ Identities = 91/99 (92%), Positives = 93/99 (94%), Gaps = 0/99 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           M  IIPSDTQLIIWLIIGFIAAWGGLVRY+IDMQNKQY WSWINV CQLIISCFTGVLGG
+Sbjct  1   MSFIIPSDTQLIIWLIIGFIAAWGGLVRYIIDMQNKQYTWSWINVLCQLIISCFTGVLGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL  +H
+Sbjct  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLSIHH  99
+
+
+>WP_012777084.1 phage holin family protein [Photorhabdus asymbiotica]
+ RKS57696.1 LydA family holin superfamily III [Photorhabdus asymbiotica]
+ CAQ82989.1 conserved hypothetical protein [Photorhabdus asymbiotica]
+Length=102
+
+ Score = 181 bits (459),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 90/99 (91%), Positives = 93/99 (94%), Gaps = 0/99 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           M  IIPSDTQLIIWLI+GFIAAWGGLVRY+IDMQNKQY WSWINV CQLIISCFTGVLGG
+Sbjct  1   MSFIIPSDTQLIIWLIVGFIAAWGGLVRYIIDMQNKQYTWSWINVLCQLIISCFTGVLGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL  +H
+Sbjct  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLSIHH  99
+
+
+>WP_036770901.1 phage holin family protein [Photorhabdus australis]
+Length=102
+
+ Score = 179 bits (455),  Expect = 3e-56, Method: Compositional matrix adjust.
+ Identities = 90/99 (91%), Positives = 92/99 (93%), Gaps = 0/99 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           M  IIPSDTQLIIWLIIGFIAAWGGLVRY+IDMQNKQY WSWINV CQL ISCFTGVLGG
+Sbjct  1   MSFIIPSDTQLIIWLIIGFIAAWGGLVRYIIDMQNKQYTWSWINVLCQLTISCFTGVLGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL  +H
+Sbjct  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLSIHH  99
+
+
+>WP_031280474.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+ MCC8420202.1 phage holin family protein [Photorhabdus thracensis]
+ MQL48833.1 holin [Photorhabdus khanii]
+ ETS29765.1 hypothetical protein PTE_04193 [Photorhabdus khanii NC19]
+ KER04080.1 hypothetical protein MEG1DRAFT_01194 [Photorhabdus temperata 
+subsp. temperata Meg1]
+ MCT8347276.1 phage holin family protein [Photorhabdus temperata]
+Length=102
+
+ Score = 179 bits (454),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 88/99 (89%), Positives = 94/99 (95%), Gaps = 0/99 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           M L +PSDTQL+IWLIIGFIAAWGGLVRYLID+QNKQYKWSWINV CQLIISCFTG+LGG
+Sbjct  1   MSLKMPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL+ + 
+Sbjct  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLLMHQ  99
+
+
+>WP_132355019.1 phage holin family protein [Photorhabdus khanii]
+ TDB53642.1 holin [Photorhabdus khanii subsp. guanajuatensis]
+Length=102
+
+ Score = 178 bits (451),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 87/99 (88%), Positives = 94/99 (95%), Gaps = 0/99 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           M L +PSDTQL+IWLIIGFIAAWGGLVRYLID+QNKQY+WSWINV CQLIISCFTG+LGG
+Sbjct  1   MSLKMPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYRWSWINVLCQLIISCFTGILGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL+ + 
+Sbjct  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLLMHQ  99
+
+
+>WP_046975202.1 phage holin family protein [Photorhabdus thracensis]
+ AKH64047.1 holin [Photorhabdus thracensis]
+Length=102
+
+ Score = 177 bits (450),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 89/104 (86%), Positives = 95/104 (91%), Gaps = 2/104 (2%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            M L +PSDTQL+IWLIIGFIAAWGGLVRYLID+QNKQYKWSWINV CQLIISCFTG+LGG
+Sbjct  1    MSLKMPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGR  104
+            LLSFESG SIYMTFAIAGLFGTTGSTGLNWLWRRL  + H  G+
+Sbjct  61   LLSFESGSSIYMTFAIAGLFGTTGSTGLNWLWRRL--FMHQGGK  102
+
+
+>WP_023043406.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+ ERT14982.1 holin [Photorhabdus temperata J3]
+Length=98
+
+ Score = 177 bits (449),  Expect = 3e-55, Method: Compositional matrix adjust.
+ Identities = 86/95 (91%), Positives = 92/95 (97%), Gaps = 0/95 (0%)
+
+Query  5   IPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF  64
+           +PSDTQL+IWLIIGFIAAWGGLVRYLID+QNKQYKWSWINV CQLIISCFTG+LGGLLSF
+Sbjct  1   MPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGGLLSF  60
+
+Query  65  ESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           ESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL+ + 
+Sbjct  61  ESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLLMHQ  95
+
+
+>NHB86251.1 holin [Photorhabdus tasmaniensis]
+Length=102
+
+ Score = 177 bits (449),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 87/99 (88%), Positives = 94/99 (95%), Gaps = 0/99 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           M L +PSDTQL+IWLIIGFIAAWGGLVRYLID+QNKQYKWSWINV CQLIISCFTG+LGG
+Sbjct  1   MSLKMPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           LLSFESGGSIYMTFAIAGLFGTTGSTGL+WLWRRL+ + 
+Sbjct  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLSWLWRRLLMHQ  99
+
+
+>WP_039878631.1 phage holin family protein [Photorhabdus temperata]
+Length=102
+
+ Score = 177 bits (449),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 87/99 (88%), Positives = 93/99 (94%), Gaps = 0/99 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           M L +PSDTQL+IWLIIGFIAAWGGLVRYLID+QNKQYKWSWINV CQLIISCFTG+LGG
+Sbjct  1   MSLKMPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           LLSFESG SIYMTFAIAGLFGTTGSTGLNWLWRRL+ + 
+Sbjct  61  LLSFESGSSIYMTFAIAGLFGTTGSTGLNWLWRRLLMHQ  99
+
+
+>NHB95858.1 holin [Photorhabdus stackebrandtii]
+Length=102
+
+ Score = 176 bits (447),  Expect = 7e-55, Method: Compositional matrix adjust.
+ Identities = 88/104 (85%), Positives = 96/104 (92%), Gaps = 2/104 (2%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            M  I+PSDTQLIIWLIIGFIAAWGGLVRY+IDMQNKQ KWSWINVFCQLIISCFTGVLGG
+Sbjct  1    MSFIMPSDTQLIIWLIIGFIAAWGGLVRYIIDMQNKQDKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGR  104
+            L+SFESGG+IYMTFAIAGLFGTTGSTGL+W+WRRL  + H  G+
+Sbjct  61   LMSFESGGTIYMTFAIAGLFGTTGSTGLDWIWRRL--FMHQGGK  102
+
+
+>KMW73441.1 holin [Photorhabdus luminescens subsp. luminescens]
+ TDB55587.1 holin [Photorhabdus luminescens subsp. mexicana]
+ SCZ70892.1 LydA holin phage, holin superfamily III [Photorhabdus luminescens]
+Length=106
+
+ Score = 176 bits (446),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 86/106 (81%), Positives = 95/106 (90%), Gaps = 0/106 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            M  I+PSDTQL+ WLIIGFIAAWGGLVRYLID+QNKQ KW+WINV CQLIISCFTG+LGG
+Sbjct  1    MSFIMPSDTQLMSWLIIGFIAAWGGLVRYLIDIQNKQCKWNWINVLCQLIISCFTGILGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFESGGS YMTFAIAGLFGTTGS+GLNW+WRRL  ++ D G KQ
+Sbjct  61   LLSFESGGSPYMTFAIAGLFGTTGSSGLNWIWRRLFMHYRDDGGKQ  106
+
+
+>EQB99843.1 hypothetical protein B738_14889 [Photorhabdus temperata subsp. 
+temperata M1021]
+Length=98
+
+ Score = 175 bits (444),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 85/95 (89%), Positives = 91/95 (96%), Gaps = 0/95 (0%)
+
+Query  5   IPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF  64
+           +PSDTQL+IWLIIGFIAAWGGLVRYLID+QNKQYKWSWINV CQLIISCFTG+LGGLLSF
+Sbjct  1   MPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGGLLSF  60
+
+Query  65  ESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           ESG SIYMTFAIAGLFGTTGSTGLNWLWRRL+ + 
+Sbjct  61  ESGSSIYMTFAIAGLFGTTGSTGLNWLWRRLLMHQ  95
+
+
+>WP_166295525.1 phage holin family protein [Photorhabdus tasmaniensis]
+Length=98
+
+ Score = 175 bits (444),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 85/95 (89%), Positives = 92/95 (97%), Gaps = 0/95 (0%)
+
+Query  5   IPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF  64
+           +PSDTQL+IWLIIGFIAAWGGLVRYLID+QNKQYKWSWINV CQLIISCFTG+LGGLLSF
+Sbjct  1   MPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGGLLSF  60
+
+Query  65  ESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           ESGGSIYMTFAIAGLFGTTGSTGL+WLWRRL+ + 
+Sbjct  61  ESGGSIYMTFAIAGLFGTTGSTGLSWLWRRLLMHQ  95
+
+
+>WP_166286518.1 phage holin family protein [Photorhabdus stackebrandtii]
+Length=98
+
+ Score = 174 bits (440),  Expect = 7e-54, Method: Compositional matrix adjust.
+ Identities = 86/100 (86%), Positives = 94/100 (94%), Gaps = 2/100 (2%)
+
+Query  5    IPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF  64
+            +PSDTQLIIWLIIGFIAAWGGLVRY+IDMQNKQ KWSWINVFCQLIISCFTGVLGGL+SF
+Sbjct  1    MPSDTQLIIWLIIGFIAAWGGLVRYIIDMQNKQDKWSWINVFCQLIISCFTGVLGGLMSF  60
+
+Query  65   ESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGR  104
+            ESGG+IYMTFAIAGLFGTTGSTGL+W+WRRL  + H  G+
+Sbjct  61   ESGGTIYMTFAIAGLFGTTGSTGLDWIWRRL--FMHQGGK  98
+
+
+>WP_074525063.1 phage holin family protein [Photorhabdus luminescens]
+ MCW7763188.1 phage holin family protein [Photorhabdus luminescens subsp. venezuelensis]
+Length=102
+
+ Score = 173 bits (439),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 84/102 (82%), Positives = 93/102 (91%), Gaps = 0/102 (0%)
+
+Query  5    IPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSF  64
+            +PSDTQL+ WLIIGFIAAWGGLVRYLID+QNKQ KW+WINV CQLIISCFTG+LGGLLSF
+Sbjct  1    MPSDTQLMSWLIIGFIAAWGGLVRYLIDIQNKQCKWNWINVLCQLIISCFTGILGGLLSF  60
+
+Query  65   ESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            ESGGS YMTFAIAGLFGTTGS+GLNW+WRRL  ++ D G KQ
+Sbjct  61   ESGGSPYMTFAIAGLFGTTGSSGLNWIWRRLFMHYRDDGGKQ  102
+
+
+>AAO17203.1 TchA [Photorhabdus luminescens]
+Length=119
+
+ Score = 171 bits (434),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 88/116 (76%), Positives = 94/116 (81%), Gaps = 11/116 (9%)
+
+Query  2    LLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  61
+            +LIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL
+Sbjct  1    MLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGL  60
+
+Query  62   LSFESGGSIYMTFAIAGLFGTTGSTGLNWL-----------WRRLITYHHDHGRKQ  106
+            LSFESGGSIYMTFAIAGLFGTTGST +              WR+ I + H + +  
+Sbjct  61   LSFESGGSIYMTFAIAGLFGTTGSTRIELALAPPHYASSRSWRKAIKHSHCYNKPS  116
+
+
+>WP_240042832.1 phage holin family protein [Photorhabdus luminescens]
+Length=95
+
+ Score = 160 bits (404),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 78/93 (84%), Positives = 85/93 (91%), Gaps = 0/93 (0%)
+
+Query  14   WLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSFESGGSIYMT  73
+            WLIIGFIAAWGGLVRYLID+QNKQ KW+WINV CQLIISCFTG+LGGLLSFESGGS YMT
+Sbjct  3    WLIIGFIAAWGGLVRYLIDIQNKQCKWNWINVLCQLIISCFTGILGGLLSFESGGSPYMT  62
+
+Query  74   FAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            FAIAGLFGTTGS+GLNW+WRRL  ++ D G KQ
+Sbjct  63   FAIAGLFGTTGSSGLNWIWRRLFMHYRDDGGKQ  95
+
+
+>WP_207628642.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+Length=88
+
+ Score = 160 bits (404),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 77/85 (91%), Positives = 82/85 (96%), Gaps = 0/85 (0%)
+
+Query  15  LIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSFESGGSIYMTF  74
+           +I+GF+AAWGGLVRYLIDMQNKQYKWSWINV CQLIISCFTGVLGGL+SFESGGSIYMTF
+Sbjct  1   MIVGFVAAWGGLVRYLIDMQNKQYKWSWINVLCQLIISCFTGVLGGLMSFESGGSIYMTF  60
+
+Query  75  AIAGLFGTTGSTGLNWLWRRLITYH  99
+           AIAGLFGTTGSTGLNWLWRRL  +H
+Sbjct  61  AIAGLFGTTGSTGLNWLWRRLSIHH  85
+
+
+>WP_135315070.1 phage holin family protein [Serratia proteamaculans]
+ TFZ53391.1 holin [Serratia proteamaculans]
+Length=104
+
+ Score = 128 bits (322),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 66/106 (62%), Positives = 78/106 (74%), Gaps = 2/106 (2%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            ML   P DTQ+  WLIIG  +AWGGLVRYL+D Q + +KWSW+ V  Q+IIS FTG+LGG
+Sbjct  1    MLTKTPVDTQVFTWLIIGCFSAWGGLVRYLMDTQGQPHKWSWMGVISQVIISSFTGLLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGRKQ  106
+            LLSFES  S YMTFAIAGLFGT GST L++LWRR   +  + G  Q
+Sbjct  61   LLSFESNASRYMTFAIAGLFGTLGSTALSYLWRRF--FGQNAGGNQ  104
+
+
+>WP_261092390.1 MULTISPECIES: phage holin family protein [Serratia]
+ MDW5506288.1 phage holin family protein [Pseudomonas lundensis]
+ MDW5501223.1 phage holin family protein [Serratia proteamaculans]
+ CAI1058544.1 Uncharacterised protein [Serratia quinivorans]
+ CAI1073996.1 Uncharacterised protein [Serratia quinivorans]
+ CAI1105329.1 Uncharacterised protein [Serratia quinivorans]
+Length=101
+
+ Score = 128 bits (321),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 64/95 (67%), Positives = 74/95 (78%), Gaps = 0/95 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           ML   P DTQ+  WLIIG  +AWGGLVRYL+D Q + +KWSW+ V  Q+IIS FTG+LGG
+Sbjct  1   MLTKTPVDTQVFTWLIIGCFSAWGGLVRYLMDTQGQPHKWSWMGVISQVIISSFTGLLGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRL  95
+           LLSFES  S YMTFAIAGLFGT GST L++LWRR 
+Sbjct  61  LLSFESNASRYMTFAIAGLFGTLGSTALSYLWRRF  95
+
+
+>WP_212584173.1 phage holin family protein [Yersinia sp. Marseille-Q3913]
+ MBS0054150.1 phage holin family protein [Yersinia sp. Marseille-Q3913]
+Length=103
+
+ Score = 127 bits (318),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 58/99 (59%), Positives = 76/99 (77%), Gaps = 0/99 (0%)
+
+Query  1   MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+           M L++P D  +I W+IIG ++AWGGLVRY++D  N++ +WSWI V  Q+++S FTG++GG
+Sbjct  1   MQLLVPGDNFVITWVIIGLLSAWGGLVRYILDKDNEEDEWSWIAVMSQVVVSGFTGLIGG  60
+
+Query  61  LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYH  99
+           L SFESGGS YMTFAIAGLFG  GST L +LW R   +H
+Sbjct  61  LFSFESGGSRYMTFAIAGLFGAMGSTALQYLWNRFFGHH  99
+
+
+>WP_145931779.1 phage holin family protein [Yersinia bercovieri]
+Length=104
+
+ Score = 124 bits (312),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 56/104 (54%), Positives = 76/104 (73%), Gaps = 0/104 (0%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            M  ++P D  +I W+IIG ++AWGGLVRY++D  N++ +WSWI V  Q+++S FTG++GG
+Sbjct  1    MHFLVPGDDFVITWVIIGLVSAWGGLVRYILDKDNEEDEWSWIAVMSQIVVSGFTGLIGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGR  104
+            L SFESG S YMTFAIAGLFG  GST L +LW R + +H    +
+Sbjct  61   LFSFESGSSRYMTFAIAGLFGAMGSTALQYLWSRFLGHHPPPPK  104
+
+
+>WP_032679435.1 MULTISPECIES: phage holin family protein [Enterobacter]
+ ELH0000218.1 phage holin family protein [Enterobacter cloacae]
+ EUM24181.1 hypothetical protein L462_04266 [Enterobacter sp. BIDMC 26]
+ MBE3289681.1 phage holin family protein [Enterobacter cloacae complex sp. 
+P31C]
+ MCU6217889.1 phage holin family protein [Enterobacter bugandensis]
+Length=102
+
+ Score = 124 bits (310),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 57/90 (63%), Positives = 72/90 (80%), Gaps = 0/90 (0%)
+
+Query  6   PSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSFE  65
+           P +  +I WLIIG  + WGGLVRY++D QNKQ KWSW+ + CQLI+S FTG+ GGLLSFE
+Sbjct  6   PGEANIITWLIIGAFSTWGGLVRYIMDTQNKQTKWSWMGIVCQLIVSGFTGLTGGLLSFE  65
+
+Query  66  SGGSIYMTFAIAGLFGTTGSTGLNWLWRRL  95
+           +G S YMTF +AGLFGT GST L++LW+R+
+Sbjct  66  TGASSYMTFIVAGLFGTMGSTALSYLWQRI  95
+
+
+>WP_047345313.1 phage holin family protein [Enterobacter genomosp. O]
+ KLP61726.1 holin [Enterobacter genomosp. O]
+ HCR0213827.1 phage holin family protein [Enterobacter hormaechei]
+ HDT2963715.1 phage holin family protein [Enterobacter hormaechei subsp. steigerwaltii]
+Length=102
+
+ Score = 124 bits (310),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 57/90 (63%), Positives = 72/90 (80%), Gaps = 0/90 (0%)
+
+Query  6   PSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGGLLSFE  65
+           P +  +I WLIIG  + WGGLVRY++D QNKQ KWSW+ + CQLI+S FTG+ GGLLSFE
+Sbjct  6   PGEANIITWLIIGAFSTWGGLVRYIMDTQNKQTKWSWMGIICQLIVSGFTGLTGGLLSFE  65
+
+Query  66  SGGSIYMTFAIAGLFGTTGSTGLNWLWRRL  95
+           +G S YMTF +AGLFGT GST L++LW+R+
+Sbjct  66  TGASSYMTFIVAGLFGTMGSTALSYLWQRI  95
+
+
+>PNM24582.1 holin [Yersinia enterocolitica]
+Length=101
+
+ Score = 123 bits (309),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 61/104 (59%), Positives = 78/104 (75%), Gaps = 3/104 (3%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            M L  P++TQ+I W+IIG ++AWGG+VRYLID Q  + KWSW+ V  Q+IIS FTG+LGG
+Sbjct  1    MSLKPPAETQVITWVIIGVLSAWGGVVRYLIDKQGTRCKWSWMAVISQVIISSFTGLLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGR  104
+            LLSFESG S YMTF  +GLFG  GST L+++WRR   + +  GR
+Sbjct  61   LLSFESGASYYMTFIFSGLFGAMGSTALSYIWRR---FFNPSGR  101
+
+
+>WP_042546197.1 phage holin family protein [Yersinia aldovae]
+ AJJ62576.1 putative membrane protein [Yersinia aldovae 670-83]
+Length=101
+
+ Score = 122 bits (306),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 60/104 (58%), Positives = 78/104 (75%), Gaps = 3/104 (3%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            M L  P++TQ+I W+IIG ++AWGG+VRYL+D Q  + KWSW+ V  Q+IIS FTG+LGG
+Sbjct  1    MSLKPPAETQIITWIIIGVLSAWGGVVRYLMDRQGTRCKWSWMAVISQVIISSFTGLLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGR  104
+            LLSFESG S YMTF  +GLFG  GST L+++WRR   + +  GR
+Sbjct  61   LLSFESGASYYMTFIFSGLFGAMGSTALSYIWRR---FFNPSGR  101
+
+
+>WP_032905698.1 MULTISPECIES: phage holin family protein [Yersinia]
+ AJJ20243.1 putative membrane protein [Yersinia intermedia]
+ ARB85915.1 holin [Yersinia sp. FDAARGOS_228]
+ AVL35758.1 holin [Yersinia intermedia]
+ MCB5297501.1 phage holin family protein [Yersinia intermedia]
+ MCB5312416.1 phage holin family protein [Yersinia intermedia]
+Length=101
+
+ Score = 122 bits (306),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 60/104 (58%), Positives = 78/104 (75%), Gaps = 3/104 (3%)
+
+Query  1    MLLIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+            M L  P++TQ+I W+IIG ++AWGG+VRYL+D Q  + KWSW+ V  Q+IIS FTG+LGG
+Sbjct  1    MSLKPPAETQVITWVIIGVLSAWGGVVRYLMDKQGTRCKWSWMAVISQVIISSFTGLLGG  60
+
+Query  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLITYHHDHGR  104
+            LLSFESG S YMTF  +GLFG  GST L+++WRR   + +  GR
+Sbjct  61   LLSFESGASYYMTFIFSGLFGAMGSTALSYIWRR---FFNPSGR  101
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 30, 2023  2:48 AM
+  Number of letters in database: 252,764,064,435
+  Number of sequences in database:  645,636,360
+
+Lambda      K        H
+   0.330    0.145    0.501 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 645636360
+Number of Hits to DB: 16144568
+Number of extensions: 18201
+Number of successful extensions: 3791
+Number of sequences better than 100: 24
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 3791
+Number of HSP's successfully gapped: 24
+Length of query: 106
+Length of database: 252764064435
+Length adjustment: 75
+Effective length of query: 31
+Effective length of database: 204341337435
+Effective search space: 6334581460485
+Effective search space used: 6334581460485
+T: 19
+A: 40
+X1: 15 (7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 82 (36.2 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+

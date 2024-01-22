@@ -1,0 +1,984 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.14.1+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: TCA4J3K6013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           645,636,360 sequences; 252,764,064,435 total letters
+Query= 
+Length=103
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_005163187.1 phage holin family protein [Yersinia enterocoli...  207     3e-67  100%        
+WP_050156002.1 phage holin family protein [Yersinia enterocoli...  206     1e-66  99%         
+MBO0362545.1 phage holin family protein [Yersinia enterocoliti...  201     2e-64  100%        
+WP_004875774.1 phage holin family protein [Yersinia mollaretii]    176     6e-55  87%         
+WP_145931779.1 phage holin family protein [Yersinia bercovieri]    175     2e-54  83%         
+WP_049648381.1 phage holin family protein [Yersinia mollaretii]    173     1e-53  86%         
+WP_212584173.1 phage holin family protein [Yersinia sp. Marsei...  172     5e-53  83%         
+WP_145588315.1 phage holin family protein [Yersinia]               161     6e-49  76%         
+HDL7646745.1 TPA: phage holin family protein [Yersinia enteroc...  160     9e-49  77%         
+WP_075336409.1 phage holin family protein [Yersinia enterocoli...  158     9e-48  76%         
+WP_271301401.1 phage holin family protein [Yersinia enterocoli...  158     1e-47  76%         
+WP_046694476.1 phage holin family protein [Yersinia enterocoli...  158     1e-47  76%         
+HEO0719228.1 TPA: phage holin family protein [Yersinia enteroc...  157     2e-47  75%         
+WP_050116509.1 phage holin family protein [Yersinia thracica]      155     1e-46  71%         
+WP_145586024.1 phage holin family protein [Yersinia rochestere...  153     9e-46  72%         
+MDW9425262.1 holin [Yersinia enterocolitica]                       151     2e-45  100%        
+HEN3671851.1 TPA: phage holin family protein [Yersinia enteroc...  151     8e-45  73%         
+HEI6849932.1 TPA: phage holin family protein [Yersinia enteroc...  150     8e-45  73%         
+WP_016586564.1 phage holin family protein [Yersinia pseudotube...  141     7e-41  70%         
+WP_126286851.1 phage holin family protein [Yersinia pseudotube...  139     3e-40  70%         
+WP_002214300.1 phage holin family protein [Yersinia pseudotube...  139     4e-40  70%         
+WP_115026991.1 phage holin family protein [Yersinia pseudotube...  137     2e-39  69%         
+KXF94386.1 hypothetical protein AU082_02785 [Yersinia pestis]      135     1e-38  71%         
+KYP00458.1 hypothetical protein AU253_20450 [Yersinia pestis]      132     9e-38  72%         
+KZB82695.1 hypothetical protein AVJ24_04145 [Yersinia pestis]      132     2e-37  74%         
+WP_213018386.1 phage holin family protein [Yersinia pestis]        129     1e-36  72%         
+MBI0239512.1 phage holin family protein [Yersinia pestis subsp...  127     2e-35  70%         
+WP_135315070.1 phage holin family protein [Serratia proteamacu...  125     7e-35  64%         
+WP_261092390.1 phage holin family protein [Serratia]               125     7e-35  64%         
+WP_050883344.1 phage holin family protein [Yersinia intermedia]    124     5e-34  65%         
+WP_112291644.1 phage holin family protein [Rahnella]               122     2e-33  58%         
+WP_032905698.1 phage holin family protein [Yersinia]               122     2e-33  64%         
+PNM24582.1 holin [Yersinia enterocolitica]                         122     3e-33  64%         
+WP_049634135.1 phage holin family protein [Yersinia aldovae]       120     9e-33  63%         
+WP_050311019.1 phage holin family protein [Yersinia intermedia]    120     9e-33  63%         
+WP_032679435.1 phage holin family protein [Enterobacter]           120     1e-32  57%         
+WP_145550250.1 phage holin family protein [Yersinia intermedia]    120     1e-32  63%         
+WP_042546197.1 phage holin family protein [Yersinia aldovae]       120     1e-32  62%         
+WP_047345313.1 phage holin family protein [Enterobacter genomo...  120     1e-32  57%         
+NHB95858.1 holin [Photorhabdus stackebrandtii]                     118     6e-32  54%         
+WP_076706523.1 phage holin family protein [Yersinia]               117     2e-31  56%         
+WP_039878631.1 phage holin family protein [Photorhabdus temper...  115     1e-30  54%         
+EQB99843.1 hypothetical protein B738_14889 [Photorhabdus tempe...  114     1e-30  57%         
+WP_065821646.1 phage holin family protein [Photorhabdus austra...  115     2e-30  55%         
+WP_166286518.1 phage holin family protein [Photorhabdus stacke...  114     2e-30  56%         
+WP_031280474.1 phage holin family protein [Photorhabdus]           114     2e-30  54%         
+EKN5999185.1 holin [Yersinia enterocolitica]                       114     2e-30  57%         
+WP_012777084.1 phage holin family protein [Photorhabdus asymbi...  114     3e-30  54%         
+WP_112876805.1 phage holin family protein [Photorhabdus]           114     3e-30  55%         
+NHB86251.1 holin [Photorhabdus tasmaniensis]                       114     3e-30  54%         
+
+ALIGNMENTS
+>WP_005163187.1 phage holin family protein [Yersinia enterocolitica]
+ CAI77377.1 holin [Yersinia enterocolitica W22703]
+ ADZ44008.1 Putative phage-related protein [Yersinia enterocolitica subsp. 
+palearctica 105.5R(r)]
+ AJJ27464.1 putative membrane protein [Yersinia enterocolitica]
+ ALG77268.1 holin [Yersinia enterocolitica]
+ AOF13569.1 holin [Yersinia enterocolitica]
+Length=103
+
+ Score = 207 bits (527),  Expect = 3e-67, Method: Compositional matrix adjust.
+ Identities = 103/103 (100%), Positives = 103/103 (100%), Gaps = 0/103 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG
+Sbjct  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPKS  103
+            LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPKS
+Sbjct  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPKS  103
+
+
+>WP_050156002.1 phage holin family protein [Yersinia enterocolitica]
+ CND38800.1 putative phage-like protein [Yersinia enterocolitica]
+ CQD62699.1 putative phage-like protein [Yersinia enterocolitica]
+ CRX80092.1 putative phage-like protein [Yersinia enterocolitica]
+Length=103
+
+ Score = 206 bits (524),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 102/103 (99%), Positives = 102/103 (99%), Gaps = 0/103 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQ VVSAFTGLIGG
+Sbjct  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQAVVSAFTGLIGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPKS  103
+            LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPKS
+Sbjct  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPKS  103
+
+
+>MBO0362545.1 phage holin family protein [Yersinia enterocolitica subsp. palearctica]
+Length=109
+
+ Score = 201 bits (510),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 100/100 (100%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  1   MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+           MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG
+Sbjct  1   MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+
+Query  61  LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQP  100
+           LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQP
+Sbjct  61  LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQP  100
+
+
+>WP_004875774.1 phage holin family protein [Yersinia mollaretii]
+ EEQ10064.1 hypothetical protein ymoll0001_35900 [Yersinia mollaretii ATCC 
+43969]
+ MDN0112899.1 phage holin family protein [Yersinia mollaretii]
+ PJE88192.1 holin [Yersinia mollaretii]
+ QKJ02085.1 phage holin family protein [Yersinia mollaretii ATCC 43969]
+ CQD35631.1 putative phage-like protein [Yersinia mollaretii]
+Length=103
+
+ Score = 176 bits (447),  Expect = 6e-55, Method: Compositional matrix adjust.
+ Identities = 90/103 (87%), Positives = 93/103 (90%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M FL  GDSFVLTWAIIGLLSAWGGLVRYILDKDNE DEWSWVAV SQV+VS FTGLIGG
+Sbjct  1    MSFLSDGDSFVLTWAIIGLLSAWGGLVRYILDKDNEEDEWSWVAVISQVIVSGFTGLIGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPK  102
+            LFS ESG SRYMTFAIAGLFGAMGSTALQY+W+RF GHQ PPK
+Sbjct  61   LFSFESGGSRYMTFAIAGLFGAMGSTALQYIWNRFFGHQAPPK  103
+
+
+>WP_145931779.1 phage holin family protein [Yersinia bercovieri]
+Length=104
+
+ Score = 175 bits (443),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 85/103 (83%), Positives = 90/103 (87%), Gaps = 0/103 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M FL+ GD FV+TW IIGL+SAWGGLVRYILDKDNE DEWSW+AV SQ+VVS FTGLIGG
+Sbjct  1    MHFLVPGDDFVITWVIIGLVSAWGGLVRYILDKDNEEDEWSWIAVMSQIVVSGFTGLIGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPKS  103
+            LFS ESG SRYMTFAIAGLFGAMGSTALQYLW RFLGH PP  
+Sbjct  61   LFSFESGSSRYMTFAIAGLFGAMGSTALQYLWSRFLGHHPPPP  103
+
+
+>WP_049648381.1 phage holin family protein [Yersinia mollaretii]
+ MDA5527466.1 phage holin family protein [Yersinia mollaretii]
+ MDA5535371.1 phage holin family protein [Yersinia mollaretii]
+ MDR7874243.1 phage holin family protein [Yersinia mollaretii]
+ NIL03746.1 holin [Yersinia mollaretii]
+ PHZ32667.1 holin [Yersinia mollaretii]
+Length=103
+
+ Score = 173 bits (439),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 89/103 (86%), Positives = 92/103 (89%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M FL  GDSFVLTW IIGLLSAWGGLVRYILDKDNE DEWSWVAV SQV+VS FTGLIGG
+Sbjct  1    MFFLSDGDSFVLTWVIIGLLSAWGGLVRYILDKDNEEDEWSWVAVISQVIVSGFTGLIGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPK  102
+            LFS ESG SRYMTFAIAGLFGAMGSTALQY+W+RF GHQ PPK
+Sbjct  61   LFSFESGGSRYMTFAIAGLFGAMGSTALQYIWNRFFGHQTPPK  103
+
+
+>WP_212584173.1 phage holin family protein [Yersinia sp. Marseille-Q3913]
+ MBS0054150.1 phage holin family protein [Yersinia sp. Marseille-Q3913]
+Length=103
+
+ Score = 172 bits (435),  Expect = 5e-53, Method: Compositional matrix adjust.
+ Identities = 86/103 (83%), Positives = 91/103 (88%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L+ GD+FV+TW IIGLLSAWGGLVRYILDKDNE DEWSW+AV SQVVVS FTGLIGG
+Sbjct  1    MQLLVPGDNFVITWVIIGLLSAWGGLVRYILDKDNEEDEWSWIAVMSQVVVSGFTGLIGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPK  102
+            LFS ESG SRYMTFAIAGLFGAMGSTALQYLW+RF GH  PPK
+Sbjct  61   LFSFESGGSRYMTFAIAGLFGAMGSTALQYLWNRFFGHHTPPK  103
+
+
+>WP_145588315.1 MULTISPECIES: phage holin family protein [Yersinia]
+ MDA5545061.1 phage holin family protein [Yersinia rochesterensis]
+ MDN0108336.1 phage holin family protein [Yersinia rochesterensis]
+ MDR5017959.1 phage holin family protein [Yersinia rochesterensis]
+ UZM74742.1 phage holin family protein [Yersinia sp. SCPM-O-B-9106 (C-191)]
+Length=104
+
+ Score = 161 bits (408),  Expect = 6e-49, Method: Compositional matrix adjust.
+ Identities = 79/104 (76%), Positives = 87/104 (84%), Gaps = 1/104 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L+ GD+ V+TW IIG LSAWGGLVRYILDK+NE DEWSW AV SQV+VS FTGLIGG
+Sbjct  1    MQALVPGDNLVITWLIIGALSAWGGLVRYILDKNNEEDEWSWAAVISQVIVSGFTGLIGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPKS  103
+            L S E G+SRYMTFAIAGLFGAMGS+ALQYLWHRF G + PPK 
+Sbjct  61   LISFEGGISRYMTFAIAGLFGAMGSSALQYLWHRFFGQEIPPKQ  104
+
+
+>HDL7646745.1 phage holin family protein [Yersinia enterocolitica]
+ HDL8283684.1 phage holin family protein [Yersinia enterocolitica]
+ HEG0621297.1 phage holin family protein [Yersinia enterocolitica]
+Length=103
+
+ Score = 160 bits (406),  Expect = 9e-49, Method: Compositional matrix adjust.
+ Identities = 79/103 (77%), Positives = 89/103 (86%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L  GD+FVLTW IIG+LSAWGGLVRYIL+KD++ DEWSWVAV SQV+VS+FTGL+GG
+Sbjct  1    MHLLAPGDNFVLTWVIIGVLSAWGGLVRYILNKDSQEDEWSWVAVISQVIVSSFTGLLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPK  102
+            LFS E G SRYM FAIAGLFGAMGSTALQY+W+RF GH  PPK
+Sbjct  61   LFSFEGGSSRYMAFAIAGLFGAMGSTALQYIWNRFFGHHNPPK  103
+
+
+>WP_075336409.1 phage holin family protein [Yersinia enterocolitica]
+ HDL8053538.1 phage holin family protein [Yersinia enterocolitica]
+ HDM8438424.1 phage holin family protein [Yersinia enterocolitica]
+ HEN3600365.1 phage holin family protein [Yersinia enterocolitica]
+ HEN3606415.1 phage holin family protein [Yersinia enterocolitica]
+ HEN3610630.1 phage holin family protein [Yersinia enterocolitica]
+Length=103
+
+ Score = 158 bits (400),  Expect = 9e-48, Method: Compositional matrix adjust.
+ Identities = 78/103 (76%), Positives = 86/103 (83%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L  GD+FVLTW IIG+LSAWGGLVRYIL+KD + DEWSW AV SQV+VS+FTGL+GG
+Sbjct  1    MHLLAPGDNFVLTWVIIGVLSAWGGLVRYILNKDKQEDEWSWAAVISQVIVSSFTGLLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPK  102
+            LFS E G SRYM FAIAGLFGAMGSTALQY+W RF GH  PPK
+Sbjct  61   LFSFEGGSSRYMAFAIAGLFGAMGSTALQYIWSRFFGHHNPPK  103
+
+
+>WP_271301401.1 phage holin family protein [Yersinia enterocolitica]
+ MDA5529367.1 phage holin family protein [Yersinia enterocolitica]
+Length=103
+
+ Score = 158 bits (399),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 78/103 (76%), Positives = 87/103 (84%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L  GD+FVLTW IIG+LSAWGGLVRYIL+KD + DEWSW AV SQV+VS+FTGL+GG
+Sbjct  1    MHLLDPGDNFVLTWVIIGVLSAWGGLVRYILNKDTQDDEWSWAAVISQVIVSSFTGLLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPK  102
+            LFS E G SRYM FAIAGLFGAMGSTALQY+W+RF GH  PPK
+Sbjct  61   LFSFEGGSSRYMAFAIAGLFGAMGSTALQYIWNRFFGHHNPPK  103
+
+
+>WP_046694476.1 phage holin family protein [Yersinia enterocolitica]
+ AAT90758.1 putative phage-related protein [Yersinia enterocolitica]
+ AKF36555.1 holin [Yersinia enterocolitica]
+ ALG46843.1 holin [Yersinia enterocolitica]
+ EKN3344110.1 phage holin family protein [Yersinia enterocolitica]
+ EKN3394676.1 phage holin family protein [Yersinia enterocolitica]
+Length=103
+
+ Score = 158 bits (399),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 78/103 (76%), Positives = 87/103 (84%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L  GD+FVLTW IIG+LSAWGGLVRYIL+KD + DEWSW AV SQV+VS+FTGL+GG
+Sbjct  1    MHLLDPGDNFVLTWVIIGVLSAWGGLVRYILNKDTQEDEWSWAAVISQVIVSSFTGLLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPK  102
+            LFS E G SRYM FAIAGLFGAMGSTALQY+W+RF GH  PPK
+Sbjct  61   LFSFEGGSSRYMAFAIAGLFGAMGSTALQYIWNRFFGHHNPPK  103
+
+
+>HEO0719228.1 phage holin family protein [Yersinia enterocolitica]
+Length=103
+
+ Score = 157 bits (397),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 77/103 (75%), Positives = 86/103 (83%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L  GD+FVLTW IIG+LSAWGG+VRYIL+KD + DEWSW AV SQV+VS+FTGL+GG
+Sbjct  1    MHLLAPGDNFVLTWVIIGVLSAWGGVVRYILNKDKQEDEWSWAAVISQVIVSSFTGLLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPK  102
+            LFS E G SRYM FAIAGLFGAMGSTALQY+W RF GH  PPK
+Sbjct  61   LFSFEGGSSRYMAFAIAGLFGAMGSTALQYIWSRFFGHHNPPK  103
+
+
+>WP_050116509.1 phage holin family protein [Yersinia thracica]
+ CNI39340.1 putative phage-like protein [Yersinia thracica]
+Length=104
+
+ Score = 155 bits (393),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 74/104 (71%), Positives = 86/104 (83%), Gaps = 1/104 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L+ GD+F++TW IIG LSAWGGLVRYILDK+NE DEWSWVAV SQ++VS FTGLIGG
+Sbjct  1    MQALVPGDNFIITWLIIGALSAWGGLVRYILDKNNEEDEWSWVAVISQIIVSGFTGLIGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPKS  103
+            L + E G SRYMTFA+AGLFGAMG++ALQYLW RF   + PPK 
+Sbjct  61   LLAFEGGTSRYMTFALAGLFGAMGNSALQYLWQRFFSQEIPPKE  104
+
+
+>WP_145586024.1 phage holin family protein [Yersinia rochesterensis]
+Length=104
+
+ Score = 153 bits (387),  Expect = 9e-46, Method: Compositional matrix adjust.
+ Identities = 75/104 (72%), Positives = 85/104 (82%), Gaps = 1/104 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  LI GD+FV+TW IIG LSAWGGLVRYILD +NE D+WSW AV SQV+VS FTGLIGG
+Sbjct  1    MQALIPGDNFVITWLIIGALSAWGGLVRYILDTNNEEDKWSWAAVISQVIVSGFTGLIGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ-PPKS  103
+            L + + G+SRYMTFAIAGLFGAMGS+ALQYLW RF   + PPK 
+Sbjct  61   LLAFDGGISRYMTFAIAGLFGAMGSSALQYLWQRFFSQEIPPKQ  104
+
+
+>MDW9425262.1 holin [Yersinia enterocolitica]
+Length=77
+
+ Score = 151 bits (382),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 77/77 (100%), Positives = 77/77 (100%), Gaps = 0/77 (0%)
+
+Query  1   MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+           MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG
+Sbjct  1   MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+
+Query  61  LFSLESGVSRYMTFAIA  77
+           LFSLESGVSRYMTFAIA
+Sbjct  61  LFSLESGVSRYMTFAIA  77
+
+
+>HEN3671851.1 phage holin family protein [Yersinia enterocolitica]
+Length=103
+
+ Score = 151 bits (381),  Expect = 8e-45, Method: Compositional matrix adjust.
+ Identities = 75/103 (73%), Positives = 85/103 (83%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L  GD+FVLTW IIG+LSAWGG+VRYIL+KD + DEWSW AV SQV+VS+FTGL+GG
+Sbjct  1    MHLLAPGDNFVLTWVIIGVLSAWGGVVRYILNKDKQEDEWSWAAVISQVIVSSFTGLLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQP-PK  102
+            LFS E G S YMTFAIAGL GAMGSTALQY+W+RF GH   PK
+Sbjct  61   LFSFEGGGSTYMTFAIAGLLGAMGSTALQYIWNRFFGHHNHPK  103
+
+
+>HEI6849932.1 phage holin family protein [Yersinia enterocolitica]
+ HEN3580416.1 phage holin family protein [Yersinia enterocolitica]
+ HEN3611995.1 phage holin family protein [Yersinia enterocolitica]
+ HEN3626656.1 phage holin family protein [Yersinia enterocolitica]
+ HEN3639106.1 phage holin family protein [Yersinia enterocolitica]
+Length=103
+
+ Score = 150 bits (380),  Expect = 8e-45, Method: Compositional matrix adjust.
+ Identities = 75/103 (73%), Positives = 85/103 (83%), Gaps = 1/103 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M  L  GD+FVLTW IIG+LSAWGG+VRYIL+KD + DEWSW AV SQV+VS+FTGL+GG
+Sbjct  1    MHLLAPGDNFVLTWVIIGVLSAWGGVVRYILNKDKQEDEWSWAAVISQVIVSSFTGLLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQP-PK  102
+            LFS E G S YMTFAIAGL GAMGSTALQY+W+RF GH   PK
+Sbjct  61   LFSFEGGGSTYMTFAIAGLLGAMGSTALQYIWNRFFGHHNLPK  103
+
+
+>WP_016586564.1 MULTISPECIES: phage holin family protein [Yersinia pseudotuberculosis 
+complex]
+ CNB44274.1 putative phage-like protein [Yersinia pseudotuberculosis]
+ CNI24283.1 putative phage-like protein [Yersinia pseudotuberculosis]
+Length=100
+
+ Score = 141 bits (355),  Expect = 7e-41, Method: Compositional matrix adjust.
+ Identities = 65/93 (70%), Positives = 78/93 (84%), Gaps = 0/93 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           D F +TW IIG  SAWGGLVRYI+D++NE +EWSWV V  QV+VSAFTGLIG LF+LE+G
+Sbjct  8   DDFFITWVIIGTFSAWGGLVRYIVDQNNEYEEWSWVGVLCQVIVSAFTGLIGSLFTLETG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQP  100
+           +SRY+TFAIAGLFGAMG+TAL++LW RF  H  
+Sbjct  68  ISRYITFAIAGLFGAMGNTALKHLWQRFFSHSK  100
+
+
+>WP_126286851.1 phage holin family protein [Yersinia pseudotuberculosis]
+ VEB10501.1 putative phage-like protein [Yersinia pseudotuberculosis]
+Length=100
+
+ Score = 139 bits (350),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 65/93 (70%), Positives = 77/93 (83%), Gaps = 0/93 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           D F +TW IIG  SAWGGLVRYI+D++NE +EWSWV V  QV+VSAFTGLIG LF+LE+G
+Sbjct  8   DDFFITWVIIGTFSAWGGLVRYIVDQNNEYEEWSWVGVLCQVIVSAFTGLIGSLFTLETG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQP  100
+            SRY+TFAIAGLFGAMG+TAL++LW RF  H  
+Sbjct  68  SSRYITFAIAGLFGAMGNTALKHLWQRFFSHNK  100
+
+
+>WP_002214300.1 MULTISPECIES: phage holin family protein [Yersinia pseudotuberculosis 
+complex]
+ ERP79405.1 hypothetical protein L328_18245 [Yersinia pestis 24H]
+ ERP79683.1 hypothetical protein L327_18310 [Yersinia pestis S3]
+ CQD57666.1 putative phage-like protein [Yersinia intermedia]
+ AAM83780.1 hypothetical phage protein [Yersinia pestis KIM10+]
+ AAS64012.1 putative phage-related protein [Yersinia pestis biovar Microtus 
+str. 91001]
+Length=100
+
+ Score = 139 bits (349),  Expect = 4e-40, Method: Compositional matrix adjust.
+ Identities = 65/93 (70%), Positives = 77/93 (83%), Gaps = 0/93 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           D F +TW IIG  SAWGGLVRYI+D++NE +EWSWV V  QV+VSAFTGLIG LF+LE+G
+Sbjct  8   DDFFITWVIIGTFSAWGGLVRYIVDQNNEYEEWSWVGVLCQVIVSAFTGLIGSLFTLETG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQP  100
+            SRY+TFAIAGLFGAMG+TAL++LW RF  H  
+Sbjct  68  SSRYITFAIAGLFGAMGNTALKHLWQRFFSHSK  100
+
+
+>WP_115026991.1 phage holin family protein [Yersinia pseudotuberculosis]
+ SUP87797.1 putative phage-like protein [Yersinia pseudotuberculosis]
+Length=100
+
+ Score = 137 bits (345),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 64/93 (69%), Positives = 76/93 (82%), Gaps = 0/93 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           D F +TW IIG  S WGGLVRYI+D++NE +EWSWV V  QV+VSAFTGLIG LF+LE+G
+Sbjct  8   DDFFITWVIIGTFSEWGGLVRYIVDQNNEYEEWSWVGVLCQVIVSAFTGLIGSLFTLETG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQP  100
+            SRY+TFAIAGLFGAMG+TAL++LW RF  H  
+Sbjct  68  SSRYITFAIAGLFGAMGNTALKHLWQRFFSHSK  100
+
+
+>KXF94386.1 hypothetical protein AU082_02785 [Yersinia pestis]
+ KYP02087.1 hypothetical protein AU254_03565 [Yersinia pestis]
+ PCN66942.1 hypothetical protein A8P48_03810 [Yersinia pestis]
+ PVU25485.1 hypothetical protein A8M57_06635 [Yersinia pestis]
+ PVU27667.1 hypothetical protein A8M58_18630 [Yersinia pestis]
+Length=89
+
+ Score = 135 bits (339),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 63/89 (71%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  12  LTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESGVSRY  71
+           +TW IIG  SAWGGLVRYI+D++NE +EWSWV V  QV+VSAFTGLIG LF+LE+G SRY
+Sbjct  1   MTWVIIGTFSAWGGLVRYIVDQNNEYEEWSWVGVLCQVIVSAFTGLIGSLFTLETGSSRY  60
+
+Query  72  MTFAIAGLFGAMGSTALQYLWHRFLGHQP  100
+           +TFAIAGLFGAMG+TAL++LW RF  H  
+Sbjct  61  ITFAIAGLFGAMGNTALKHLWQRFFSHSK  89
+
+
+>KYP00458.1 hypothetical protein AU253_20450 [Yersinia pestis]
+Length=88
+
+ Score = 132 bits (333),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 63/88 (72%), Positives = 75/88 (85%), Gaps = 0/88 (0%)
+
+Query  12  LTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESGVSRY  71
+           +TW IIG  SAWGGLVRYI+D++NE +EWSWV V  QV+VSAFTGLIG LF+LE+G SRY
+Sbjct  1   MTWVIIGTFSAWGGLVRYIVDQNNEYEEWSWVGVLCQVIVSAFTGLIGSLFTLETGSSRY  60
+
+Query  72  MTFAIAGLFGAMGSTALQYLWHRFLGHQ  99
+           +TFAIAGLFGAMG+TAL++LW RF   Q
+Sbjct  61  ITFAIAGLFGAMGNTALKHLWQRFFQPQ  88
+
+
+>KZB82695.1 hypothetical protein AVJ24_04145 [Yersinia pestis]
+Length=94
+
+ Score = 132 bits (331),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 62/84 (74%), Positives = 74/84 (88%), Gaps = 0/84 (0%)
+
+Query  12  LTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESGVSRY  71
+           +TW IIG  SAWGGLVRYI+D++NE +EWSWV V  QV+VSAFTGLIG LF+LE+G SRY
+Sbjct  1   MTWVIIGTFSAWGGLVRYIVDQNNEYEEWSWVGVLCQVIVSAFTGLIGSLFTLETGSSRY  60
+
+Query  72  MTFAIAGLFGAMGSTALQYLWHRF  95
+           +TFAIAGLFGAMG+TAL++LW RF
+Sbjct  61  ITFAIAGLFGAMGNTALKHLWQRF  84
+
+
+>WP_213018386.1 phage holin family protein, partial [Yersinia pestis]
+Length=85
+
+ Score = 129 bits (325),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 61/85 (72%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  16  IIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESGVSRYMTFA  75
+           IIG  SAWGGLVRYI+D++NE +EWSWV V  QV+VSAFTGLIG LF+LE+G SRY+TFA
+Sbjct  1   IIGTFSAWGGLVRYIVDQNNEYEEWSWVGVLCQVIVSAFTGLIGSLFTLETGSSRYITFA  60
+
+Query  76  IAGLFGAMGSTALQYLWHRFLGHQP  100
+           IAGLFGAMG+TAL++LW RF  H  
+Sbjct  61  IAGLFGAMGNTALKHLWQRFFSHSK  85
+
+
+>MBI0239512.1 phage holin family protein [Yersinia pestis subsp. pestis]
+Length=84
+
+ Score = 127 bits (318),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 59/84 (70%), Positives = 71/84 (85%), Gaps = 0/84 (0%)
+
+Query  17  IGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESGVSRYMTFAI  76
+           +G  SAWGGLVRYI+D++NE +EWSWV V  QV+VSAFTGLIG LF+LE+G SRY+TFAI
+Sbjct  1   MGTFSAWGGLVRYIVDQNNEYEEWSWVGVLCQVIVSAFTGLIGSLFTLETGSSRYITFAI  60
+
+Query  77  AGLFGAMGSTALQYLWHRFLGHQP  100
+           AGLFGAMG+TAL++LW RF  H  
+Sbjct  61  AGLFGAMGNTALKHLWQRFFSHSK  84
+
+
+>WP_135315070.1 phage holin family protein [Serratia proteamaculans]
+ TFZ53391.1 holin [Serratia proteamaculans]
+Length=104
+
+ Score = 125 bits (315),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 59/92 (64%), Positives = 70/92 (76%), Gaps = 0/92 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           D+ V TW IIG  SAWGGLVRY++D   +  +WSW+ V SQV++S+FTGL+GGL S ES 
+Sbjct  8   DTQVFTWLIIGCFSAWGGLVRYLMDTQGQPHKWSWMGVISQVIISSFTGLLGGLLSFESN  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ  99
+            SRYMTFAIAGLFG +GSTAL YLW RF G  
+Sbjct  68  ASRYMTFAIAGLFGTLGSTALSYLWRRFFGQN  99
+
+
+>WP_261092390.1 MULTISPECIES: phage holin family protein [Serratia]
+ MDW5506288.1 phage holin family protein [Pseudomonas lundensis]
+ MDW5501223.1 phage holin family protein [Serratia proteamaculans]
+ CAI1058544.1 Uncharacterised protein [Serratia quinivorans]
+ CAI1073996.1 Uncharacterised protein [Serratia quinivorans]
+ CAI1105329.1 Uncharacterised protein [Serratia quinivorans]
+Length=101
+
+ Score = 125 bits (315),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 59/92 (64%), Positives = 70/92 (76%), Gaps = 0/92 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           D+ V TW IIG  SAWGGLVRY++D   +  +WSW+ V SQV++S+FTGL+GGL S ES 
+Sbjct  8   DTQVFTWLIIGCFSAWGGLVRYLMDTQGQPHKWSWMGVISQVIISSFTGLLGGLLSFESN  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ  99
+            SRYMTFAIAGLFG +GSTAL YLW RF G  
+Sbjct  68  ASRYMTFAIAGLFGTLGSTALSYLWRRFFGQN  99
+
+
+>WP_050883344.1 phage holin family protein [Yersinia intermedia]
+ MCB5321436.1 phage holin family protein [Yersinia intermedia]
+ CQJ67489.1 putative phage-like protein [Yersinia intermedia]
+Length=101
+
+ Score = 124 bits (310),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 58/89 (65%), Positives = 73/89 (82%), Gaps = 0/89 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           ++ V+TW IIG+LSAWGG+VRY++DK     +WSW+AV SQV++S+FTGL+GGL S ESG
+Sbjct  8   ETQVITWVIIGVLSAWGGVVRYLMDKQGTRCKWSWMAVISQVIISSFTGLLGGLLSFESG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFL  96
+           VS YMTF  +GLFGAMGSTAL Y+W RF 
+Sbjct  68  VSYYMTFIFSGLFGAMGSTALSYIWRRFF  96
+
+
+>WP_112291644.1 MULTISPECIES: phage holin family protein [Rahnella]
+ MDH2897957.1 phage holin family protein [Rahnella variigena]
+ TCQ84463.1 LydA family holin superfamily III [Rahnella sp. JUb53]
+Length=102
+
+ Score = 122 bits (306),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 57/98 (58%), Positives = 75/98 (77%), Gaps = 0/98 (0%)
+
+Query  5    ILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSL  64
+            IL D+  LTW I+   SAWGG+VRY++D+      WSW+ V SQ+V+S+FTG++GGL SL
+Sbjct  5    ILTDNQALTWLIVAGFSAWGGVVRYLMDRQGRRYNWSWMGVISQIVISSFTGVLGGLLSL  64
+
+Query  65   ESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPK  102
+            E+G S YMTFAI+GLFG +GSTAL YLWHRF+G +  +
+Sbjct  65   ENGGSDYMTFAISGLFGTLGSTALSYLWHRFMGKKSHE  102
+
+
+>WP_032905698.1 MULTISPECIES: phage holin family protein [Yersinia]
+ AJJ20243.1 putative membrane protein [Yersinia intermedia]
+ ARB85915.1 holin [Yersinia sp. FDAARGOS_228]
+ AVL35758.1 holin [Yersinia intermedia]
+ MCB5297501.1 phage holin family protein [Yersinia intermedia]
+ MCB5312416.1 phage holin family protein [Yersinia intermedia]
+Length=101
+
+ Score = 122 bits (305),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 57/89 (64%), Positives = 72/89 (81%), Gaps = 0/89 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           ++ V+TW IIG+LSAWGG+VRY++DK     +WSW+AV SQV++S+FTGL+GGL S ESG
+Sbjct  8   ETQVITWVIIGVLSAWGGVVRYLMDKQGTRCKWSWMAVISQVIISSFTGLLGGLLSFESG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFL  96
+            S YMTF  +GLFGAMGSTAL Y+W RF 
+Sbjct  68  ASYYMTFIFSGLFGAMGSTALSYIWRRFF  96
+
+
+>PNM24582.1 holin [Yersinia enterocolitica]
+Length=101
+
+ Score = 122 bits (305),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 57/89 (64%), Positives = 72/89 (81%), Gaps = 0/89 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           ++ V+TW IIG+LSAWGG+VRY++DK     +WSW+AV SQV++S+FTGL+GGL S ESG
+Sbjct  8   ETQVITWVIIGVLSAWGGVVRYLIDKQGTRCKWSWMAVISQVIISSFTGLLGGLLSFESG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFL  96
+            S YMTF  +GLFGAMGSTAL Y+W RF 
+Sbjct  68  ASYYMTFIFSGLFGAMGSTALSYIWRRFF  96
+
+
+>WP_049634135.1 phage holin family protein [Yersinia aldovae]
+ CNH72550.1 putative phage-like protein [Yersinia aldovae]
+Length=101
+
+ Score = 120 bits (301),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 56/89 (63%), Positives = 72/89 (81%), Gaps = 0/89 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           ++ V+TW IIG+LSAWGG+VRY++D+     +WSW+AV SQV++S+FTGL+GGL S ESG
+Sbjct  8   ETQVITWIIIGVLSAWGGVVRYLMDRQGTRCKWSWMAVISQVIISSFTGLLGGLLSFESG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFL  96
+            S YMTF  +GLFGAMGSTAL Y+W RF 
+Sbjct  68  ASYYMTFIFSGLFGAMGSTALSYIWRRFF  96
+
+
+>WP_050311019.1 phage holin family protein [Yersinia intermedia]
+ MDA5513903.1 phage holin family protein [Yersinia intermedia]
+ CNH94062.1 putative phage-like protein [Yersinia intermedia]
+ CQD79117.1 putative phage-like protein [Yersinia intermedia]
+Length=101
+
+ Score = 120 bits (301),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 56/89 (63%), Positives = 71/89 (80%), Gaps = 0/89 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           ++ V+TW IIG+LSAWGG+VRY++DK     +WSW+ V SQV++S+FTGL+GGL S ESG
+Sbjct  8   ETQVITWVIIGVLSAWGGVVRYLMDKQGTRCKWSWMVVISQVIISSFTGLLGGLLSFESG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFL  96
+            S YMTF  +GLFGAMGSTAL Y+W RF 
+Sbjct  68  ASYYMTFIFSGLFGAMGSTALSYIWRRFF  96
+
+
+>WP_032679435.1 MULTISPECIES: phage holin family protein [Enterobacter]
+ ELH0000218.1 phage holin family protein [Enterobacter cloacae]
+ EUM24181.1 hypothetical protein L462_04266 [Enterobacter sp. BIDMC 26]
+ MBE3289681.1 phage holin family protein [Enterobacter cloacae complex sp. 
+P31C]
+ MCU6217889.1 phage holin family protein [Enterobacter bugandensis]
+Length=102
+
+ Score = 120 bits (300),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 58/102 (57%), Positives = 71/102 (70%), Gaps = 1/102 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M F   G++ ++TW IIG  S WGGLVRYI+D  N+  +WSW+ +  Q++VS FTGL GG
+Sbjct  1    MPFREPGEANIITWLIIGAFSTWGGLVRYIMDTQNKQTKWSWMGIVCQLIVSGFTGLTGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHR-FLGHQPP  101
+            L S E+G S YMTF +AGLFG MGSTAL YLW R F G   P
+Sbjct  61   LLSFETGASSYMTFIVAGLFGTMGSTALSYLWQRIFPGRNLP  102
+
+
+>WP_145550250.1 phage holin family protein [Yersinia intermedia]
+Length=101
+
+ Score = 120 bits (300),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 56/89 (63%), Positives = 71/89 (80%), Gaps = 0/89 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           ++ V+TW IIG+LSAWGG+VRY++DK     +WSW+AV SQV++S+FT L+GGL S ESG
+Sbjct  8   ETQVITWVIIGVLSAWGGVVRYLMDKQGTRCKWSWMAVISQVIISSFTSLLGGLLSFESG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFL  96
+            S YMTF  +GLFGAMGSTAL Y+W RF 
+Sbjct  68  ASYYMTFIFSGLFGAMGSTALSYIWRRFF  96
+
+
+>WP_042546197.1 phage holin family protein [Yersinia aldovae]
+ AJJ62576.1 putative membrane protein [Yersinia aldovae 670-83]
+Length=101
+
+ Score = 120 bits (300),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 55/89 (62%), Positives = 72/89 (81%), Gaps = 0/89 (0%)
+
+Query  8   DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+           ++ ++TW IIG+LSAWGG+VRY++D+     +WSW+AV SQV++S+FTGL+GGL S ESG
+Sbjct  8   ETQIITWIIIGVLSAWGGVVRYLMDRQGTRCKWSWMAVISQVIISSFTGLLGGLLSFESG  67
+
+Query  68  VSRYMTFAIAGLFGAMGSTALQYLWHRFL  96
+            S YMTF  +GLFGAMGSTAL Y+W RF 
+Sbjct  68  ASYYMTFIFSGLFGAMGSTALSYIWRRFF  96
+
+
+>WP_047345313.1 phage holin family protein [Enterobacter genomosp. O]
+ KLP61726.1 holin [Enterobacter genomosp. O]
+ HCR0213827.1 phage holin family protein [Enterobacter hormaechei]
+ HDT2963715.1 phage holin family protein [Enterobacter hormaechei subsp. steigerwaltii]
+Length=102
+
+ Score = 120 bits (300),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 58/102 (57%), Positives = 71/102 (70%), Gaps = 1/102 (1%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M F   G++ ++TW IIG  S WGGLVRYI+D  N+  +WSW+ +  Q++VS FTGL GG
+Sbjct  1    MPFREPGEANIITWLIIGAFSTWGGLVRYIMDTQNKQTKWSWMGIICQLIVSGFTGLTGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHR-FLGHQPP  101
+            L S E+G S YMTF +AGLFG MGSTAL YLW R F G   P
+Sbjct  61   LLSFETGASSYMTFIVAGLFGTMGSTALSYLWQRIFPGRNLP  102
+
+
+>NHB95858.1 holin [Photorhabdus stackebrandtii]
+Length=102
+
+ Score = 118 bits (296),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 55/102 (54%), Positives = 74/102 (73%), Gaps = 0/102 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M F++  D+ ++ W IIG ++AWGGLVRYI+D  N+ D+WSW+ V  Q+++S FTG++GG
+Sbjct  1    MSFIMPSDTQLIIWLIIGFIAAWGGLVRYIIDMQNKQDKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPK  102
+            L S ESG + YMTFAIAGLFG  GST L ++W R   HQ  K
+Sbjct  61   LMSFESGGTIYMTFAIAGLFGTTGSTGLDWIWRRLFMHQGGK  102
+
+
+>WP_076706523.1 MULTISPECIES: phage holin family protein [Yersinia]
+ ELI7922731.1 phage holin family protein [Yersinia enterocolitica]
+Length=103
+
+ Score = 117 bits (293),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 58/103 (56%), Positives = 73/103 (71%), Gaps = 0/103 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M    + DS ++TW IIG LSAWGGLVRY+LD   +   W WV + SQ+++S+FTGL+GG
+Sbjct  1    MTIPPVADSQIVTWLIIGGLSAWGGLVRYLLDMKGKQGVWCWVGLLSQIIISSFTGLLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPKS  103
+            L S E+GVS YMTF +AGLFG +G TAL YLW RF   +  KS
+Sbjct  61   LLSFENGVSAYMTFIVAGLFGTLGGTALSYLWQRFFPVKGNKS  103
+
+
+>WP_039878631.1 phage holin family protein [Photorhabdus temperata]
+Length=102
+
+ Score = 115 bits (288),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 55/102 (54%), Positives = 72/102 (71%), Gaps = 0/102 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M   +  D+ ++ W IIG ++AWGGLVRY++D  N+  +WSW+ V  Q+++S FTG++GG
+Sbjct  1    MSLKMPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPK  102
+            L S ESG S YMTFAIAGLFG  GST L +LW R L HQ  K
+Sbjct  61   LLSFESGSSIYMTFAIAGLFGTTGSTGLNWLWRRLLMHQGGK  102
+
+
+>EQB99843.1 hypothetical protein B738_14889 [Photorhabdus temperata subsp. 
+temperata M1021]
+Length=98
+
+ Score = 114 bits (286),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 54/95 (57%), Positives = 70/95 (74%), Gaps = 0/95 (0%)
+
+Query  8    DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+            D+ ++ W IIG ++AWGGLVRY++D  N+  +WSW+ V  Q+++S FTG++GGL S ESG
+Sbjct  4    DTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGGLLSFESG  63
+
+Query  68   VSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPK  102
+             S YMTFAIAGLFG  GST L +LW R L HQ  K
+Sbjct  64   SSIYMTFAIAGLFGTTGSTGLNWLWRRLLMHQGGK  98
+
+
+>WP_065821646.1 phage holin family protein [Photorhabdus australis]
+ OCQ54706.1 hypothetical protein Ppb6_00070 [Photorhabdus australis subsp. 
+thailandensis]
+Length=102
+
+ Score = 115 bits (287),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 56/102 (55%), Positives = 71/102 (70%), Gaps = 0/102 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M F+I  D+ ++ W IIG ++AWGGLVRYI+D  N+   WSW+ V  Q+++S FTG++GG
+Sbjct  1    MSFIIPSDTQLIIWLIIGFIAAWGGLVRYIIDMQNKQYTWSWINVLCQLIISCFTGVLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPK  102
+            L S ESG S YMTFAIAGLFG  GST L +LW R   H   K
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLSIHHGGK  102
+
+
+>WP_166286518.1 phage holin family protein [Photorhabdus stackebrandtii]
+Length=98
+
+ Score = 114 bits (286),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 53/95 (56%), Positives = 70/95 (74%), Gaps = 0/95 (0%)
+
+Query  8    DSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLESG  67
+            D+ ++ W IIG ++AWGGLVRYI+D  N+ D+WSW+ V  Q+++S FTG++GGL S ESG
+Sbjct  4    DTQLIIWLIIGFIAAWGGLVRYIIDMQNKQDKWSWINVFCQLIISCFTGVLGGLMSFESG  63
+
+Query  68   VSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPK  102
+             + YMTFAIAGLFG  GST L ++W R   HQ  K
+Sbjct  64   GTIYMTFAIAGLFGTTGSTGLDWIWRRLFMHQGGK  98
+
+
+>WP_031280474.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+ MCC8420202.1 phage holin family protein [Photorhabdus thracensis]
+ MQL48833.1 holin [Photorhabdus khanii]
+ ETS29765.1 hypothetical protein PTE_04193 [Photorhabdus khanii NC19]
+ KER04080.1 hypothetical protein MEG1DRAFT_01194 [Photorhabdus temperata 
+subsp. temperata Meg1]
+ MCT8347276.1 phage holin family protein [Photorhabdus temperata]
+Length=102
+
+ Score = 114 bits (286),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 55/102 (54%), Positives = 72/102 (71%), Gaps = 0/102 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M   +  D+ ++ W IIG ++AWGGLVRY++D  N+  +WSW+ V  Q+++S FTG++GG
+Sbjct  1    MSLKMPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPK  102
+            L S ESG S YMTFAIAGLFG  GST L +LW R L HQ  K
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLLMHQGGK  102
+
+
+>EKN5999185.1 holin [Yersinia enterocolitica]
+ ELI7924459.1 phage holin family protein [Yersinia enterocolitica]
+Length=101
+
+ Score = 114 bits (286),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 52/91 (57%), Positives = 70/91 (77%), Gaps = 0/91 (0%)
+
+Query  7   GDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGGLFSLES  66
+            ++ ++ W II +LSAWGG+VRY++D+     +WSW+AV SQV++S+FTGL+GGL S ES
+Sbjct  7   AETQIIMWIIISVLSAWGGVVRYLMDRQETRCKWSWMAVISQVIISSFTGLLGGLLSFES  66
+
+Query  67  GVSRYMTFAIAGLFGAMGSTALQYLWHRFLG  97
+           G S Y+TF  +GLFGAMGSTAL Y+W RF  
+Sbjct  67  GASYYITFIFSGLFGAMGSTALSYIWSRFFN  97
+
+
+>WP_012777084.1 phage holin family protein [Photorhabdus asymbiotica]
+ RKS57696.1 LydA family holin superfamily III [Photorhabdus asymbiotica]
+ CAQ82989.1 conserved hypothetical protein [Photorhabdus asymbiotica]
+Length=102
+
+ Score = 114 bits (285),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 55/102 (54%), Positives = 71/102 (70%), Gaps = 0/102 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M F+I  D+ ++ W I+G ++AWGGLVRYI+D  N+   WSW+ V  Q+++S FTG++GG
+Sbjct  1    MSFIIPSDTQLIIWLIVGFIAAWGGLVRYIIDMQNKQYTWSWINVLCQLIISCFTGVLGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPK  102
+            L S ESG S YMTFAIAGLFG  GST L +LW R   H   K
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLNWLWRRLSIHHGGK  102
+
+
+>WP_112876805.1 MULTISPECIES: phage holin family protein [Photorhabdus]
+ MCT8342101.1 phage holin family protein [Photorhabdus kleinii]
+ RAX01107.1 holin [Photorhabdus sp. S9-53]
+ RAX01604.1 holin [Photorhabdus sp. S10-54]
+ RAX05019.1 holin [Photorhabdus sp. S8-52]
+Length=106
+
+ Score = 114 bits (285),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 54/99 (55%), Positives = 72/99 (73%), Gaps = 0/99 (0%)
+
+Query  1   MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+           M F+I  D+ ++ W IIG ++AWGGLVRY++D  N+  +WSW+ V  Q+++S FTG++GG
+Sbjct  1   MLFIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQNKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  61  LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQ  99
+           L S ESG S YMTFAIAGLFG  GST L +LW R + H 
+Sbjct  61  LLSFESGSSIYMTFAIAGLFGTTGSTGLNWLWRRLVMHH  99
+
+
+>NHB86251.1 holin [Photorhabdus tasmaniensis]
+Length=102
+
+ Score = 114 bits (285),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 55/102 (54%), Positives = 72/102 (71%), Gaps = 0/102 (0%)
+
+Query  1    MDFLILGDSFVLTWAIIGLLSAWGGLVRYILDKDNEGDEWSWVAVCSQVVVSAFTGLIGG  60
+            M   +  D+ ++ W IIG ++AWGGLVRY++D  N+  +WSW+ V  Q+++S FTG++GG
+Sbjct  1    MSLKMPSDTQLVIWLIIGFIAAWGGLVRYLIDIQNKQYKWSWINVLCQLIISCFTGILGG  60
+
+Query  61   LFSLESGVSRYMTFAIAGLFGAMGSTALQYLWHRFLGHQPPK  102
+            L S ESG S YMTFAIAGLFG  GST L +LW R L HQ  K
+Sbjct  61   LLSFESGGSIYMTFAIAGLFGTTGSTGLSWLWRRLLMHQGGK  102
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 30, 2023  2:48 AM
+  Number of letters in database: 252,764,064,435
+  Number of sequences in database:  645,636,360
+
+Lambda      K        H
+   0.326    0.141    0.465 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 645636360
+Number of Hits to DB: 14746632
+Number of extensions: 15677
+Number of successful extensions: 3153
+Number of sequences better than 100: 18
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 3152
+Number of HSP's successfully gapped: 18
+Length of query: 103
+Length of database: 252764064435
+Length adjustment: 73
+Effective length of query: 30
+Effective length of database: 205632610155
+Effective search space: 6168978304650
+Effective search space used: 6168978304650
+T: 19
+A: 40
+X1: 15 (7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 82 (36.2 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+

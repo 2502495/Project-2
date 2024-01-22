@@ -1,0 +1,933 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.14.1+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: TCB741U8016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           645,636,360 sequences; 252,764,064,435 total letters
+Query= 
+Length=113
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+AAQ61208.1 probable phage-related protein [Chromobacterium vio...  224     2e-73  100%        
+WP_210425961.1 phage holin family protein [Chromobacterium vio...  224     2e-73  100%        
+WP_220468471.1 phage holin family protein [Chromobacterium vio...  224     3e-73  100%        
+WP_218567064.1 phage holin family protein [Chromobacterium vio...  223     3e-73  100%        
+MBX9265673.1 phage holin family protein [Chromobacterium viola...  223     3e-73  99%         
+WP_230632145.1 phage holin family protein [Chromobacterium vio...  223     3e-73  100%        
+WP_244893841.1 phage holin family protein [Chromobacterium vio...  223     6e-73  99%         
+WP_230623846.1 phage holin family protein [Chromobacterium vio...  222     9e-73  99%         
+MBP4043809.1 phage holin family protein [Chromobacterium viola...  222     1e-72  99%         
+WP_246879307.1 phage holin family protein [Chromobacterium vio...  222     1e-72  99%         
+WP_239161174.1 phage holin family protein [Chromobacterium vio...  222     2e-72  98%         
+MBT2868718.1 phage holin family protein [Chromobacterium viola...  221     2e-72  98%         
+WP_254894261.1 phage holin family protein [Chromobacterium vio...  222     2e-72  98%         
+WP_244986196.1 phage holin family protein [Chromobacterium vio...  221     3e-72  98%         
+MCD0491217.1 phage holin family protein [Chromobacterium viola...  221     3e-72  99%         
+WP_246881010.1 phage holin family protein [Chromobacterium vio...  218     6e-71  98%         
+WP_254894813.1 phage holin family protein [Chromobacterium vio...  218     6e-71  98%         
+MBP4052026.1 phage holin family protein [Chromobacterium viola...  218     7e-71  98%         
+WP_244899067.1 phage holin family protein [Chromobacterium vio...  216     3e-70  97%         
+WP_232514889.1 phage holin family protein [Chromobacterium vio...  216     1e-69  97%         
+KJH68603.1 holin [Chromobacterium violaceum]                       199     1e-63  100%        
+WP_230677436.1 phage holin family protein [Chromobacterium vio...  198     3e-63  98%         
+OQS29775.1 holin [Chromobacterium violaceum]                       197     4e-63  99%         
+OQS11923.1 holin [Chromobacterium violaceum]                       197     4e-63  99%         
+WP_268907213.1 phage holin family protein [Chromobacterium vio...  196     1e-62  99%         
+KMN48632.1 holin [Chromobacterium violaceum]                       196     1e-62  98%         
+WP_207552521.1 phage holin family protein [Chromobacterium vio...  196     3e-62  96%         
+ATP29830.1 holin [Chromobacterium violaceum]                       195     4e-62  98%         
+STB64885.1 Uncharacterised protein [Chromobacterium violaceum]     172     3e-53  98%         
+WP_101706535.1 phage holin family protein [Chromobacterium sp....  127     4e-35  68%         
+WP_135315070.1 phage holin family protein [Serratia proteamacu...  124     3e-34  61%         
+WP_261092390.1 phage holin family protein [Serratia]               124     4e-34  64%         
+WP_047345313.1 phage holin family protein [Enterobacter genomo...  121     6e-33  59%         
+WP_032679435.1 phage holin family protein [Enterobacter]           121     7e-33  59%         
+PNM24582.1 holin [Yersinia enterocolitica]                         120     1e-32  57%         
+WP_032905698.1 phage holin family protein [Yersinia]               119     3e-32  56%         
+WP_042546197.1 phage holin family protein [Yersinia aldovae]       119     3e-32  57%         
+WP_050883344.1 phage holin family protein [Yersinia intermedia]    119     4e-32  56%         
+WP_049634135.1 phage holin family protein [Yersinia aldovae]       119     5e-32  56%         
+WP_050311019.1 phage holin family protein [Yersinia intermedia]    118     1e-31  56%         
+WP_145550250.1 phage holin family protein [Yersinia intermedia]    118     1e-31  55%         
+WP_101708789.1 phage holin family protein [Chromobacterium sp....  116     4e-31  65%         
+WP_225547955.1 phage holin family protein [Chromobacterium vio...  113     4e-30  98%         
+KMW73441.1 holin [Photorhabdus luminescens subsp. luminescens]     114     5e-30  56%         
+HCT7987903.1 TPA: phage holin family protein [Serratia liquefa...  114     6e-30  55%         
+WP_115457729.1 phage holin family protein [Enterobacillus trib...  113     1e-29  58%         
+WP_004875774.1 phage holin family protein [Yersinia mollaretii]    113     1e-29  56%         
+WP_112895498.1 phage holin family protein [Photorhabdus bodei]     113     1e-29  55%         
+NHB95858.1 holin [Photorhabdus stackebrandtii]                     112     1e-29  55%         
+WP_050116509.1 phage holin family protein [Yersinia thracica]      112     2e-29  57%         
+
+ALIGNMENTS
+>AAQ61208.1 probable phage-related protein [Chromobacterium violaceum ATCC 
+12472]
+Length=113
+
+ Score = 224 bits (570),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+
+
+>WP_210425961.1 phage holin family protein [Chromobacterium violaceum]
+Length=132
+
+ Score = 224 bits (572),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  20   MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  79
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  80   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  132
+
+
+>WP_220468471.1 phage holin family protein [Chromobacterium violaceum]
+Length=128
+
+ Score = 224 bits (570),  Expect = 3e-73, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  16   MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  75
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  76   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  128
+
+
+>WP_218567064.1 phage holin family protein [Chromobacterium violaceum]
+Length=118
+
+ Score = 223 bits (569),  Expect = 3e-73, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  6    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  65
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  66   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  118
+
+
+>MBX9265673.1 phage holin family protein [Chromobacterium violaceum]
+ QRO35421.1 phage holin family protein [Chromobacterium violaceum]
+ QRQ19118.1 phage holin family protein [Chromobacterium violaceum]
+Length=113
+
+ Score = 223 bits (569),  Expect = 3e-73, Method: Compositional matrix adjust.
+ Identities = 112/113 (99%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            M+GLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  1    MVGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+
+
+>WP_230632145.1 phage holin family protein [Chromobacterium violaceum]
+Length=118
+
+ Score = 223 bits (569),  Expect = 3e-73, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  6    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  65
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  66   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  118
+
+
+>WP_244893841.1 phage holin family protein [Chromobacterium violaceum]
+Length=132
+
+ Score = 223 bits (569),  Expect = 6e-73, Method: Compositional matrix adjust.
+ Identities = 112/113 (99%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  20   MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  79
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKI+SMAAK
+Sbjct  80   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKIISMAAK  132
+
+
+>WP_230623846.1 phage holin family protein [Chromobacterium violaceum]
+Length=118
+
+ Score = 222 bits (566),  Expect = 9e-73, Method: Compositional matrix adjust.
+ Identities = 112/113 (99%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  6    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  65
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKI+SMAAK
+Sbjct  66   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKIISMAAK  118
+
+
+>MBP4043809.1 phage holin family protein [Chromobacterium violaceum]
+Length=113
+
+ Score = 222 bits (565),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 112/113 (99%), Positives = 112/113 (99%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNI GVFSQ
+Sbjct  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNILGVFSQ  60
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+
+
+>WP_246879307.1 phage holin family protein [Chromobacterium violaceum]
+Length=118
+
+ Score = 222 bits (565),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 112/113 (99%), Positives = 112/113 (99%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNI GVFSQ
+Sbjct  6    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNILGVFSQ  65
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  66   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  118
+
+
+>WP_239161174.1 phage holin family protein [Chromobacterium violaceum]
+Length=132
+
+ Score = 222 bits (566),  Expect = 2e-72, Method: Compositional matrix adjust.
+ Identities = 111/113 (98%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            ++GLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  20   IVGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  79
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  80   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  132
+
+
+>MBT2868718.1 phage holin family protein [Chromobacterium violaceum]
+Length=113
+
+ Score = 221 bits (564),  Expect = 2e-72, Method: Compositional matrix adjust.
+ Identities = 111/113 (98%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQ
+Sbjct  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQ  60
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFE+ERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  61   VIVSGFTGLLGGLLGFENERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+
+
+>WP_254894261.1 phage holin family protein [Chromobacterium violaceum]
+Length=128
+
+ Score = 222 bits (565),  Expect = 2e-72, Method: Compositional matrix adjust.
+ Identities = 111/113 (98%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            ++GLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  16   IVGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  75
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  76   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  128
+
+
+>WP_244986196.1 phage holin family protein [Chromobacterium violaceum]
+Length=118
+
+ Score = 221 bits (563),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 111/113 (98%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQ
+Sbjct  6    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQ  65
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFE+ERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  66   VIVSGFTGLLGGLLGFENERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  118
+
+
+>MCD0491217.1 phage holin family protein [Chromobacterium violaceum]
+Length=128
+
+ Score = 221 bits (564),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 112/113 (99%), Positives = 112/113 (99%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  16   MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  75
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQK LSMAAK
+Sbjct  76   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKNLSMAAK  128
+
+
+>WP_246881010.1 phage holin family protein [Chromobacterium violaceum]
+Length=135
+
+ Score = 218 bits (556),  Expect = 6e-71, Method: Compositional matrix adjust.
+ Identities = 109/111 (98%), Positives = 111/111 (100%), Gaps = 0/111 (0%)
+
+Query  3    GLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVI  62
+            G+AWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQVI
+Sbjct  25   GMAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQVI  84
+
+Query  63   VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  85   VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  135
+
+
+>WP_254894813.1 phage holin family protein [Chromobacterium violaceum]
+Length=132
+
+ Score = 218 bits (556),  Expect = 6e-71, Method: Compositional matrix adjust.
+ Identities = 109/111 (98%), Positives = 111/111 (100%), Gaps = 0/111 (0%)
+
+Query  3    GLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVI  62
+            G+AWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQVI
+Sbjct  22   GMAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQVI  81
+
+Query  63   VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  82   VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  132
+
+
+>MBP4052026.1 phage holin family protein [Chromobacterium violaceum]
+Length=131
+
+ Score = 218 bits (555),  Expect = 7e-71, Method: Compositional matrix adjust.
+ Identities = 109/111 (98%), Positives = 111/111 (100%), Gaps = 0/111 (0%)
+
+Query  3    GLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVI  62
+            G+AWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQVI
+Sbjct  21   GMAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQVI  80
+
+Query  63   VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  81   VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  131
+
+
+>WP_244899067.1 phage holin family protein [Chromobacterium violaceum]
+Length=118
+
+ Score = 216 bits (550),  Expect = 3e-70, Method: Compositional matrix adjust.
+ Identities = 110/113 (97%), Positives = 111/113 (98%), Gaps = 0/113 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            MIGLA  GDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQ
+Sbjct  6    MIGLALRGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQ  65
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  66   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  118
+
+
+>WP_232514889.1 phage holin family protein [Chromobacterium violaceum]
+Length=150
+
+ Score = 216 bits (550),  Expect = 1e-69, Method: Compositional matrix adjust.
+ Identities = 108/111 (97%), Positives = 110/111 (99%), Gaps = 0/111 (0%)
+
+Query  3    GLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVI  62
+            G+AWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQVI
+Sbjct  40   GMAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQVI  99
+
+Query  63   VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALS IWQKILSMAAK
+Sbjct  100  VSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSCIWQKILSMAAK  150
+
+
+>KJH68603.1 holin [Chromobacterium violaceum]
+ MBA8734446.1 phage holin family protein [Chromobacterium violaceum]
+ OQS49975.1 holin [Chromobacterium violaceum]
+ OQS52326.1 holin [Chromobacterium violaceum]
+ QIY81952.1 holin [Chromobacterium violaceum]
+Length=101
+
+ Score = 199 bits (505),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG
+Sbjct  1    MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  61   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  101
+
+
+>WP_230677436.1 phage holin family protein [Chromobacterium violaceum]
+Length=102
+
+ Score = 198 bits (503),  Expect = 3e-63, Method: Compositional matrix adjust.
+ Identities = 100/102 (98%), Positives = 101/102 (99%), Gaps = 0/102 (0%)
+
+Query  12   MMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLG  71
+            MMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQVIVSGFTGLLG
+Sbjct  1    MMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQVIVSGFTGLLG  60
+
+Query  72   GLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            GLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMA K
+Sbjct  61   GLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAVK  102
+
+
+>OQS29775.1 holin [Chromobacterium violaceum]
+ OVE49196.1 holin [Chromobacterium violaceum]
+Length=101
+
+ Score = 197 bits (502),  Expect = 4e-63, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQVIVSGFTGLLGG
+Sbjct  1    MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQVIVSGFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK
+Sbjct  61   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  101
+
+
+>OQS11923.1 holin [Chromobacterium violaceum]
+ OQS29357.1 holin [Chromobacterium violaceum]
+Length=101
+
+ Score = 197 bits (502),  Expect = 4e-63, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG
+Sbjct  1    MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKI+SMAAK
+Sbjct  61   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKIISMAAK  101
+
+
+>WP_268907213.1 phage holin family protein [Chromobacterium violaceum]
+Length=101
+
+ Score = 196 bits (498),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG
+Sbjct  1    MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LLGFESERSYYITLAIAGLFGAMGNTALSYIWQK LSMAAK
+Sbjct  61   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKNLSMAAK  101
+
+
+>KMN48632.1 holin [Chromobacterium violaceum]
+ KMN87492.1 holin [Chromobacterium violaceum]
+ KMN90985.1 holin [Chromobacterium violaceum]
+ KMO03024.1 holin [Chromobacterium violaceum]
+Length=101
+
+ Score = 196 bits (498),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 99/101 (98%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQVIVSGFTGLLGG
+Sbjct  1    MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQVIVSGFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMA K
+Sbjct  61   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAVK  101
+
+
+>WP_207552521.1 phage holin family protein [Chromobacterium violaceum]
+Length=127
+
+ Score = 196 bits (498),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 97/101 (96%), Positives = 99/101 (98%), Gaps = 0/101 (0%)
+
+Query  1    MIGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  60
+            ++GLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ
+Sbjct  20   IVGLAWHGDGEMMGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQ  79
+
+Query  61   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALS  101
+            VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTA  
+Sbjct  80   VIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTAFK  120
+
+
+>ATP29830.1 holin [Chromobacterium violaceum]
+ ATP33736.1 holin [Chromobacterium violaceum]
+Length=101
+
+ Score = 195 bits (495),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 99/101 (98%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDV+GRQKKWNIFGVFSQVIVSGFTGLLGG
+Sbjct  1    MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVEGRQKKWNIFGVFSQVIVSGFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LLGFESERSYYITLAIAGLFGAMGNTALS IWQKILSMAAK
+Sbjct  61   LLGFESERSYYITLAIAGLFGAMGNTALSCIWQKILSMAAK  101
+
+
+>STB64885.1 Uncharacterised protein [Chromobacterium violaceum]
+ SUX33813.1 Uncharacterised protein [Chromobacterium violaceum]
+Length=96
+
+ Score = 172 bits (437),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 87/89 (98%), Positives = 87/89 (98%), Gaps = 0/89 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG
+Sbjct  1    MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALS  101
+            LLGFESERSYYITLAIAGLFGAMGNTA  
+Sbjct  61   LLGFESERSYYITLAIAGLFGAMGNTAFK  89
+
+
+>WP_101706535.1 phage holin family protein [Chromobacterium sp. ATCC 53434]
+ AUH49362.1 holin [Chromobacterium sp. ATCC 53434]
+Length=101
+
+ Score = 127 bits (318),  Expect = 4e-35, Method: Compositional matrix adjust.
+ Identities = 69/101 (68%), Positives = 82/101 (81%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M  +KPS  QI TW LIGGFSAWGG+VRYIIDVQ +Q+ WN+F + SQVI+SGFTGLLGG
+Sbjct  1    MLVLKPSGTQILTWVLIGGFSAWGGIVRYIIDVQEKQRSWNLFDILSQVIISGFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LLGFE+ +SYY TLAIAGL G MGNTAL+YI ++ LS   +
+Sbjct  61   LLGFENAKSYYFTLAIAGLCGTMGNTALNYIRKRFLSNPIR  101
+
+
+>WP_135315070.1 phage holin family protein [Serratia proteamaculans]
+ TFZ53391.1 holin [Serratia proteamaculans]
+Length=104
+
+ Score = 124 bits (312),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 59/96 (61%), Positives = 73/96 (76%), Gaps = 0/96 (0%)
+
+Query  17   KPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGGLLGF  76
+             P D Q+FTW +IG FSAWGG+VRY++D QG+  KW+  GV SQVI+S FTGLLGGLL F
+Sbjct  5    TPVDTQVFTWLIIGCFSAWGGLVRYLMDTQGQPHKWSWMGVISQVIISSFTGLLGGLLSF  64
+
+Query  77   ESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAA  112
+            ES  S Y+T AIAGLFG +G+TALSY+W++     A
+Sbjct  65   ESNASRYMTFAIAGLFGTLGSTALSYLWRRFFGQNA  100
+
+
+>WP_261092390.1 MULTISPECIES: phage holin family protein [Serratia]
+ MDW5506288.1 phage holin family protein [Pseudomonas lundensis]
+ MDW5501223.1 phage holin family protein [Serratia proteamaculans]
+ CAI1058544.1 Uncharacterised protein [Serratia quinivorans]
+ CAI1073996.1 Uncharacterised protein [Serratia quinivorans]
+ CAI1105329.1 Uncharacterised protein [Serratia quinivorans]
+Length=101
+
+ Score = 124 bits (311),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 58/90 (64%), Positives = 72/90 (80%), Gaps = 0/90 (0%)
+
+Query  17   KPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGGLLGF  76
+             P D Q+FTW +IG FSAWGG+VRY++D QG+  KW+  GV SQVI+S FTGLLGGLL F
+Sbjct  5    TPVDTQVFTWLIIGCFSAWGGLVRYLMDTQGQPHKWSWMGVISQVIISSFTGLLGGLLSF  64
+
+Query  77   ESERSYYITLAIAGLFGAMGNTALSYIWQK  106
+            ES  S Y+T AIAGLFG +G+TALSY+W++
+Sbjct  65   ESNASRYMTFAIAGLFGTLGSTALSYLWRR  94
+
+
+>WP_047345313.1 phage holin family protein [Enterobacter genomosp. O]
+ KLP61726.1 holin [Enterobacter genomosp. O]
+ HCR0213827.1 phage holin family protein [Enterobacter hormaechei]
+ HDT2963715.1 phage holin family protein [Enterobacter hormaechei subsp. steigerwaltii]
+Length=102
+
+ Score = 121 bits (304),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 57/97 (59%), Positives = 72/97 (74%), Gaps = 0/97 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M F +P +A I TW +IG FS WGG+VRYI+D Q +Q KW+  G+  Q+IVSGFTGL GG
+Sbjct  1    MPFREPGEANIITWLIIGAFSTWGGLVRYIMDTQNKQTKWSWMGIICQLIVSGFTGLTGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILS  109
+            LL FE+  S Y+T  +AGLFG MG+TALSY+WQ+I  
+Sbjct  61   LLSFETGASSYMTFIVAGLFGTMGSTALSYLWQRIFP  97
+
+
+>WP_032679435.1 MULTISPECIES: phage holin family protein [Enterobacter]
+ ELH0000218.1 phage holin family protein [Enterobacter cloacae]
+ EUM24181.1 hypothetical protein L462_04266 [Enterobacter sp. BIDMC 26]
+ MBE3289681.1 phage holin family protein [Enterobacter cloacae complex sp. 
+P31C]
+ MCU6217889.1 phage holin family protein [Enterobacter bugandensis]
+Length=102
+
+ Score = 121 bits (303),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 57/97 (59%), Positives = 72/97 (74%), Gaps = 0/97 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M F +P +A I TW +IG FS WGG+VRYI+D Q +Q KW+  G+  Q+IVSGFTGL GG
+Sbjct  1    MPFREPGEANIITWLIIGAFSTWGGLVRYIMDTQNKQTKWSWMGIVCQLIVSGFTGLTGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILS  109
+            LL FE+  S Y+T  +AGLFG MG+TALSY+WQ+I  
+Sbjct  61   LLSFETGASSYMTFIVAGLFGTMGSTALSYLWQRIFP  97
+
+
+>PNM24582.1 holin [Yersinia enterocolitica]
+Length=101
+
+ Score = 120 bits (302),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 58/101 (57%), Positives = 74/101 (73%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M    P++ Q+ TW +IG  SAWGGVVRY+ID QG + KW+   V SQVI+S FTGLLGG
+Sbjct  1    MSLKPPAETQVITWVIIGVLSAWGGVVRYLIDKQGTRCKWSWMAVISQVIISSFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LL FES  SYY+T   +GLFGAMG+TALSYIW++  + + +
+Sbjct  61   LLSFESGASYYMTFIFSGLFGAMGSTALSYIWRRFFNPSGR  101
+
+
+>WP_032905698.1 MULTISPECIES: phage holin family protein [Yersinia]
+ AJJ20243.1 putative membrane protein [Yersinia intermedia]
+ ARB85915.1 holin [Yersinia sp. FDAARGOS_228]
+ AVL35758.1 holin [Yersinia intermedia]
+ MCB5297501.1 phage holin family protein [Yersinia intermedia]
+ MCB5312416.1 phage holin family protein [Yersinia intermedia]
+Length=101
+
+ Score = 119 bits (299),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 57/101 (56%), Positives = 74/101 (73%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M    P++ Q+ TW +IG  SAWGGVVRY++D QG + KW+   V SQVI+S FTGLLGG
+Sbjct  1    MSLKPPAETQVITWVIIGVLSAWGGVVRYLMDKQGTRCKWSWMAVISQVIISSFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LL FES  SYY+T   +GLFGAMG+TALSYIW++  + + +
+Sbjct  61   LLSFESGASYYMTFIFSGLFGAMGSTALSYIWRRFFNPSGR  101
+
+
+>WP_042546197.1 phage holin family protein [Yersinia aldovae]
+ AJJ62576.1 putative membrane protein [Yersinia aldovae 670-83]
+Length=101
+
+ Score = 119 bits (299),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 58/101 (57%), Positives = 74/101 (73%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M    P++ QI TW +IG  SAWGGVVRY++D QG + KW+   V SQVI+S FTGLLGG
+Sbjct  1    MSLKPPAETQIITWIIIGVLSAWGGVVRYLMDRQGTRCKWSWMAVISQVIISSFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LL FES  SYY+T   +GLFGAMG+TALSYIW++  + + +
+Sbjct  61   LLSFESGASYYMTFIFSGLFGAMGSTALSYIWRRFFNPSGR  101
+
+
+>WP_050883344.1 phage holin family protein [Yersinia intermedia]
+ MCB5321436.1 phage holin family protein [Yersinia intermedia]
+ CQJ67489.1 putative phage-like protein [Yersinia intermedia]
+Length=101
+
+ Score = 119 bits (298),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 57/101 (56%), Positives = 74/101 (73%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M    P++ Q+ TW +IG  SAWGGVVRY++D QG + KW+   V SQVI+S FTGLLGG
+Sbjct  1    MSLKPPAETQVITWVIIGVLSAWGGVVRYLMDKQGTRCKWSWMAVISQVIISSFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LL FES  SYY+T   +GLFGAMG+TALSYIW++  + + +
+Sbjct  61   LLSFESGVSYYMTFIFSGLFGAMGSTALSYIWRRFFNPSGR  101
+
+
+>WP_049634135.1 phage holin family protein [Yersinia aldovae]
+ CNH72550.1 putative phage-like protein [Yersinia aldovae]
+Length=101
+
+ Score = 119 bits (298),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 57/101 (56%), Positives = 74/101 (73%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M    P++ Q+ TW +IG  SAWGGVVRY++D QG + KW+   V SQVI+S FTGLLGG
+Sbjct  1    MSLKPPAETQVITWIIIGVLSAWGGVVRYLMDRQGTRCKWSWMAVISQVIISSFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LL FES  SYY+T   +GLFGAMG+TALSYIW++  + + +
+Sbjct  61   LLSFESGASYYMTFIFSGLFGAMGSTALSYIWRRFFNPSGR  101
+
+
+>WP_050311019.1 phage holin family protein [Yersinia intermedia]
+ MDA5513903.1 phage holin family protein [Yersinia intermedia]
+ CNH94062.1 putative phage-like protein [Yersinia intermedia]
+ CQD79117.1 putative phage-like protein [Yersinia intermedia]
+Length=101
+
+ Score = 118 bits (296),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 57/101 (56%), Positives = 74/101 (73%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M    P++ Q+ TW +IG  SAWGGVVRY++D QG + KW+   V SQVI+S FTGLLGG
+Sbjct  1    MSLKPPAETQVITWVIIGVLSAWGGVVRYLMDKQGTRCKWSWMVVISQVIISSFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LL FES  SYY+T   +GLFGAMG+TALSYIW++  + + +
+Sbjct  61   LLSFESGASYYMTFIFSGLFGAMGSTALSYIWRRFFNPSGR  101
+
+
+>WP_145550250.1 phage holin family protein [Yersinia intermedia]
+Length=101
+
+ Score = 118 bits (295),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 56/101 (55%), Positives = 73/101 (72%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M    P++ Q+ TW +IG  SAWGGVVRY++D QG + KW+   V SQVI+S FT LLGG
+Sbjct  1    MSLKPPAETQVITWVIIGVLSAWGGVVRYLMDKQGTRCKWSWMAVISQVIISSFTSLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            LL FES  SYY+T   +GLFGAMG+TALSYIW++  + + +
+Sbjct  61   LLSFESGASYYMTFIFSGLFGAMGSTALSYIWRRFFNPSGR  101
+
+
+>WP_101708789.1 phage holin family protein [Chromobacterium sp. ATCC 53434]
+ AUH51662.1 holin [Chromobacterium sp. ATCC 53434]
+Length=102
+
+ Score = 116 bits (291),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 61/94 (65%), Positives = 78/94 (83%), Gaps = 0/94 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M FI P++ Q+ TW +IGGFSAWGG+VRYII+VQG+ K W+I G+ SQ++VSGFTGLLGG
+Sbjct  1    MAFITPNNVQVATWVVIGGFSAWGGLVRYIIEVQGKNKAWDIVGLLSQIVVSGFTGLLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQK  106
+            LL FE+  S+Y TLAIAGLFG MG+ AL+Y+W +
+Sbjct  61   LLSFENGGSHYFTLAIAGLFGTMGSAALAYLWNR  94
+
+
+>WP_225547955.1 phage holin family protein [Chromobacterium violaceum]
+Length=62
+
+ Score = 113 bits (282),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  55   FGVFSQVIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            FGVFSQVIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMA K
+Sbjct  4    FGVFSQVIVSGFTGLLGGLLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAVK  62
+
+
+>KMW73441.1 holin [Photorhabdus luminescens subsp. luminescens]
+ TDB55587.1 holin [Photorhabdus luminescens subsp. mexicana]
+ SCZ70892.1 LydA holin phage, holin superfamily III [Photorhabdus luminescens]
+Length=106
+
+ Score = 114 bits (285),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 53/95 (56%), Positives = 72/95 (76%), Gaps = 0/95 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M FI PSD Q+ +W +IG  +AWGG+VRY+ID+Q +Q KWN   V  Q+I+S FTG+LGG
+Sbjct  1    MSFIMPSDTQLMSWLIIGFIAAWGGLVRYLIDIQNKQCKWNWINVLCQLIISCFTGILGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKI  107
+            LL FES  S Y+T AIAGLFG  G++ L++IW+++
+Sbjct  61   LLSFESGGSPYMTFAIAGLFGTTGSSGLNWIWRRL  95
+
+
+>HCT7987903.1 phage holin family protein [Serratia liquefaciens]
+Length=102
+
+ Score = 114 bits (284),  Expect = 6e-30, Method: Compositional matrix adjust.
+ Identities = 53/97 (55%), Positives = 68/97 (70%), Gaps = 0/97 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M    P +A I TW +IG FS WGG+VRYI+D Q +Q  W+  G+  Q+IVSGFTGL GG
+Sbjct  1    MPLRDPGEANIITWLIIGAFSTWGGLVRYIMDTQNKQTTWSWMGIICQLIVSGFTGLTGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILS  109
+            LL FE+  S Y+T  ++GLFG MG+ ALSY+WQ+I  
+Sbjct  61   LLSFETGASAYMTFIVSGLFGTMGSAALSYLWQRIFP  97
+
+
+>WP_115457729.1 phage holin family protein [Enterobacillus tribolii]
+ MBW7984813.1 holin [Enterobacillus tribolii]
+ RDK96004.1 LydA family holin superfamily III [Enterobacillus tribolii]
+Length=101
+
+ Score = 113 bits (282),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 56/96 (58%), Positives = 69/96 (72%), Gaps = 0/96 (0%)
+
+Query  18   PSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGGLLGFE  77
+            P D Q   W +IG FSAWGG+VRY++D+QG + KW   G  SQVI+S FTGLLGGLL FE
+Sbjct  6    PIDTQFIIWVIIGIFSAWGGLVRYLMDIQGARYKWRWMGAISQVIISSFTGLLGGLLIFE  65
+
+Query  78   SERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            S  SYY+    +GLFGAMG+TALSYIW+ +   + K
+Sbjct  66   SGASYYMAFIFSGLFGAMGSTALSYIWRYLFHSSKK  101
+
+
+>WP_004875774.1 phage holin family protein [Yersinia mollaretii]
+ EEQ10064.1 hypothetical protein ymoll0001_35900 [Yersinia mollaretii ATCC 
+43969]
+ MDN0112899.1 phage holin family protein [Yersinia mollaretii]
+ PJE88192.1 holin [Yersinia mollaretii]
+ QKJ02085.1 phage holin family protein [Yersinia mollaretii ATCC 43969]
+ CQD35631.1 putative phage-like protein [Yersinia mollaretii]
+Length=103
+
+ Score = 113 bits (282),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 57/101 (56%), Positives = 70/101 (69%), Gaps = 0/101 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M F+   D+ + TWA+IG  SAWGG+VRYI+D    + +W+   V SQVIVSGFTGL+GG
+Sbjct  1    MSFLSDGDSFVLTWAIIGLLSAWGGLVRYILDKDNEEDEWSWVAVISQVIVSGFTGLIGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILSMAAK  113
+            L  FES  S Y+T AIAGLFGAMG+TAL YIW +     A 
+Sbjct  61   LFSFESGGSRYMTFAIAGLFGAMGSTALQYIWNRFFGHQAP  101
+
+
+>WP_112895498.1 phage holin family protein [Photorhabdus bodei]
+ NDK99954.1 holin [Photorhabdus bodei]
+ NDL04148.1 holin [Photorhabdus bodei]
+ NDL08198.1 holin [Photorhabdus bodei]
+ RAX12183.1 holin [Photorhabdus bodei]
+Length=106
+
+ Score = 113 bits (282),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 53/97 (55%), Positives = 74/97 (76%), Gaps = 0/97 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M FI PSD Q+  W +IG  +AWGG+VRY+ID+Q +Q KW+   VF Q+I+S FTG+LGG
+Sbjct  1    MLFIIPSDTQLIIWLIIGFIAAWGGLVRYLIDMQHKQYKWSWINVFCQLIISCFTGVLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILS  109
+            LL FES  S Y+T AIAGLFG  G+T L+++W+++++
+Sbjct  61   LLSFESGSSIYMTFAIAGLFGTTGSTGLNWLWRRLIT  97
+
+
+>NHB95858.1 holin [Photorhabdus stackebrandtii]
+Length=102
+
+ Score = 112 bits (281),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 53/96 (55%), Positives = 71/96 (74%), Gaps = 0/96 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M FI PSD Q+  W +IG  +AWGG+VRYIID+Q +Q KW+   VF Q+I+S FTG+LGG
+Sbjct  1    MSFIMPSDTQLIIWLIIGFIAAWGGLVRYIIDMQNKQDKWSWINVFCQLIISCFTGVLGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKIL  108
+            L+ FES  + Y+T AIAGLFG  G+T L +IW+++ 
+Sbjct  61   LMSFESGGTIYMTFAIAGLFGTTGSTGLDWIWRRLF  96
+
+
+>WP_050116509.1 phage holin family protein [Yersinia thracica]
+ CNI39340.1 putative phage-like protein [Yersinia thracica]
+Length=104
+
+ Score = 112 bits (281),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 55/97 (57%), Positives = 69/97 (71%), Gaps = 0/97 (0%)
+
+Query  13   MGFIKPSDAQIFTWALIGGFSAWGGVVRYIIDVQGRQKKWNIFGVFSQVIVSGFTGLLGG  72
+            M  + P D  I TW +IG  SAWGG+VRYI+D    + +W+   V SQ+IVSGFTGL+GG
+Sbjct  1    MQALVPGDNFIITWLIIGALSAWGGLVRYILDKNNEEDEWSWVAVISQIIVSGFTGLIGG  60
+
+Query  73   LLGFESERSYYITLAIAGLFGAMGNTALSYIWQKILS  109
+            LL FE   S Y+T A+AGLFGAMGN+AL Y+WQ+  S
+Sbjct  61   LLAFEGGTSRYMTFALAGLFGAMGNSALQYLWQRFFS  97
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 30, 2023  2:48 AM
+  Number of letters in database: 252,764,064,435
+  Number of sequences in database:  645,636,360
+
+Lambda      K        H
+   0.326    0.143    0.458 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 645636360
+Number of Hits to DB: 16475334
+Number of extensions: 21091
+Number of successful extensions: 3401
+Number of sequences better than 100: 16
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 3401
+Number of HSP's successfully gapped: 16
+Length of query: 113
+Length of database: 252764064435
+Length adjustment: 82
+Effective length of query: 31
+Effective length of database: 199821882915
+Effective search space: 6194478370365
+Effective search space used: 6194478370365
+T: 19
+A: 40
+X1: 15 (7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 82 (36.2 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+

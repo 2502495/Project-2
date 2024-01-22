@@ -1,0 +1,4 @@
+query acc.ver,subject acc.ver,% identity,alignment length,mismatches,gap opens,q. start,q. end,s. start,s. end,e-value,bit score
+CAI77377.1(Holin),NY2003054_NewYersinia2,69.892,93,28,0,8,100,8,100,2.03E-45,139
+CAI77378.1(Endolysin),NY2001244_NewYersinia2,78.195,133,29,0,1,133,1,133,2.32E-71,207
+CAI77379.1(I-spanin),NY2001243_NewYersinia2,54.622,119,54,0,1,119,1,119,8.21E-41,128

@@ -1,0 +1,951 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.14.1+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: TCB2RB6N016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           645,636,360 sequences; 252,764,064,435 total letters
+Query= 
+Length=102
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_047964150.1 phage holin family protein [Xenorhabdus khoisanae]  207     4e-67  100%        
+KMJ45461.1 holin [Xenorhabdus khoisanae]                           203     2e-65  99%         
+WP_235428098.1 phage holin family protein [Xenorhabdus khoisanae]  202     2e-65  100%        
+WP_235428058.1 phage holin family protein [Xenorhabdus khoisanae]  199     8e-64  99%         
+WP_273548202.1 phage holin family protein [Xenorhabdus khoisanae]  197     3e-63  98%         
+WP_099121355.1 phage holin family protein [Xenorhabdus]            184     4e-58  94%         
+WP_099111981.1 phage holin family protein [Xenorhabdus]            183     1e-57  94%         
+WP_099110927.1 phage holin family protein [Xenorhabdus sp. KJ1...  182     4e-57  93%         
+WP_228865825.1 phage holin family protein [Xenorhabdus sp. PB3...  182     4e-57  94%         
+WP_273559954.1 phage holin family protein [Xenorhabdus griffin...  181     1e-56  95%         
+WP_099109878.1 phage holin family protein [Xenorhabdus sp. KJ1...  181     1e-56  93%         
+PHM56710.1 holin [Xenorhabdus sp. KK7.4]                           180     2e-56  94%         
+WP_228863328.1 phage holin family protein [Xenorhabdus sp. PB3...  179     5e-56  94%         
+PHM55121.1 holin [Xenorhabdus sp. KK7.4]                           179     7e-56  94%         
+PHM68680.1 holin [Xenorhabdus sp. KJ12.1]                          177     2e-55  93%         
+PHM70396.1 holin [Xenorhabdus sp. KJ12.1]                          176     5e-55  93%         
+WP_069315927.1 phage holin family protein [Xenorhabdus hominic...  175     2e-54  86%         
+WP_069316231.1 phage holin family protein [Xenorhabdus hominic...  174     6e-54  85%         
+WP_309297001.1 phage holin family protein [Leminorella grimontii]  174     6e-54  88%         
+PHM58411.1 holin [Xenorhabdus hominickii]                          169     3e-52  85%         
+WP_155270994.1 phage holin family protein [Xenorhabdus bovienii]   166     5e-51  88%         
+WP_274725117.1 phage holin family protein [Xenorhabdus bovienii]   166     8e-51  87%         
+WP_172664658.1 phage holin family protein [Xenorhabdus bovienii]   166     9e-51  87%         
+WP_274721159.1 phage holin family protein [Xenorhabdus bovienii]   166     1e-50  88%         
+WP_275323458.1 phage holin family protein [Xenorhabdus bovienii]   165     2e-50  87%         
+WP_038256023.1 phage holin family protein [Xenorhabdus]            162     3e-49  88%         
+WP_038197392.1 phage holin family protein [Xenorhabdus bovienii]   161     5e-49  87%         
+WP_145525892.1 phage holin family protein [Yersinia]               135     7e-39  64%         
+WP_210174316.1 phage holin family protein [Dickeya oryzae]         134     2e-38  65%         
+AKE09197.1 holin [Serratia liquefaciens]                           134     3e-38  62%         
+WP_280548561.1 phage holin family protein [Arsenophonus sp. aPb]   134     5e-38  65%         
+WP_280630108.1 phage holin family protein [Arsenophonus nasoniae]  133     6e-38  65%         
+WP_280629292.1 phage holin family protein [Arsenophonus nasoniae]  132     2e-37  64%         
+HEJ7888715.1 TPA: phage holin family protein [Serratia liquefa...  131     6e-37  62%         
+WP_144408536.1 phage holin family protein [Serratia liquefaciens]  131     6e-37  62%         
+CAI0818475.1 Uncharacterised protein [Serratia entomophila]        132     9e-37  60%         
+MBC3250468.1 phage holin family protein [Serratia fonticola]       129     3e-36  60%         
+WP_195681440.1 phage holin family protein [Aliarcobacter butzl...  129     3e-36  66%         
+MBF7071768.1 holin [Aliarcobacter butzleri]                        129     3e-36  66%         
+WP_201621332.1 phage holin family protein [Serratia]               129     5e-36  60%         
+WP_246758847.1 phage holin family protein [Erwinia phyllosphae...  129     6e-36  58%         
+MDE1511992.1 phage holin family protein [Serratia nevei]           128     7e-36  60%         
+HCM3154960.1 TPA: phage holin family protein [Klebsiella quasi...  127     1e-35  64%         
+EFI3812895.1 holin [Escherichia coli]                              126     5e-35  68%         
+WP_234591188.1 phage holin family protein [Serratia entomophila]   125     6e-35  62%         
+WP_179252709.1 phage holin family protein [Serratia fonticola]     125     7e-35  62%         
+HDT0488247.1 TPA: phage holin family protein [Escherichia coli]    125     8e-35  68%         
+WP_074021561.1 phage holin family protein [Xenorhabdus thuongx...  125     1e-34  59%         
+WP_136720828.1 phage holin family protein [Escherichia coli]       124     2e-34  68%         
+EFM4717939.1 holin [Escherichia coli]                              124     2e-34  61%         
+
+ALIGNMENTS
+>WP_047964150.1 phage holin family protein [Xenorhabdus khoisanae]
+ KMJ44366.1 holin [Xenorhabdus khoisanae]
+ MDC9615830.1 phage holin family protein [Xenorhabdus khoisanae]
+Length=102
+
+ Score = 207 bits (527),  Expect = 4e-67, Method: Compositional matrix adjust.
+ Identities = 102/102 (100%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI
+Sbjct  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR
+Sbjct  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+
+
+>KMJ45461.1 holin [Xenorhabdus khoisanae]
+Length=102
+
+ Score = 203 bits (516),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 101/102 (99%), Positives = 101/102 (99%), Gaps = 0/102 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI
+Sbjct  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGD R
+Sbjct  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDPR  102
+
+
+>WP_235428098.1 phage holin family protein [Xenorhabdus khoisanae]
+Length=100
+
+ Score = 202 bits (515),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 100/100 (100%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG
+Sbjct  1    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR
+Sbjct  61   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  100
+
+
+>WP_235428058.1 phage holin family protein [Xenorhabdus khoisanae]
+Length=100
+
+ Score = 199 bits (505),  Expect = 8e-64, Method: Compositional matrix adjust.
+ Identities = 99/100 (99%), Positives = 99/100 (99%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG
+Sbjct  1    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGD R
+Sbjct  61   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDPR  100
+
+
+>WP_273548202.1 phage holin family protein [Xenorhabdus khoisanae]
+ MDC9614279.1 phage holin family protein [Xenorhabdus khoisanae]
+Length=100
+
+ Score = 197 bits (501),  Expect = 3e-63, Method: Compositional matrix adjust.
+ Identities = 98/100 (98%), Positives = 98/100 (98%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG
+Sbjct  1    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLYMTFASAGMCGAMGSI LTYFWNRLTGD R
+Sbjct  61   FISLEAGLSLYMTFASAGMCGAMGSIVLTYFWNRLTGDPR  100
+
+
+>WP_099121355.1 MULTISPECIES: phage holin family protein [Xenorhabdus]
+Length=102
+
+ Score = 184 bits (467),  Expect = 4e-58, Method: Compositional matrix adjust.
+ Identities = 96/102 (94%), Positives = 98/102 (96%), Gaps = 0/102 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDPS FEL+QWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQV+VSGFTGLI
+Sbjct  1    MRMPNKDPSSFELHQWLILLLLSAWGGIVRYIIDIKTSNARWSWLGAFAQVIVSGFTGLI  60
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  102
+
+
+>WP_099111981.1 MULTISPECIES: phage holin family protein [Xenorhabdus]
+ MCC8367988.1 phage holin family protein [Xenorhabdus sp. PB61.4]
+Length=102
+
+ Score = 183 bits (464),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 96/102 (94%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDPS FEL QWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQV+VSGFTGLI
+Sbjct  1    MRMPNKDPSSFELSQWLILLLLSAWGGIVRYIIDIKTSNARWSWLGAFAQVIVSGFTGLI  60
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  102
+
+
+>WP_099110927.1 phage holin family protein [Xenorhabdus sp. KJ12.1]
+Length=102
+
+ Score = 182 bits (461),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 95/102 (93%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDPS FEL+QWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQV+VS FTGLI
+Sbjct  1    MRMPNKDPSSFELHQWLILLLLSAWGGIVRYIIDIKTSNARWSWLGAFAQVIVSRFTGLI  60
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  102
+
+
+>WP_228865825.1 phage holin family protein [Xenorhabdus sp. PB30.3]
+ MCC8382005.1 phage holin family protein [Xenorhabdus sp. PB30.3]
+Length=102
+
+ Score = 182 bits (461),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 96/102 (94%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDPS FEL QWLILLLLSAWGGIVRYIIDIKTSNARWSWFGA AQV+VSGFTGLI
+Sbjct  1    MRMPNKDPSSFELSQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAFAQVIVSGFTGLI  60
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLYMTFASAGMC AMGSIALTYFWNRLTG HR
+Sbjct  61   GGFISLEAGLSLYMTFASAGMCVAMGSIALTYFWNRLTGVHR  102
+
+
+>WP_273559954.1 phage holin family protein [Xenorhabdus griffiniae]
+ MDC9605637.1 phage holin family protein [Xenorhabdus griffiniae]
+Length=100
+
+ Score = 181 bits (458),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 95/100 (95%), Positives = 96/100 (96%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDPS FEL QWLILLLLSAWGGIVRYIIDIKTSNARWSWFGA AQV+VSGFTGLIGG
+Sbjct  1    MPNKDPSSFELSQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAFAQVIVSGFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  100
+
+
+>WP_099109878.1 phage holin family protein [Xenorhabdus sp. KJ12.1]
+Length=102
+
+ Score = 181 bits (458),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 95/102 (93%), Positives = 96/102 (94%), Gaps = 0/102 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDP  FEL QWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQV+VSGFTGLI
+Sbjct  1    MRMPNKDPGSFELSQWLILLLLSAWGGIVRYIIDIKTSNARWSWLGAFAQVIVSGFTGLI  60
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  102
+
+
+>PHM56710.1 holin [Xenorhabdus sp. KK7.4]
+ PHM57044.1 holin [Xenorhabdus stockiae]
+Length=100
+
+ Score = 180 bits (457),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 94/100 (94%), Positives = 96/100 (96%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDPS FEL+QWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQV+VSGFTGLIGG
+Sbjct  1    MPNKDPSSFELHQWLILLLLSAWGGIVRYIIDIKTSNARWSWLGAFAQVIVSGFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  100
+
+
+>WP_228863328.1 phage holin family protein [Xenorhabdus sp. PB30.3]
+ MCC8378969.1 phage holin family protein [Xenorhabdus sp. PB30.3]
+Length=100
+
+ Score = 179 bits (454),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 94/100 (94%), Positives = 96/100 (96%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MP+KDPS FEL QWLILLLLSAWGGIVRYIIDIKTSNARWSWFGA AQV+VSGFTGLIGG
+Sbjct  1    MPDKDPSSFELSQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAFAQVIVSGFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  100
+
+
+>PHM55121.1 holin [Xenorhabdus sp. KK7.4]
+ PHM60520.1 holin [Xenorhabdus stockiae]
+ PHM65276.1 holin [Xenorhabdus sp. KJ12.1]
+Length=100
+
+ Score = 179 bits (453),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 94/100 (94%), Positives = 95/100 (95%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDPS FEL QWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQV+VSGFTGLIGG
+Sbjct  1    MPNKDPSSFELSQWLILLLLSAWGGIVRYIIDIKTSNARWSWLGAFAQVIVSGFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  100
+
+
+>PHM68680.1 holin [Xenorhabdus sp. KJ12.1]
+Length=100
+
+ Score = 177 bits (450),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 93/100 (93%), Positives = 95/100 (95%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDPS FEL+QWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQV+VS FTGLIGG
+Sbjct  1    MPNKDPSSFELHQWLILLLLSAWGGIVRYIIDIKTSNARWSWLGAFAQVIVSRFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  100
+
+
+>PHM70396.1 holin [Xenorhabdus sp. KJ12.1]
+Length=100
+
+ Score = 176 bits (447),  Expect = 5e-55, Method: Compositional matrix adjust.
+ Identities = 93/100 (93%), Positives = 94/100 (94%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDP  FEL QWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQV+VSGFTGLIGG
+Sbjct  1    MPNKDPGSFELSQWLILLLLSAWGGIVRYIIDIKTSNARWSWLGAFAQVIVSGFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG HR
+Sbjct  61   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGAHR  100
+
+
+>WP_069315927.1 phage holin family protein [Xenorhabdus hominickii]
+ AOM40189.1 holin [Xenorhabdus hominickii]
+Length=102
+
+ Score = 175 bits (444),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 88/102 (86%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDPS FELYQWL+LLLLSAWGGIVRY+ID+KT+NARWSWFGA AQV +SGFTGLI
+Sbjct  1    MRMPNKDPSSFELYQWLLLLLLSAWGGIVRYLIDLKTNNARWSWFGAFAQVAISGFTGLI  60
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSL++T+ASAGM GAMGSIALTYFWNR+TGD R
+Sbjct  61   GGFISLEAGLSLFLTYASAGMSGAMGSIALTYFWNRVTGDQR  102
+
+
+>WP_069316231.1 phage holin family protein [Xenorhabdus hominickii]
+ AOM40514.1 holin [Xenorhabdus hominickii]
+ AOM42399.1 holin [Xenorhabdus hominickii]
+Length=102
+
+ Score = 174 bits (440),  Expect = 6e-54, Method: Compositional matrix adjust.
+ Identities = 87/102 (85%), Positives = 96/102 (94%), Gaps = 0/102 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDPS FELYQWL+LLLLSAWGGIVRY+ID+KT+N RWSWFGA AQV +SGFTGLI
+Sbjct  1    MRMPNKDPSSFELYQWLLLLLLSAWGGIVRYLIDLKTNNTRWSWFGAFAQVAISGFTGLI  60
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSL++T+ASAGM GAMGSIALTYFWNR+TGD R
+Sbjct  61   GGFISLEAGLSLFLTYASAGMSGAMGSIALTYFWNRVTGDQR  102
+
+
+>WP_309297001.1 phage holin family protein [Leminorella grimontii]
+ GKX58360.1 holin [Leminorella grimontii]
+Length=101
+
+ Score = 174 bits (440),  Expect = 6e-54, Method: Compositional matrix adjust.
+ Identities = 87/99 (88%), Positives = 93/99 (94%), Gaps = 1/99 (1%)
+
+Query  1   MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+           MRM  ++P+ FE+YQWLILLLLSAWGGIVRY+IDIKT+NA WSWFGAVAQV VSGFTGLI
+Sbjct  1   MRM-KQEPTSFEIYQWLILLLLSAWGGIVRYLIDIKTNNAHWSWFGAVAQVAVSGFTGLI  59
+
+Query  61  GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+           GGFISLEAGLSLYMTFASAGM GAMGSIALTYFWNRLTG
+Sbjct  60  GGFISLEAGLSLYMTFASAGMAGAMGSIALTYFWNRLTG  98
+
+
+>PHM58411.1 holin [Xenorhabdus hominickii]
+Length=100
+
+ Score = 169 bits (429),  Expect = 3e-52, Method: Compositional matrix adjust.
+ Identities = 85/100 (85%), Positives = 94/100 (94%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDPS FELYQWL+LLLLSAWGGIVRY+ID+KT+N RWSWFGA AQV +SGFTGLIGG
+Sbjct  1    MPNKDPSSFELYQWLLLLLLSAWGGIVRYLIDLKTNNTRWSWFGAFAQVAISGFTGLIGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSL++T+ASAGM GAMGSIALTYFWNR+TGD R
+Sbjct  61   FISLEAGLSLFLTYASAGMSGAMGSIALTYFWNRVTGDQR  100
+
+
+>WP_155270994.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE1484801.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9428405.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9443870.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9455663.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9470637.1 phage holin family protein [Xenorhabdus bovienii]
+Length=100
+
+ Score = 166 bits (421),  Expect = 5e-51, Method: Compositional matrix adjust.
+ Identities = 90/102 (88%), Positives = 93/102 (91%), Gaps = 2/102 (2%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDP   ELYQWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQVVVSGFTGLI
+Sbjct  1    MRMPNKDP--IELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWIGAFAQVVVSGFTGLI  58
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLY+ F SAG+ GAMGSIALTYFWNRLTG+ R
+Sbjct  59   GGFISLEAGLSLYLMFVSAGVSGAMGSIALTYFWNRLTGEQR  100
+
+
+>WP_274725117.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE1489099.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9479895.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9532827.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9590142.1 phage holin family protein [Xenorhabdus bovienii]
+Length=100
+
+ Score = 166 bits (420),  Expect = 8e-51, Method: Compositional matrix adjust.
+ Identities = 89/102 (87%), Positives = 93/102 (91%), Gaps = 2/102 (2%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDP   ELYQWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQVVVSGFTGLI
+Sbjct  1    MRMPNKDP--IELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWIGAFAQVVVSGFTGLI  58
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGF+SLEAGLSLY+ F SAG+ GAMGSIALTYFWNRLTG+ R
+Sbjct  59   GGFVSLEAGLSLYLMFVSAGVSGAMGSIALTYFWNRLTGEQR  100
+
+
+>WP_172664658.1 phage holin family protein [Xenorhabdus bovienii]
+ CDG87310.1 conserved membrane hypothetical protein [Xenorhabdus bovienii 
+str. feltiae France]
+ CDG90632.1 conserved membrane hypothetical protein [Xenorhabdus bovienii 
+str. feltiae Florida]
+ CDG96754.1 conserved membrane hypothetical protein [Xenorhabdus bovienii 
+str. puntauvense]
+ CDG99727.1 conserved membrane hypothetical protein [Xenorhabdus bovienii 
+str. feltiae Moldova]
+ CDH25079.1 conserved membrane hypothetical protein [Xenorhabdus bovienii 
+str. kraussei Becker Underwood]
+Length=100
+
+ Score = 166 bits (419),  Expect = 9e-51, Method: Compositional matrix adjust.
+ Identities = 89/102 (87%), Positives = 93/102 (91%), Gaps = 2/102 (2%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDP   ELYQWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQ+VVSGFTGLI
+Sbjct  1    MRMPNKDP--IELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWIGAFAQIVVSGFTGLI  58
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLY+ F SAG+ GAMGSIALTYFWNRLTG+ R
+Sbjct  59   GGFISLEAGLSLYLMFVSAGVSGAMGSIALTYFWNRLTGEQR  100
+
+
+>WP_274721159.1 phage holin family protein [Xenorhabdus bovienii]
+Length=104
+
+ Score = 166 bits (419),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 90/102 (88%), Positives = 93/102 (91%), Gaps = 2/102 (2%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDP   ELYQWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQVVVSGFTGLI
+Sbjct  5    MRMPNKDP--IELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWIGAFAQVVVSGFTGLI  62
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGFISLEAGLSLY+ F SAG+ GAMGSIALTYFWNRLTG+ R
+Sbjct  63   GGFISLEAGLSLYLMFVSAGVSGAMGSIALTYFWNRLTGEQR  104
+
+
+>WP_275323458.1 phage holin family protein [Xenorhabdus bovienii]
+Length=104
+
+ Score = 165 bits (417),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 89/102 (87%), Positives = 93/102 (91%), Gaps = 2/102 (2%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            MRMPNKDP   ELYQWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQVVVSGFTGLI
+Sbjct  5    MRMPNKDP--IELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWIGAFAQVVVSGFTGLI  62
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            GGF+SLEAGLSLY+ F SAG+ GAMGSIALTYFWNRLTG+ R
+Sbjct  63   GGFVSLEAGLSLYLMFVSAGVSGAMGSIALTYFWNRLTGEQR  104
+
+
+>WP_038256023.1 MULTISPECIES: phage holin family protein [Xenorhabdus]
+ MDC9622800.1 phage holin family protein [Xenorhabdus aichiensis]
+ MDE1480313.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9486039.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9512367.1 phage holin family protein [Xenorhabdus bovienii]
+ MDE9519724.1 phage holin family protein [Xenorhabdus bovienii]
+Length=98
+
+ Score = 162 bits (410),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 88/100 (88%), Positives = 91/100 (91%), Gaps = 2/100 (2%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDP   ELYQWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQVVVSGFTGLIGG
+Sbjct  1    MPNKDP--IELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWIGAFAQVVVSGFTGLIGG  58
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLY+ F SAG+ GAMGSIALTYFWNRLTG+ R
+Sbjct  59   FISLEAGLSLYLMFVSAGVSGAMGSIALTYFWNRLTGEQR  98
+
+
+>WP_038197392.1 phage holin family protein [Xenorhabdus bovienii]
+ MCG3463105.1 phage holin family protein [Xenorhabdus bovienii]
+Length=98
+
+ Score = 161 bits (408),  Expect = 5e-49, Method: Compositional matrix adjust.
+ Identities = 87/100 (87%), Positives = 91/100 (91%), Gaps = 2/100 (2%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            MPNKDP   ELYQWLILLLLSAWGGIVRYIIDIKTSNARWSW GA AQ+VVSGFTGLIGG
+Sbjct  1    MPNKDP--IELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWIGAFAQIVVSGFTGLIGG  58
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+            FISLEAGLSLY+ F SAG+ GAMGSIALTYFWNRLTG+ R
+Sbjct  59   FISLEAGLSLYLMFVSAGVSGAMGSIALTYFWNRLTGEQR  98
+
+
+>WP_145525892.1 MULTISPECIES: phage holin family protein [Yersinia]
+Length=104
+
+ Score = 135 bits (341),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 62/97 (64%), Positives = 76/97 (78%), Gaps = 0/97 (0%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           MP KDPS F    WL+++ +SAWGG+VRY++DI+ + A+WSW  A+AQVVVS FTGLIGG
+Sbjct  1   MPEKDPSNFAALSWLVVIAISAWGGVVRYLMDIQANKAKWSWVAALAQVVVSSFTGLIGG  60
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            IS E G+SL MT+  AG+CGAMGSIALTYFW R  G
+Sbjct  61  MISQETGMSLNMTYVGAGLCGAMGSIALTYFWERFFG  97
+
+
+>WP_210174316.1 phage holin family protein [Dickeya oryzae]
+ MBP2856166.1 phage holin family protein [Dickeya oryzae]
+Length=101
+
+ Score = 134 bits (338),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 63/97 (65%), Positives = 79/97 (81%), Gaps = 0/97 (0%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           M +KDP+ F    WLILL LSAWGG+VRY+IDI+ + A WSW  A+AQ+VVSGFTG+IGG
+Sbjct  1   MNDKDPNTFAGMSWLILLALSAWGGLVRYLIDIRQNKANWSWVNALAQIVVSGFTGVIGG  60
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            + +E+GLS+YM  A+AG+ GAMGS+ALTYFW RLTG
+Sbjct  61  LVGIESGLSIYMILATAGISGAMGSVALTYFWERLTG  97
+
+
+>AKE09197.1 holin [Serratia liquefaciens]
+Length=105
+
+ Score = 134 bits (338),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 61/99 (62%), Positives = 78/99 (79%), Gaps = 0/99 (0%)
+
+Query  1   MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+           M+MP+KDPS      WLI+L  S WGG+VRY+ID+K + A WSW  A+AQ+ VSGFTG++
+Sbjct  1   MKMPDKDPSNIAGISWLIMLGFSCWGGLVRYLIDVKQNKASWSWINAIAQIAVSGFTGVL  60
+
+Query  61  GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+           GG IS+E+GLS YM  AS+G+ GAMGSIAL+YFW R+TG
+Sbjct  61  GGLISVESGLSFYMILASSGISGAMGSIALSYFWERITG  99
+
+
+>WP_280548561.1 phage holin family protein [Arsenophonus sp. aPb]
+ WGL97183.1 phage holin family protein [Arsenophonus sp. aPb]
+Length=103
+
+ Score = 134 bits (336),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 64/98 (65%), Positives = 77/98 (79%), Gaps = 1/98 (1%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           M NK+PS F  YQWLILLLLSAWGG VRY+I +K + A   W   + Q++VSGFTGL+GG
+Sbjct  1   MLNKEPS-FAFYQWLILLLLSAWGGFVRYLIQVKNNEAELGWLNGLGQIIVSGFTGLLGG  59
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGD  100
+           F+SLE GLS YMTF +AG+CGAMGS+AL+YFW R TG 
+Sbjct  60  FLSLEIGLSTYMTFFAAGVCGAMGSVALSYFWQRFTGP  97
+
+
+>WP_280630108.1 phage holin family protein [Arsenophonus nasoniae]
+ WGL96664.1 phage holin family protein [Arsenophonus nasoniae]
+Length=103
+
+ Score = 133 bits (335),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 64/98 (65%), Positives = 77/98 (79%), Gaps = 1/98 (1%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           M NK+PS F  YQWLILLLLSAWGG VRY+I +K + A   W   + Q++VSGFTGL+GG
+Sbjct  1   MLNKEPS-FAFYQWLILLLLSAWGGFVRYLIQVKNNEAELGWLNGLGQIIVSGFTGLLGG  59
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGD  100
+           F+SLE GLS YMTF +AG+CGAMGS+AL+YFW R TG 
+Sbjct  60  FLSLEIGLSTYMTFFAAGVCGAMGSVALSYFWQRFTGP  97
+
+
+>WP_280629292.1 phage holin family protein [Arsenophonus nasoniae]
+ WGL95314.1 phage holin family protein [Arsenophonus nasoniae]
+Length=103
+
+ Score = 132 bits (333),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 63/98 (64%), Positives = 77/98 (79%), Gaps = 1/98 (1%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           M NK+P+ F  YQWLILLLLSAWGG VRY+I +K + A   W   + Q++VSGFTGL+GG
+Sbjct  1   MLNKEPN-FAFYQWLILLLLSAWGGFVRYLIQVKNNEAELGWLNGLGQIIVSGFTGLLGG  59
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGD  100
+           F+SLE GLS YMTF +AG+CGAMGS+AL+YFW R TG 
+Sbjct  60  FLSLEIGLSTYMTFFAAGVCGAMGSVALSYFWQRFTGP  97
+
+
+>HEJ7888715.1 phage holin family protein [Serratia liquefaciens]
+Length=103
+
+ Score = 131 bits (329),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 60/97 (62%), Positives = 76/97 (78%), Gaps = 0/97 (0%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           MP+KDPS      WLI+L  S WGG+VRY+ID+K + A WSW  A+AQ+ VSGFTGL+GG
+Sbjct  1   MPDKDPSNIAGISWLIMLGFSCWGGLVRYLIDVKQNKASWSWINAIAQIAVSGFTGLLGG  60
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            IS+E+GLS YM  A++G+ GAMGSIAL+YFW R+TG
+Sbjct  61  LISVESGLSFYMILATSGISGAMGSIALSYFWERITG  97
+
+
+>WP_144408536.1 phage holin family protein [Serratia liquefaciens]
+Length=103
+
+ Score = 131 bits (329),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 60/97 (62%), Positives = 76/97 (78%), Gaps = 0/97 (0%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           MP+KDPS      WLI+L  S WGG+VRY+ID+K + A WSW  A+AQ+ VSGFTG++GG
+Sbjct  1   MPDKDPSNIAGISWLIMLGFSCWGGLVRYLIDVKQNKASWSWINAIAQIAVSGFTGVLGG  60
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            IS+E+GLS YM  AS+G+ GAMGSIAL+YFW R+TG
+Sbjct  61  LISVESGLSFYMILASSGISGAMGSIALSYFWERITG  97
+
+
+>CAI0818475.1 Uncharacterised protein [Serratia entomophila]
+ CAI0842176.1 Uncharacterised protein [Serratia entomophila]
+ CAI0879423.1 Uncharacterised protein [Serratia entomophila]
+ CAI1781613.1 Uncharacterised protein [Serratia entomophila]
+ CAI1952196.1 Uncharacterised protein [Serratia entomophila]
+Length=167
+
+ Score = 132 bits (333),  Expect = 9e-37, Method: Compositional matrix adjust.
+ Identities = 59/99 (60%), Positives = 78/99 (79%), Gaps = 0/99 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            M+MP+KDP+      WLI+L  S WGG+VRY+ID+K + A WSW  A+AQ+ VSGFTG++
+Sbjct  63   MKMPDKDPNSIAGISWLIMLGFSCWGGLVRYLIDVKQNKASWSWINAIAQIAVSGFTGVL  122
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            GG IS+E+GLS YM  A++G+ GAMGSIAL+YFW R+TG
+Sbjct  123  GGLISVESGLSFYMILATSGISGAMGSIALSYFWERITG  161
+
+
+>MBC3250468.1 phage holin family protein [Serratia fonticola]
+Length=108
+
+ Score = 129 bits (324),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 59/99 (60%), Positives = 77/99 (78%), Gaps = 0/99 (0%)
+
+Query  1    MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+            M+M +KDPS      WLI+L  S WGG+VRY+ID+K + A +SW  A+AQ+ VSGFTG+I
+Sbjct  3    MKMHDKDPSNIVGLSWLIMLGFSCWGGLVRYLIDVKQNKANFSWLNAIAQIAVSGFTGVI  62
+
+Query  61   GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            GG +SLE+GLS YM  A++G+ GAMGS+ALTYFW R+TG
+Sbjct  63   GGLVSLESGLSFYMILATSGVSGAMGSVALTYFWERITG  101
+
+
+>WP_195681440.1 phage holin family protein [Aliarcobacter butzleri]
+Length=114
+
+ Score = 129 bits (325),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 57/87 (66%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  16   WLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGGFISLEAGLSLYMT  75
+            WL+LL+++ WGG+VRY+ID+K S A WSW  A+AQ+VVSGFTG+IGG IS+E+G S+YM 
+Sbjct  12   WLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLISIESGFSIYMI  71
+
+Query  76   FASAGMCGAMGSIALTYFWNRLTGDHR  102
+             A+AG+ GAMGS+ALTYFW RLTG+H+
+Sbjct  72   LATAGISGAMGSVALTYFWERLTGEHQ  98
+
+
+>MBF7071768.1 holin [Aliarcobacter butzleri]
+Length=118
+
+ Score = 129 bits (325),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 57/87 (66%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  16   WLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGGFISLEAGLSLYMT  75
+            WL+LL+++ WGG+VRY+ID+K S A WSW  A+AQ+VVSGFTG+IGG IS+E+G S+YM 
+Sbjct  16   WLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLISIESGFSIYMI  75
+
+Query  76   FASAGMCGAMGSIALTYFWNRLTGDHR  102
+             A+AG+ GAMGS+ALTYFW RLTG+H+
+Sbjct  76   LATAGISGAMGSVALTYFWERLTGEHQ  102
+
+
+>WP_201621332.1 MULTISPECIES: phage holin family protein [Serratia]
+ MDK4799117.1 phage holin family protein [Serratia nevei]
+ MDK4861396.1 phage holin family protein [Serratia nevei]
+ MDK4941166.1 phage holin family protein [Serratia nevei]
+ MDK5039708.1 phage holin family protein [Serratia nevei]
+ MDK5067339.1 phage holin family protein [Serratia nevei]
+Length=103
+
+ Score = 129 bits (323),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 58/97 (60%), Positives = 76/97 (78%), Gaps = 0/97 (0%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           MP+KDP+      WLI+L  S WGG+VRY+ID+K + A WSW  A+AQ+ VSGFTG++GG
+Sbjct  1   MPDKDPNSIAGISWLIMLGFSCWGGLVRYLIDVKQNKASWSWINAIAQIAVSGFTGVLGG  60
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            IS+E+GLS YM  A++G+ GAMGSIAL+YFW R+TG
+Sbjct  61  LISVESGLSFYMILATSGISGAMGSIALSYFWERITG  97
+
+
+>WP_246758847.1 phage holin family protein [Erwinia phyllosphaerae]
+ MBV4366271.1 phage holin family protein [Erwinia phyllosphaerae]
+Length=105
+
+ Score = 129 bits (323),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 57/99 (58%), Positives = 77/99 (78%), Gaps = 0/99 (0%)
+
+Query  1   MRMPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLI  60
+           M+MPN+DPS + L  W ++L +S WGG+V+YI++++ +N  WSW  A+AQVVVSGF GLI
+Sbjct  1   MKMPNRDPSTYGLLAWALILAMSIWGGLVKYIVEVRRNNQVWSWVAALAQVVVSGFAGLI  60
+
+Query  61  GGFISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+           GG +++E+GLS+Y T  +AGM G MGS AL YFW RLTG
+Sbjct  61  GGLLAIESGLSIYYTLVAAGMSGTMGSAALNYFWERLTG  99
+
+
+>MDE1511992.1 phage holin family protein [Serratia nevei]
+Length=103
+
+ Score = 128 bits (322),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 58/97 (60%), Positives = 76/97 (78%), Gaps = 0/97 (0%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           MP+KDP+      WLI+L  S WGG+VRY+ID+K + A WSW  A+AQ+ VSGFTG++GG
+Sbjct  1   MPDKDPNSIAGISWLIMLGFSCWGGLVRYLIDVKRNKASWSWINAIAQIAVSGFTGVLGG  60
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            IS+E+GLS YM  A++G+ GAMGSIAL+YFW R+TG
+Sbjct  61  LISVESGLSFYMILATSGISGAMGSIALSYFWERITG  97
+
+
+>HCM3154960.1 phage holin family protein [Klebsiella quasipneumoniae subsp. 
+similipneumoniae]
+ HCM7883376.1 phage holin family protein [Klebsiella quasipneumoniae]
+ HCM8037832.1 phage holin family protein [Klebsiella quasipneumoniae]
+Length=101
+
+ Score = 127 bits (320),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 60/94 (64%), Positives = 74/94 (79%), Gaps = 0/94 (0%)
+
+Query  6   KDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGGFIS  65
+           +D        WLI+L LS WGG+VRY+ID+K + A WSW  A+AQ+VVSGFTGLIGG IS
+Sbjct  2   QDKESIAGVSWLIVLALSCWGGLVRYLIDVKQNKATWSWINALAQIVVSGFTGLIGGLIS  61
+
+Query  66  LEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+           +E+GLS+YM  A+AG+ GAMGS+ALTYFW RLTG
+Sbjct  62  IESGLSIYMILATAGISGAMGSVALTYFWERLTG  95
+
+
+>EFI3812895.1 holin [Escherichia coli]
+ ELJ0538449.1 phage holin family protein [Escherichia coli O36]
+ EIH6161601.1 phage holin family protein [Escherichia coli]
+ EKI2710239.1 phage holin family protein [Escherichia coli]
+ ELB8991261.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 126 bits (316),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 57/84 (68%), Positives = 73/84 (87%), Gaps = 0/84 (0%)
+
+Query  16  WLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGGFISLEAGLSLYMT  75
+           WL+LL+++ WGG+VRY+ID+K SNA WSW  A+AQ+VVSGFTG+IGG IS+E+G S+YM 
+Sbjct  12  WLVLLIIAGWGGLVRYLIDVKQSNATWSWINALAQIVVSGFTGVIGGLISIESGFSIYMI  71
+
+Query  76  FASAGMCGAMGSIALTYFWNRLTG  99
+            A+AG+ GAMGS+ALTYFW RLTG
+Sbjct  72  LATAGISGAMGSVALTYFWERLTG  95
+
+
+>WP_234591188.1 phage holin family protein [Serratia entomophila]
+ UIW20681.1 phage holin family protein [Serratia entomophila]
+ UIW20686.1 phage holin family protein [Serratia entomophila]
+Length=102
+
+ Score = 125 bits (315),  Expect = 6e-35, Method: Compositional matrix adjust.
+ Identities = 58/94 (62%), Positives = 74/94 (79%), Gaps = 0/94 (0%)
+
+Query  6   KDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGGFIS  65
+           +D        WL+LL+L+ WGGIVRY+ID+K + A WSW  A+AQ+ VSGFTG+I G IS
+Sbjct  2   QDKESVAGISWLLLLVLACWGGIVRYLIDVKQNRASWSWVNAIAQIAVSGFTGVISGLIS  61
+
+Query  66  LEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+           +E+GLS+YMT A+AG+ GAMGS+ALTYFW RLTG
+Sbjct  62  IESGLSIYMTLAAAGISGAMGSVALTYFWERLTG  95
+
+
+>WP_179252709.1 phage holin family protein [Serratia fonticola]
+ MBC3214253.1 phage holin family protein [Serratia fonticola]
+ NYA13644.1 phage holin family protein [Serratia fonticola]
+ NYA35104.1 phage holin family protein [Serratia fonticola]
+Length=101
+
+ Score = 125 bits (315),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 60/97 (62%), Positives = 76/97 (78%), Gaps = 2/97 (2%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           MP+KD        WLI+L +S WGG+VRY+ID+K + A WSW GA+AQ+VVSGFTG+IGG
+Sbjct  1   MPDKDK--IAGISWLIMLGISCWGGLVRYLIDVKQNRATWSWVGAIAQIVVSGFTGVIGG  58
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            +SLE GLS YM  AS+G+ GAMGS+AL+YFW R+TG
+Sbjct  59  LVSLEGGLSFYMILASSGISGAMGSVALSYFWERITG  95
+
+
+>HDT0488247.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 125 bits (315),  Expect = 8e-35, Method: Compositional matrix adjust.
+ Identities = 57/84 (68%), Positives = 73/84 (87%), Gaps = 0/84 (0%)
+
+Query  16  WLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGGFISLEAGLSLYMT  75
+           WL+LL+++ WGG+VRY+ID+K S A WSW  A+AQ+VVSGFTG+IGG IS+E+GLS+YM 
+Sbjct  12  WLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLISIESGLSIYMI  71
+
+Query  76  FASAGMCGAMGSIALTYFWNRLTG  99
+            A+AG+ GAMGS+ALTYFW RLTG
+Sbjct  72  LATAGISGAMGSVALTYFWERLTG  95
+
+
+>WP_074021561.1 phage holin family protein [Xenorhabdus thuongxuanensis]
+ OKP01870.1 holin [Xenorhabdus thuongxuanensis]
+Length=101
+
+ Score = 125 bits (313),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 59/100 (59%), Positives = 76/100 (76%), Gaps = 0/100 (0%)
+
+Query  3    MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+            M +++P+GF + QWL+LL +S WGG VRYIIDIKT+N  WSWFGA  Q+VVSGFTG++GG
+Sbjct  1    MFDEEPNGFGIAQWLLLLFISVWGGAVRYIIDIKTNNTPWSWFGAFMQMVVSGFTGMLGG  60
+
+Query  63   FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTGDHR  102
+             +S+E   S+Y+T  + G+ GAMGSIAL YFW R TG   
+Sbjct  61   LLSIEFNQSIYITLFATGVSGAMGSIALAYFWARFTGGKH  100
+
+
+>WP_136720828.1 phage holin family protein [Escherichia coli]
+ EFL0280756.1 holin [Escherichia coli O157:H7]
+ EIA9630771.1 phage holin family protein [Escherichia coli O157]
+ EED1145487.1 holin [Escherichia coli]
+ EEQ7461995.1 holin [Escherichia coli]
+ EER1567720.1 holin [Escherichia coli]
+Length=101
+
+ Score = 124 bits (312),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 57/84 (68%), Positives = 72/84 (86%), Gaps = 0/84 (0%)
+
+Query  16  WLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGGFISLEAGLSLYMT  75
+           WL+LLL++ WGG+VRY+ID+K S A WSW  A+AQ+VVSGFTG+IGG IS+E+G S+YM 
+Sbjct  12  WLVLLLIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLISIESGFSIYMI  71
+
+Query  76  FASAGMCGAMGSIALTYFWNRLTG  99
+            A+AG+ GAMGS+ALTYFW RLTG
+Sbjct  72  LATAGISGAMGSVALTYFWERLTG  95
+
+
+>EFM4717939.1 holin [Escherichia coli]
+Length=101
+
+ Score = 124 bits (312),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 59/97 (61%), Positives = 76/97 (78%), Gaps = 2/97 (2%)
+
+Query  3   MPNKDPSGFELYQWLILLLLSAWGGIVRYIIDIKTSNARWSWFGAVAQVVVSGFTGLIGG  62
+           M  K+    E   WL+LL+++ WGG+VRY+ID+K S A WSW  A+AQ+VVSGFTG+IGG
+Sbjct  1   MHEKESLAGEF--WLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGG  58
+
+Query  63  FISLEAGLSLYMTFASAGMCGAMGSIALTYFWNRLTG  99
+            IS+E+G S+YM  A+AG+ GAMGS+ALTYFW RLTG
+Sbjct  59  LISIESGFSIYMILATAGISGAMGSVALTYFWERLTG  95
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 30, 2023  2:48 AM
+  Number of letters in database: 252,764,064,435
+  Number of sequences in database:  645,636,360
+
+Lambda      K        H
+   0.327    0.141    0.464 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 645636360
+Number of Hits to DB: 14645556
+Number of extensions: 15856
+Number of successful extensions: 3391
+Number of sequences better than 100: 27
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 3391
+Number of HSP's successfully gapped: 27
+Length of query: 102
+Length of database: 252764064435
+Length adjustment: 72
+Effective length of query: 30
+Effective length of database: 206278246515
+Effective search space: 6188347395450
+Effective search space used: 6188347395450
+T: 19
+A: 40
+X1: 15 (7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 82 (36.2 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
