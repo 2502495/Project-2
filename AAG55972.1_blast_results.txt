@@ -1,0 +1,1263 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.14.1+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: TCAVX2JJ013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           645,636,360 sequences; 252,764,064,435 total letters
+Query= 
+Length=101
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+ACI38308.1 gp13 [Escherichia coli O157:H7 str. EC4115]             196     1e-62  100%        
+WP_000544528.1 phage holin family protein [Enterobacterales]       196     1e-62  100%        
+TGB98083.1 holin [Escherichia sp. E2586]                           195     2e-62  99%         
+WP_261599194.1 phage holin family protein [Escherichia coli]       195     2e-62  99%         
+EKM0498818.1 phage holin family protein [Escherichia coli]         195     2e-62  99%         
+HDT5639400.1 TPA: phage holin family protein [Escherichia coli]    195     2e-62  99%         
+HCP5448598.1 TPA: phage holin family protein [Escherichia coli]    195     2e-62  99%         
+WP_131162642.1 phage holin family protein [Escherichia]            195     2e-62  99%         
+WP_265932340.1 phage holin family protein [Klebsiella pneumoniae]  195     2e-62  99%         
+WP_202791981.1 phage holin family protein [Escherichia coli]       195     2e-62  99%         
+WP_225402381.1 phage holin family protein [Escherichia coli]       194     3e-62  99%         
+EFH6378645.1 holin [Escherichia coli]                              194     3e-62  99%         
+WP_136720828.1 phage holin family protein [Escherichia coli]       194     3e-62  99%         
+ABJ02070.1 conserved hypothetical protein [Escherichia coli AP...  196     3e-62  99%         
+EES9571570.1 holin [Escherichia coli]                              194     3e-62  99%         
+WP_000544529.1 phage holin family protein [Escherichia coli]       194     3e-62  99%         
+HDI8043462.1 TPA: phage holin family protein [Escherichia coli]    194     4e-62  99%         
+EIX8797631.1 phage holin family protein [Escherichia coli]         194     4e-62  99%         
+WP_000544527.1 phage holin family protein [Enterobacteriaceae]     194     4e-62  99%         
+PCM10012.1 holin [Escherichia coli]                                194     4e-62  99%         
+WP_205860034.1 phage holin family protein [Escherichia coli]       194     4e-62  99%         
+EEW8973852.1 holin [Escherichia coli]                              194     4e-62  99%         
+WP_140436695.1 phage holin family protein [Enterobacteriaceae]     194     4e-62  99%         
+WP_143355269.1 phage holin family protein [Escherichia coli]       194     4e-62  99%         
+OKU59628.1 holin [Escherichia coli]                                194     5e-62  99%         
+EFA4195183.1 holin [Escherichia coli O96]                          194     5e-62  99%         
+WP_181206235.1 phage holin family protein [Escherichia coli]       194     5e-62  99%         
+EJU1889354.1 phage holin family protein [Escherichia coli]         194     5e-62  99%         
+WP_266155857.1 phage holin family protein [Escherichia coli]       194     5e-62  99%         
+WP_274462395.1 phage holin family protein [Escherichia coli]       194     6e-62  100%        
+WP_162760373.1 phage holin family protein [Escherichia coli]       194     6e-62  99%         
+HCO5609738.1 TPA: phage holin family protein [Escherichia coli]    194     6e-62  99%         
+WP_123017553.1 phage holin family protein [Escherichia coli]       194     6e-62  99%         
+HAY1731030.1 TPA: holin [Escherichia coli]                         194     6e-62  99%         
+WP_266202917.1 phage holin family protein [Escherichia coli]       194     6e-62  99%         
+WP_137496170.1 phage holin family protein [Escherichia coli]       194     6e-62  99%         
+EFI3812895.1 holin [Escherichia coli]                              194     6e-62  99%         
+HCP0481104.1 TPA: phage holin family protein [Escherichia coli]    194     6e-62  99%         
+KEL36293.1 putative membrane protein [Escherichia coli 5-172-0...  194     6e-62  99%         
+EJF0053780.1 phage holin family protein [Escherichia coli]         194     6e-62  99%         
+EFC3019808.1 holin [Escherichia coli]                              194     6e-62  99%         
+WP_201472605.1 phage holin family protein [Escherichia coli]       194     6e-62  99%         
+EFM4717939.1 holin [Escherichia coli]                              194     7e-62  99%         
+EGK3956649.1 holin [Escherichia coli]                              194     7e-62  99%         
+WP_148906562.1 phage holin family protein [Escherichia coli]       194     8e-62  99%         
+MCV5176809.1 phage holin family protein [Escherichia coli]         194     8e-62  99%         
+EHU0062302.1 phage holin family protein [Escherichia coli]         194     8e-62  99%         
+HAJ5072498.1 TPA: holin [Escherichia coli]                         194     8e-62  99%         
+EFA6666235.1 holin [Escherichia coli]                              194     8e-62  99%         
+HDQ5583127.1 TPA: phage holin family protein [Shigella flexneri]   194     8e-62  99%         
+
+ALIGNMENTS
+>ACI38308.1 gp13 [Escherichia coli O157:H7 str. EC4115]
+ AFJ28610.1 putative holin protein [Escherichia coli Xuzhou21]
+ AIG68006.1 Putative holin protein [Escherichia coli O157:H7 str. EDL933]
+ AJA25506.1 Putative holin protein [Escherichia coli O157:H7 str. SS52]
+ AJO83095.1 holin [Escherichia coli]
+ ALH90797.1 holin [Escherichia coli O157:H7]
+ AMQ50788.1 holin [Escherichia coli JJ1887]
+ ANK06691.1 Hypothetical protein WLH_05430 [Escherichia coli O25b:H4]
+ ASE49983.1 holin [Escherichia coli O157]
+ ATO75792.1 holin [Escherichia coli O91 str. RM7190]
+ EAA1484250.1 holin [Salmonella enterica subsp. enterica]
+ EAB1455406.1 holin [Escherichia albertii]
+ EAB9321756.1 holin [Shigella flexneri]
+ EBM3835798.1 holin [Salmonella enterica]
+ EBW2152858.1 holin [Salmonella enterica subsp. enterica serovar Panama]
+ EBX1602654.1 holin [Salmonella enterica subsp. enterica serovar Typhimurium]
+ EBZ0734907.1 holin [Salmonella enterica subsp. enterica serovar Anatum]
+ EDU54055.1 gp13 [Escherichia coli O157:H7 str. EC4113]
+ EDU90982.1 gp13 [Escherichia coli O157:H7 str. EC869]
+ EDZ75231.1 gp13 [Escherichia coli O157:H7 str. EC4206]
+ EDZ80373.1 gp13 [Escherichia coli O157:H7 str. EC4045]
+ EDZ85575.1 gp13 [Escherichia coli O157:H7 str. EC4042]
+ EEC26906.1 gp13 [Escherichia coli O157:H7 str. TW14588]
+ EFE63686.1 gp13 [Escherichia coli B088]
+ EFN8537433.1 holin [Escherichia coli O1]
+ EFN8619298.1 holin [Escherichia coli H8]
+ EFO2069522.1 holin [Escherichia coli O8]
+ EFO2125758.1 holin [Escherichia coli O106]
+ EFW62544.1 Putative holin protein [Escherichia coli O157:H7 str. EC1212]
+ EGD63238.1 Putative holin protein [Escherichia coli O157:H7 str. 1044]
+ EGD65242.1 Putative holin protein [Escherichia coli O157:H7 str. 1125]
+ EGI17304.1 putative holin protein [Escherichia coli M605]
+ EGW74496.1 hypothetical protein ECSTECB2F1_1095 [Escherichia coli O91:H21 
+str. B2F1]
+ EHU64217.1 putative membrane protein [Escherichia coli DEC3A]
+ EHU73955.1 putative membrane protein [Escherichia coli DEC3C]
+ EHU79118.1 putative membrane protein [Escherichia coli DEC3D]
+ EHU94951.1 putative membrane protein [Escherichia coli DEC3F]
+ EHU95371.1 putative membrane protein [Escherichia coli DEC4A]
+ EHV01070.1 putative membrane protein [Escherichia coli DEC4B]
+ EHV11519.1 putative membrane protein [Escherichia coli DEC4D]
+ EHV15980.1 putative membrane protein [Escherichia coli DEC4E]
+ EHV36070.1 putative membrane protein [Escherichia coli DEC5B]
+ EHV44861.1 putative membrane protein [Escherichia coli DEC5D]
+ EHV50486.1 putative membrane protein [Escherichia coli DEC5E]
+ EIN26808.1 hypothetical protein ECFRIK1996_1804 [Escherichia coli FRIK1996]
+ EIN27147.1 hypothetical protein ECFDA517_1938 [Escherichia coli FDA517]
+ EIN45601.1 hypothetical protein ECFRIK1990_1787 [Escherichia coli FRIK1990]
+ EIN61401.1 hypothetical protein ECPA3_1668 [Escherichia coli PA3]
+ EIO02418.1 hypothetical protein ECPA25_1514 [Escherichia coli PA25]
+ EIO18966.1 hypothetical protein ECPA31_1628 [Escherichia coli PA31]
+ EIO42416.1 hypothetical protein ECPA42_1893 [Escherichia coli PA42]
+ EIO52490.1 hypothetical protein ECTW06591_0688 [Escherichia coli TW06591]
+ EIO60193.1 hypothetical protein ECTW10246_1774 [Escherichia coli TW10246]
+ EIP01548.1 hypothetical protein ECEC4196_1639 [Escherichia coli EC4196]
+ EIP17790.1 hypothetical protein ECEC4421_1725 [Escherichia coli EC4421]
+ EIP40676.1 hypothetical protein ECEC4402_1722 [Escherichia coli EC4402]
+ EIP59390.1 hypothetical protein ECEC1738_3171 [Escherichia coli EC1738]
+ EKH04393.1 hypothetical protein ECPA7_2252 [Escherichia coli PA7]
+ EKH08381.1 hypothetical protein ECFRIK920_1742 [Escherichia coli FRIK920]
+ EKH18895.1 hypothetical protein ECFDA506_2175 [Escherichia coli FDA506]
+ EKH37157.1 hypothetical protein ECFRIK1999_1909 [Escherichia coli FRIK1999]
+ EKH76448.1 hypothetical protein ECPA49_1882 [Escherichia coli PA49]
+ EKH95170.1 hypothetical protein ECMA6_1978 [Escherichia coli MA6]
+ EKI13666.1 hypothetical protein ECEC96038_1582 [Escherichia coli EC96038]
+ EKI49893.1 hypothetical protein ECPA38_1720 [Escherichia coli PA38]
+ EKI75469.1 hypothetical protein ECEC1846_1687 [Escherichia coli EC1846]
+ EKJ02212.1 hypothetical protein ECEC1856_1692 [Escherichia coli EC1856]
+ EKJ14936.1 hypothetical protein ECEC1862_1687 [Escherichia coli EC1862]
+ EKK56391.1 putative membrane protein [Escherichia coli 8.0586]
+ EKK60542.1 putative membrane protein [Escherichia coli 8.2524]
+ EKK60738.1 hypothetical protein EC100833_1956 [Escherichia coli 10.0833]
+ EKK86402.1 putative membrane protein [Escherichia coli 10.0821]
+ EKV82390.1 putative membrane protein [Escherichia coli 89.0511]
+ EKW15348.1 putative membrane protein [Escherichia coli 93.0056]
+ EKW81870.1 putative membrane protein [Escherichia coli 97.0007]
+ EKY42783.1 putative membrane protein [Escherichia coli 97.0010]
+ ELV21404.1 putative membrane protein [Escherichia coli 99.0814]
+ ELV28198.1 putative membrane protein [Escherichia coli 99.0815]
+ ELV61062.1 putative membrane protein [Escherichia coli 99.1793]
+ ELV72390.1 putative membrane protein [Escherichia coli PA11]
+ ELV76946.1 putative membrane protein [Escherichia coli 99.1805]
+ ELV85626.1 putative membrane protein [Escherichia coli PA13]
+ ELV93597.1 putative membrane protein [Escherichia coli PA2]
+ ELW03143.1 putative membrane protein [Escherichia coli PA47]
+ ELW17714.1 putative membrane protein [Escherichia coli 7.1982]
+ ELW19989.1 putative membrane protein [Escherichia coli 99.1781]
+ ELW44368.1 putative membrane protein [Escherichia coli 99.0670]
+ ERC03092.1 putative membrane protein [Escherichia coli B28-2]
+ ERC20041.1 putative membrane protein [Escherichia coli B29-2]
+ ERC85856.1 putative membrane protein [Escherichia coli T234_00]
+ ERC93954.1 putative membrane protein [Escherichia coli B104]
+ ERD02519.1 putative membrane protein [Escherichia coli B103]
+ ERD11427.1 putative membrane protein [Escherichia coli B105]
+ ERD14763.1 putative membrane protein [Escherichia coli B106]
+ ERD35624.1 putative membrane protein [Escherichia coli B112]
+ ERD49207.1 putative membrane protein [Escherichia coli B114]
+ ERD55917.1 putative membrane protein [Escherichia coli B40-2]
+ ERD81429.1 putative membrane protein [Escherichia coli B5-2]
+ ERD93577.1 putative membrane protein [Escherichia coli B85]
+ ERE37091.1 putative membrane protein [Escherichia coli Tx1686]
+ ERE37360.1 putative membrane protein [Escherichia coli B90]
+ EYD87809.1 putative membrane protein [Escherichia coli 1-176-05_S3_C2]
+ KDU06254.1 putative membrane protein [Escherichia coli 3-267-03_S1_C2]
+ KDY20632.1 putative membrane protein [Escherichia coli 2-316-03_S4_C3]
+ KDZ26782.1 putative membrane protein [Escherichia coli 3-020-07_S1_C2]
+ KEJ62866.1 putative membrane protein [Escherichia coli 3-020-07_S4_C1]
+ KKJ97466.1 holin [Escherichia coli NB8]
+ MBS5708918.1 phage holin family protein [Veillonella sp.]
+ MYP08410.1 holin [Salmonella enterica subsp. enterica serovar 4,12:i:-]
+ OJH24436.1 holin [Escherichia coli NA114]
+ OLR37182.1 holin [Escherichia coli O25b:H4-ST131]
+ OSK42338.1 putative holin protein [Escherichia coli B671]
+ OSK76130.1 putative holin protein [Escherichia coli H223]
+ OSL78302.1 putative holin protein [Escherichia coli TA014]
+ OSM07778.1 putative holin protein [Escherichia coli R424]
+ OYI05169.1 holin [Shigella sonnei]
+ PBO94413.1 holin [Shigella boydii]
+ PJR35377.1 holin [Escherichia coli O157:H7 str. TW14313]
+ PJR40848.1 holin [Escherichia coli O55:H7 str. TB182A]
+ PJR46893.1 holin [Escherichia coli O157:H7 str. EC1825]
+ QRM82339.1 holin [Escherichia coli O157:H-]
+ TGB86509.1 holin [Escherichia sp. E4208]
+ CDK90176.1 Putative holin protein [Escherichia coli IS29]
+ CDL02933.1 Putative holin protein [Escherichia coli IS35]
+ CDL24603.1 Putative holin protein [Escherichia coli ISC7]
+ CDL46140.1 Putative holin protein [Escherichia coli ISC41]
+ BBU51072.1 holin [Escherichia coli O25:H4]
+ HAJ7333559.1 holin [Escherichia coli UCI 52]
+Length=105
+
+ Score = 196 bits (498),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  5    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  64
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  65   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  105
+
+
+>WP_000544528.1 MULTISPECIES: phage holin family protein [Enterobacterales]
+ NP_309648.2 phage holin protein [Escherichia coli O157:H7 str. Sakai]
+ EAB9350790.1 holin [Salmonella enterica subsp. enterica]
+ EBF4069778.1 holin [Salmonella enterica subsp. enterica serovar Derby]
+ EBS0185289.1 holin [Salmonella enterica subsp. enterica serovar Heidelberg]
+ ECE9002124.1 holin [Salmonella enterica subsp. enterica serovar Typhimurium]
+ ECK7242227.1 holin [Salmonella enterica subsp. enterica serovar Enteritidis]
+ ECZ1400599.1 holin [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-]
+ EDC4095690.1 holin [Salmonella enterica subsp. enterica serovar Bareilly]
+ EDQ7989960.1 holin [Salmonella enterica subsp. enterica serovar Thompson]
+ EET3529366.1 holin [Escherichia coli O157:NM]
+ EEV2830998.1 holin [Escherichia coli O91:H21]
+ EEZ5669889.1 holin [Escherichia coli O2]
+ EEZ5979413.1 holin [Escherichia coli O19]
+ EEZ6116699.1 holin [Escherichia coli O73]
+ EEZ9812804.1 holin [Escherichia coli O25]
+ EFA4267756.1 holin [Escherichia coli O145:H25]
+ EFA4271905.1 holin [Escherichia coli O8]
+ EFA4281920.1 holin [Escherichia coli O167:H9]
+ EFA8805672.1 holin [Escherichia coli O39:H4]
+ EFB4077055.1 holin [Escherichia coli O91]
+ EFN6654705.1 holin [Escherichia coli O166:H6]
+ EFN6672258.1 holin [Escherichia coli O8:H10]
+ EFN6739823.1 holin [Escherichia coli H6]
+ EFN6813988.1 holin [Escherichia coli O110]
+ EFN7279646.1 holin [Escherichia coli O11:H5]
+ EFN7342298.1 holin [Escherichia coli O128:H2]
+ EFN8394957.1 holin [Escherichia coli O26]
+ EGO9529359.1 holin [Escherichia coli O24]
+ EGS4952006.1 holin [Salmonella enterica subsp. enterica serovar Newport]
+ EHG1637221.1 holin [Salmonella enterica subsp. enterica serovar Muenchen]
+ EHO3346369.1 phage holin family protein [Salmonella enterica subsp. enterica 
+serovar Chester]
+ EHP8889505.1 phage holin family protein [Salmonella enterica subsp. enterica 
+serovar Infantis]
+ EHU63382.1 putative membrane protein [Escherichia coli DEC3B]
+ EHU81033.1 putative membrane protein [Escherichia coli DEC3E]
+ EHV11466.1 putative membrane protein [Escherichia coli DEC4C]
+ EHV25930.1 putative membrane protein [Escherichia coli DEC4F]
+ EIH0606026.1 phage holin family protein [Escherichia coli O55]
+ EJE1974518.1 phage holin family protein [Salmonella enterica subsp. enterica 
+serovar Adelaide]
+ EJY0126672.1 phage holin family protein [Escherichia coli O116]
+ EJY0136286.1 phage holin family protein [Escherichia coli O76]
+ EJY0165748.1 phage holin family protein [Escherichia coli O9]
+ EJY0205284.1 phage holin family protein [Escherichia coli O113]
+ EJY0210769.1 phage holin family protein [Escherichia coli O96]
+ EKK2978876.1 phage holin family protein [Escherichia coli O153]
+ EZC20938.1 holin [Escherichia coli O157:H7 str. K2845]
+ MBD9067527.1 holin [Enterobacter cloacae]
+ MCY5019134.1 phage holin family protein [Salmonella enterica subsp. enterica 
+serovar 1,4,[5],12:i:-]
+ DAK68879.1 MAG TPA: LydA holin phage, holin superfamily III [Caudoviricetes 
+sp.]
+ HAX0006469.1 holin [Escherichia coli KN1604]
+ HAX0011833.1 holin [Escherichia coli JJ2668]
+ HAX0016731.1 holin [Escherichia coli MH5800]
+ HAX0021233.1 holin [Escherichia coli JJ2657]
+ HAX0025200.1 holin [Escherichia coli JJ2608]
+ HAX0030635.1 holin [Escherichia coli JJ2555]
+ HAX0035274.1 holin [Escherichia coli JJ2550]
+ HAX0040528.1 holin [Escherichia coli JJ2578]
+ HAX0042587.1 holin [Escherichia coli JJ2528]
+ HAX0055557.1 holin [Escherichia coli JJ2508]
+ HAX0059408.1 holin [Escherichia coli JJ2444]
+ HAX0081851.1 holin [Escherichia coli CD340]
+ HAX0088586.1 holin [Escherichia coli ZH164]
+ HAX0093540.1 holin [Escherichia coli CD311]
+ HAX0099200.1 holin [Escherichia coli U024]
+ HAX0108939.1 holin [Escherichia coli U004]
+ HAX0113066.1 holin [Escherichia coli SaT158]
+ HAX0118713.1 holin [Escherichia coli SaT142]
+ HAX0132121.1 holin [Escherichia coli SaT049]
+ HAX0136772.1 holin [Escherichia coli MVAST179]
+ HAX0150915.1 holin [Escherichia coli MVAST131]
+ HAX0166344.1 holin [Escherichia coli JJ2183]
+ HAX0171284.1 holin [Escherichia coli MVAST084]
+ HAX0175809.1 holin [Escherichia coli MVAST077]
+ HAX0177065.1 holin [Escherichia coli JJ1908]
+ HAX0185551.1 holin [Escherichia coli JJ2050]
+ HAX0190794.1 holin [Escherichia coli JJ2193]
+ HAX0195106.1 holin [Escherichia coli JJ2643]
+ HAX0209455.1 holin [Escherichia coli MVAST038]
+ HAX0210984.1 holin [Escherichia coli MVAST046]
+ HAX0223952.1 holin [Escherichia coli MVAST014]
+ HAX0225761.1 holin [Escherichia coli JMI268]
+ HAX0235362.1 holin [Escherichia coli MVAST0036]
+ HAX0240899.1 holin [Escherichia coli JJ1897]
+ HAX0252816.1 holin [Escherichia coli G213]
+ HAX0277591.1 holin [Escherichia coli H016]
+ HAX0282869.1 holin [Escherichia coli G150]
+ HAX0286772.1 holin [Escherichia coli CU758]
+ HAX0290890.1 holin [Escherichia coli H003]
+ HAX0297079.1 holin [Escherichia coli G216]
+ HAX0299966.1 holin [Escherichia coli CD471]
+ HAX0305313.1 holin [Escherichia coli H006]
+ HAX0326344.1 holin [Escherichia coli C001]
+ HAX0331121.1 holin [Escherichia coli CD249]
+ HAX0347745.1 holin [Escherichia coli JJ2134]
+ HAX5572988.1 holin [Escherichia coli JJ2547]
+ HBC2926128.1 phage holin family protein [Escherichia coli O146]
+ HBP1331365.1 phage holin family protein [Escherichia coli str. K-12 substr. 
+MG1655star]
+ HCK3164817.1 phage holin family protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium var. monophasic 4,[5],12:i:-]
+ HDQ6462464.1 phage holin family protein [Escherichia coli O18 str. F10018-41]
+ HDQ6500556.1 phage holin family protein [Escherichia coli Ou:H6]
+ HDQ6671735.1 phage holin family protein [Escherichia coli O146:H21]
+ HDR6113767.1 phage holin family protein [Escherichia coli O157:H7 str. ZAP430]
+ HDR9909513.1 phage holin family protein [Escherichia coli O6 str. Bi7458-41]
+ HDT1432528.1 phage holin family protein [Enterobacter hormaechei subsp. steigerwaltii]
+ HDU5203548.1 phage holin family protein [Klebsiella pneumoniae subsp. pneumoniae]
+ HDX1304740.1 phage holin family protein [Escherichia coli O157:H7 str. EC10]
+ HEC8202823.1 phage holin family protein [Salmonella enterica subsp. enterica 
+serovar Javiana]
+Length=101
+
+ Score = 196 bits (497),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>TGB98083.1 holin [Escherichia sp. E2586]
+Length=105
+
+ Score = 195 bits (496),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  5    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  64
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFS+YMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  65   SIESGFSVYMILATAGISGAMGSVALTYFWERLTGVKNAKS  105
+
+
+>WP_261599194.1 phage holin family protein [Escherichia coli]
+ HDY0925736.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 195 bits (496),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIV+SGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVISGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EKM0498818.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 195 bits (496),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLID+KQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDIKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>HDT5639400.1 phage holin family protein [Escherichia coli]
+ HDV9719628.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 195 bits (496),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWL+LLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLILLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>HCP5448598.1 phage holin family protein [Escherichia coli]
+ HCP5475397.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 195 bits (495),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGV+GGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVVGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>WP_131162642.1 MULTISPECIES: phage holin family protein [Escherichia]
+ EIH7011721.1 phage holin family protein [Escherichia coli]
+ EIN4965094.1 phage holin family protein [Escherichia coli]
+ TBR62727.1 holin [Escherichia sp. E10V4]
+ TLI63645.1 holin [Escherichia sp. E2586]
+ GCY65938.1 phage holin protein [Escherichia coli]
+Length=101
+
+ Score = 195 bits (495),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFS+YMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSVYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>WP_265932340.1 phage holin family protein [Klebsiella pneumoniae]
+ MCX2656865.1 phage holin family protein [Klebsiella pneumoniae]
+Length=101
+
+ Score = 195 bits (495),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSW+NALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWVNALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>WP_202791981.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 195 bits (495),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVA+TYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVAMTYFWERLTGVKNAKS  101
+
+
+>WP_225402381.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (494),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNA+S
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNARS  101
+
+
+>EFH6378645.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (494),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQ+KATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQTKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>WP_136720828.1 phage holin family protein [Escherichia coli]
+ EFL0280756.1 holin [Escherichia coli O157:H7]
+ EIA9630771.1 phage holin family protein [Escherichia coli O157]
+ EED1145487.1 holin [Escherichia coli]
+ EEQ7461995.1 holin [Escherichia coli]
+ EER1567720.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (494),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLL+IAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLLIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>ABJ02070.1 conserved hypothetical protein [Escherichia coli APEC O1]
+ ASW60811.1 hypothetical protein PA45B_3650 [Escherichia coli]
+ EFU44319.1 hypothetical protein HMPREF9539_05181 [Escherichia coli MS 110-3]
+ EHN94652.1 hypothetical protein ESPG_03277 [Escherichia coli H397]
+ ELC08153.1 phage holin [Escherichia coli KTE5]
+ ELE10727.1 phage holin [Escherichia coli KTE55]
+ ELE22335.1 phage holin [Escherichia coli KTE58]
+ ELF90785.1 phage holin [Escherichia coli KTE22]
+ ELG13207.1 phage holin [Escherichia coli KTE59]
+ ELG23474.1 phage holin [Escherichia coli KTE65]
+ ELG64086.1 phage holin [Escherichia coli KTE123]
+ ELI00085.1 phage holin [Escherichia coli KTE229]
+ ELJ51376.1 phage holin [Escherichia coli KTE179]
+ ELJ57292.1 phage holin [Escherichia coli KTE180]
+ EMZ47495.1 hypothetical protein C827_00059 [Escherichia coli SWW33]
+ EOU31484.1 phage holin [Escherichia coli KTE7]
+ EOW11030.1 phage holin [Escherichia coli KTE100]
+ EQN06930.1 phage holin [Escherichia coli HVH 3 (4-7276001)]
+ EQN57730.1 phage holin [Escherichia coli HVH 19 (4-7154984)]
+ EQO10426.1 phage holin [Escherichia coli HVH 30 (4-2661829)]
+ EQO21737.1 phage holin [Escherichia coli HVH 32 (4-3773988)]
+ EQO30688.1 phage holin [Escherichia coli HVH 35 (4-2962667)]
+ EQO60252.1 phage holin [Escherichia coli HVH 42 (4-2100061)]
+ EQO83920.1 phage holin [Escherichia coli HVH 48 (4-2658593)]
+ EQP50935.1 phage holin [Escherichia coli HVH 73 (4-2393174)]
+ EQP60688.1 phage holin [Escherichia coli HVH 76 (4-2538717)]
+ EQP83734.1 phage holin [Escherichia coli HVH 80 (4-2428830)]
+ EQQ48287.1 phage holin [Escherichia coli HVH 104 (4-6977960)]
+ EQQ73957.1 phage holin [Escherichia coli HVH 111 (4-7039018)]
+ EQR18669.1 phage holin [Escherichia coli HVH 118 (4-7345399)]
+ EQR46933.1 phage holin [Escherichia coli HVH 126 (4-6034225)]
+ EQR52300.1 phage holin [Escherichia coli HVH 127 (4-7303629)]
+ EQR87570.1 phage holin [Escherichia coli HVH 137 (4-2124971)]
+ EQT01567.1 phage holin [Escherichia coli HVH 170 (4-3026949)]
+ EQT27419.1 phage holin [Escherichia coli HVH 180 (4-3051617)]
+ EQT76746.1 phage holin [Escherichia coli HVH 191 (3-9341900)]
+ EQT81187.1 phage holin [Escherichia coli HVH 192 (4-3054470)]
+ EQU10771.1 phage holin [Escherichia coli HVH 199 (4-5670322)]
+ EQU68763.1 phage holin [Escherichia coli HVH 211 (4-3041891)]
+ EQU92447.1 phage holin [Escherichia coli HVH 217 (4-1022806)]
+ EQV42205.1 phage holin [Escherichia coli KOEGE 32 (66a)]
+ EQW31420.1 phage holin [Escherichia coli UMEA 3041-1]
+ EQX25460.1 phage holin [Escherichia coli UMEA 3162-1]
+ EQX99106.1 phage holin [Escherichia coli UMEA 3203-1]
+ EQY01174.1 phage holin [Escherichia coli UMEA 3206-1]
+ EQZ49831.1 phage holin [Escherichia coli UMEA 3632-1]
+ ERA19134.1 phage holin [Escherichia coli UMEA 3834-1]
+ ERA20558.1 phage holin [Escherichia coli UMEA 3893-1]
+ ERA89188.1 phage holin [Escherichia coli HVH 210 (4-3042480)]
+ ERA93564.1 phage holin [Escherichia coli HVH 228 (4-7787030)]
+ ERB32767.1 phage holin [Escherichia coli UMEA 3298-1]
+ ESP17112.1 phage holin [Escherichia coli HVH 12 (4-7653042)]
+ KDF97406.1 hypothetical protein AE40_02777 [Escherichia coli BIDMC 65]
+ UWG28930.1 MAG: holin, superfamily III protein [Bacteriophage sp.]
+ CAR04144.2 Putative holin protein [Escherichia coli S88]
+ CDH66266.1 hypothetical protein ECOPMV1_02888 [Escherichia coli PMV-1]
+ DAO65398.1 MAG TPA: LydA holin phage, holin superfamily III [Caudoviricetes 
+sp.]
+Length=134
+
+ Score = 196 bits (497),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKE+LAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  34   MHEKENLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  93
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  94   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  134
+
+
+>EES9571570.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (494),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEK+SLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKDSLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>WP_000544529.1 phage holin family protein [Escherichia coli]
+ EGH39482.1 putative holin protein [Escherichia coli AA86]
+ HAM3958753.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (494),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSV+LTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVSLTYFWERLTGVKNAKS  101
+
+
+>HDI8043462.1 phage holin family protein [Escherichia coli]
+ HDI9198206.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (494),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQ+KATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQNKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EIX8797631.1 phage holin family protein [Escherichia coli]
+ EIX8912825.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (494),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGI+GAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGINGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>WP_000544527.1 MULTISPECIES: phage holin family protein [Enterobacteriaceae]
+ EBQ1658009.1 holin [Salmonella enterica]
+ ECE9666757.1 holin [Salmonella enterica subsp. enterica serovar Typhimurium]
+ ECJ4606354.1 holin [Salmonella enterica subsp. enterica serovar Telhashomer]
+ EEY7560263.1 holin [Escherichia coli O2]
+ EEZ9839713.1 holin [Escherichia coli O25]
+ EFA8801323.1 holin [Escherichia coli O2:H1]
+ EFA8834751.1 holin [Escherichia coli O1:H7]
+ EFN8604989.1 holin [Escherichia coli O153:H12]
+ EFQ8871653.1 holin [Shigella flexneri]
+ MDR3931827.1 phage holin family protein [Escherichia sp.]
+ CDL25565.1 Putative holin protein [Escherichia coli ISC7]
+ HDL6788245.1 phage holin family protein [Escherichia coli O157:H7 str. EC10]
+ HDQ6473789.1 phage holin family protein [Escherichia coli O25 str. E39a]
+ HDQ6551544.1 phage holin family protein [Escherichia coli O76:H7]
+Length=101
+
+ Score = 194 bits (494),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKE+LAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKENLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>PCM10012.1 holin [Escherichia coli]
+Length=105
+
+ Score = 194 bits (494),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  5    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  64
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAK 
+Sbjct  65   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKP  105
+
+
+>WP_205860034.1 phage holin family protein [Escherichia coli]
+ HAH2069907.1 holin [Escherichia coli]
+ HAJ8995685.1 holin [Escherichia coli]
+ HBN3384348.1 phage holin family protein [Escherichia coli O25b:H4-ST131]
+Length=101
+
+ Score = 194 bits (494),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLID+KQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDMKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EEW8973852.1 holin [Escherichia coli]
+ EGD7939301.1 holin [Escherichia coli]
+ RDH52806.1 holin [Escherichia coli]
+Length=105
+
+ Score = 194 bits (494),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  5    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  64
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGS+ALTYFWERLTGVKNAKS
+Sbjct  65   SIESGFSIYMILATAGISGAMGSLALTYFWERLTGVKNAKS  105
+
+
+>WP_140436695.1 MULTISPECIES: phage holin family protein [Enterobacteriaceae]
+ MBJ5532490.1 phage holin family protein [Salmonella enterica subsp. enterica 
+serovar Derby]
+ MBA8048951.1 phage holin family protein [Citrobacter freundii]
+ HAT3775714.1 holin [Citrobacter freundii]
+ HBD2759339.1 phage holin family protein [Escherichia coli]
+ HCQ6956468.1 phage holin family protein [Citrobacter freundii]
+Length=101
+
+ Score = 194 bits (493),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAK 
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKP  101
+
+
+>WP_143355269.1 phage holin family protein [Escherichia coli]
+ EEY1268528.1 holin [Escherichia coli]
+ EEY4037633.1 holin [Escherichia coli]
+ EFD6736338.1 holin [Escherichia coli]
+ EFD8251649.1 holin [Escherichia coli]
+ EFG5116174.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGS+ALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSLALTYFWERLTGVKNAKS  101
+
+
+>OKU59628.1 holin [Escherichia coli]
+ PJF75134.1 holin [Escherichia coli]
+ PJF80552.1 holin [Escherichia coli]
+ PJF87544.1 holin [Escherichia coli]
+ PJG14209.1 holin [Escherichia coli]
+Length=105
+
+ Score = 194 bits (494),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAG FWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  5    MHEKESLAGTFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  64
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  65   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  105
+
+
+>EFA4195183.1 holin [Escherichia coli O96]
+Length=101
+
+ Score = 194 bits (493),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALT+FWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTFFWERLTGVKNAKS  101
+
+
+>WP_181206235.1 phage holin family protein [Escherichia coli]
+ EKQ8161919.1 phage holin family protein [Escherichia coli]
+ ELC3369741.1 phage holin family protein [Escherichia coli]
+ MBA1678076.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEK+SLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKKSLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EJU1889354.1 phage holin family protein [Escherichia coli]
+ HAH9085551.1 holin [Escherichia coli]
+ HAH9693559.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFW+RLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWKRLTGVKNAKS  101
+
+
+>WP_266155857.1 phage holin family protein [Escherichia coli]
+ MCX3528094.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGV+NAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVENAKS  101
+
+
+>WP_274462395.1 phage holin family protein [Escherichia coli]
+ MCA7613384.1 phage holin family protein [Escherichia coli]
+ MDD8399152.1 phage holin family protein [Escherichia coli]
+ MDY7948036.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/100 (100%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  1   MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+           MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1   MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61  SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAK  100
+           SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAK
+Sbjct  61  SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAK  100
+
+
+>WP_162760373.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWIN LAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINTLAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>HCO5609738.1 phage holin family protein [Escherichia coli]
+ HCO8381203.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISG MGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGTMGSVALTYFWERLTGVKNAKS  101
+
+
+>WP_123017553.1 phage holin family protein [Escherichia coli]
+ EFB4110461.1 holin [Escherichia coli O53]
+ EEZ6952790.1 holin [Escherichia coli]
+ EFC4051811.1 holin [Escherichia coli]
+ EGO4282122.1 holin [Escherichia coli]
+ EGP6108318.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAG FWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGTFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>HAY1731030.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMIL TAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILTTAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>WP_266202917.1 phage holin family protein [Escherichia coli]
+ MCX3607505.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSV LTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVTLTYFWERLTGVKNAKS  101
+
+
+>WP_137496170.1 phage holin family protein [Escherichia coli]
+ GCZ67010.1 phage holin protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (493),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINAL QIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALTQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EFI3812895.1 holin [Escherichia coli]
+ ELJ0538449.1 phage holin family protein [Escherichia coli O36]
+ EIH6161601.1 phage holin family protein [Escherichia coli]
+ EKI2710239.1 phage holin family protein [Escherichia coli]
+ ELB8991261.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQS ATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSNATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>HCP0481104.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFS YMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSFYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>KEL36293.1 putative membrane protein [Escherichia coli 5-172-05_S4_C1]
+ KEL58005.1 putative membrane protein [Escherichia coli 5-172-05_S4_C3]
+Length=105
+
+ Score = 194 bits (493),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAG FWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  5    MHEKESLAGVFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  64
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  65   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  105
+
+
+>EJF0053780.1 phage holin family protein [Escherichia coli]
+ EJV1982798.1 phage holin family protein [Escherichia coli]
+ EKH2381425.1 phage holin family protein [Escherichia coli]
+ MHX70184.1 holin [Escherichia coli]
+ HCP4763506.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQI VSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIAVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EFC3019808.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFS YMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSTYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>WP_201472605.1 phage holin family protein [Escherichia coli]
+ CAD5722088.1 Putative holin protein [Escherichia coli]
+ CAD5844331.1 Putative holin protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLL IAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLTIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EFM4717939.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 7e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAG FWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGEFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EGK3956649.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 7e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERL GVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLAGVKNAKS  101
+
+
+>WP_148906562.1 phage holin family protein [Escherichia coli]
+ KEL22615.1 putative membrane protein [Escherichia coli 5-172-05_S4_C2]
+ MCG8278493.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 8e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAG FWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGVFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>MCV5176809.1 phage holin family protein [Escherichia coli]
+ HCU5447085.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 8e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILAT GISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATVGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EHU0062302.1 phage holin family protein [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 8e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSK TWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKVTWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>HAJ5072498.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 8e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVI GLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIDGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+>EFA6666235.1 holin [Escherichia coli]
+Length=101
+
+ Score = 194 bits (492),  Expect = 8e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGIS AMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISDAMGSVALTYFWERLTGVKNAKS  101
+
+
+>HDQ5583127.1 phage holin family protein [Shigella flexneri]
+ HDQ5857489.1 phage holin family protein [Shigella flexneri]
+Length=101
+
+ Score = 194 bits (492),  Expect = 8e-62, Method: Compositional matrix adjust.
+ Identities = 100/101 (99%), Positives = 100/101 (99%), Gaps = 0/101 (0%)
+
+Query  1    MHEKESLAGAFWLVLLIIAGWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+            MHEKESLAGAFWLVLLIIA WGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI
+Sbjct  1    MHEKESLAGAFWLVLLIIADWGGLVRYLIDVKQSKATWSWINALAQIVVSGFTGVIGGLI  60
+
+Query  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+            SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS
+Sbjct  61   SIESGFSIYMILATAGISGAMGSVALTYFWERLTGVKNAKS  101
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 30, 2023  2:48 AM
+  Number of letters in database: 252,764,064,435
+  Number of sequences in database:  645,636,360
+
+Lambda      K        H
+   0.323    0.137    0.422 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 645636360
+Number of Hits to DB: 12390443
+Number of extensions: 13158
+Number of successful extensions: 2174
+Number of sequences better than 100: 22
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 2174
+Number of HSP's successfully gapped: 22
+Length of query: 101
+Length of database: 252764064435
+Length adjustment: 71
+Effective length of query: 30
+Effective length of database: 206923882875
+Effective search space: 6207716486250
+Effective search space used: 6207716486250
+T: 19
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 82 (36.2 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
